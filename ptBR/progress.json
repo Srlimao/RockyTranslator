@@ -1,0 +1,1566 @@
+{
+  "steam_page.short_description": {
+    "translated": true,
+    "validated": true
+  },
+  "steam_page.long_description": {
+    "translated": true,
+    "validated": true
+  },
+  "common.save": {
+    "translated": true,
+    "validated": true
+  },
+  "common.back": {
+    "translated": true,
+    "validated": true
+  },
+  "common.cancel": {
+    "translated": true,
+    "validated": true
+  },
+  "common.reset": {
+    "translated": true,
+    "validated": true
+  },
+  "common.language": {
+    "translated": true,
+    "validated": true
+  },
+  "common.amount": {
+    "translated": true,
+    "validated": true
+  },
+  "common.search": {
+    "translated": true,
+    "validated": true
+  },
+  "common.completed": {
+    "translated": true,
+    "validated": true
+  },
+  "common.warning": {
+    "translated": true,
+    "validated": true
+  },
+  "common.continue": {
+    "translated": true,
+    "validated": true
+  },
+  "common.xp": {
+    "translated": true,
+    "validated": true
+  },
+  "_context_NOT_TO_BE_TrANSLATED._about": {
+    "translated": true,
+    "validated": true
+  },
+  "_context_NOT_TO_BE_TrANSLATED._variables": {
+    "translated": true,
+    "validated": true
+  },
+  "common.none": {
+    "translated": true,
+    "validated": true
+  },
+  "common.or": {
+    "translated": true,
+    "validated": true
+  },
+  "common.quit_game": {
+    "translated": true,
+    "validated": true
+  },
+  "common.loading": {
+    "translated": true,
+    "validated": true
+  },
+  "common.home": {
+    "translated": true,
+    "validated": true
+  },
+  "common.batch_multipliers": {
+    "translated": true,
+    "validated": true
+  },
+  "common.total_xp": {
+    "translated": true,
+    "validated": true
+  },
+  "common.swap": {
+    "translated": true,
+    "validated": true
+  },
+  "common.in_progress": {
+    "translated": true,
+    "validated": true
+  },
+  "common.all": {
+    "translated": true,
+    "validated": true
+  },
+  "common.all_minus_one": {
+    "translated": true,
+    "validated": true
+  },
+  "common.separator_ampersand": {
+    "translated": true,
+    "validated": true
+  },
+  "common.difficulty.tutorial": {
+    "translated": true,
+    "validated": true
+  },
+  "common.difficulty.easy": {
+    "translated": true,
+    "validated": true
+  },
+  "common.difficulty.medium": {
+    "translated": true,
+    "validated": true
+  },
+  "common.difficulty.hard": {
+    "translated": true,
+    "validated": true
+  },
+  "common.difficulty.expert": {
+    "translated": true,
+    "validated": true
+  },
+  "common.difficulty.nerd": {
+    "translated": true,
+    "validated": true
+  },
+  "common.custom_amount": {
+    "translated": true,
+    "validated": true
+  },
+  "common.enter_a_value": {
+    "translated": true,
+    "validated": true
+  },
+  "common.create": {
+    "translated": true,
+    "validated": true
+  },
+  "common.lv": {
+    "translated": true,
+    "validated": true
+  },
+  "common.level_label": {
+    "translated": true,
+    "validated": true
+  },
+  "common.level_display": {
+    "translated": true,
+    "validated": true
+  },
+  "common.buy": {
+    "translated": true,
+    "validated": true
+  },
+  "common.hp": {
+    "translated": true,
+    "validated": true
+  },
+  "common.level": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.header": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.sections.account": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.sections.warnings": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.sections.filters": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.sections.ui": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.sections.other": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.sections.steam": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_sell_price": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_sell_all_price": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_multiplier": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_block_hit_chance": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_classic_numbers": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_discord_donate": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_shops_non_city": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_slayer_offline": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.show_withdraw_icon": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.labels.power_save_steam": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.warnings.buy_warning_label": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.warnings.edit_buy_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.warnings.drop_warning_label": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.warnings.edit_drop_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.warnings.cancel_slayer_task": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.warnings.reset_slayer_task": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.steam.ui_scale": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.steam.fullscreen_mode": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.steam.integration_header": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.steam.syncing": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.steam.sync_cooldown": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.steam.sync_achievements": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.steam.sync_description": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.account.created": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.account.in_game_time": {
+    "translated": true,
+    "validated": true
+  },
+  "settings.account.character_name_placeholder": {
+    "translated": true,
+    "validated": true
+  },
+  "auth.login": {
+    "translated": true,
+    "validated": true
+  },
+  "auth.logout": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.withdraw_amount": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.deposit_all_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.slots_used": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.choose_custom_deposit": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.quantity_label": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.mode_label": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.sort_label": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.deposit_inventory": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.mode_insert": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.your_bank": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.extra_slots_title": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.items_shown": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.slot_bought": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.slot_buy_previous": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.slot_increase": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.sorted": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.sort_category": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.sort_item_id": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.sort_sell_price": {
+    "translated": true,
+    "validated": true
+  },
+  "bank.sort_default": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.monsters_title": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.death_message": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.death_acknowledge": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.hitpoints_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.kill_count": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.kill_count_semi": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.block_chance": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.hit_chance": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.max_hit": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.attack_speed_bonus": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.cant_afk_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.auto_interval": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.poisonous_damage": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.total_damage_taken": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.monster_name_level": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.monster_level": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.cannot_kill_offline": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.no_monsters_found": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.no_drops_found": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.in_tab": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.monster_info": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.drops": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.search_monsters": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.search_item_drops": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.actively_training": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.active_prayer": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.active_spell": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.select_prayer": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.select_spell": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.slayer_categories": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.defence": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.defence_info": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.accuracy": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.accuracy_info": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.combat_styles": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.combat_styles_info": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.item_cost": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.in_inventory_or_equipped": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.slayer_info_label": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.fight": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.always_drops": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.drop_tables": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.drop_tables_info": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.run_away": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.attack_speed_abbr": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.drop_table_header": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.drop_table_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "time.h": {
+    "translated": true,
+    "validated": true
+  },
+  "time.m": {
+    "translated": true,
+    "validated": true
+  },
+  "time.s": {
+    "translated": true,
+    "validated": true
+  },
+  "time.day": {
+    "translated": true,
+    "validated": true
+  },
+  "time.day_plural": {
+    "translated": true,
+    "validated": true
+  },
+  "time.hour": {
+    "translated": true,
+    "validated": true
+  },
+  "time.hour_plural": {
+    "translated": true,
+    "validated": true
+  },
+  "time.minute": {
+    "translated": true,
+    "validated": true
+  },
+  "time.minute_plural": {
+    "translated": true,
+    "validated": true
+  },
+  "time.second": {
+    "translated": true,
+    "validated": true
+  },
+  "time.second_plural": {
+    "translated": true,
+    "validated": true
+  },
+  "duration.hour": {
+    "translated": true,
+    "validated": true
+  },
+  "duration.hour_plural": {
+    "translated": true,
+    "validated": true
+  },
+  "duration.minute": {
+    "translated": true,
+    "validated": true
+  },
+  "duration.minute_plural": {
+    "translated": true,
+    "validated": true
+  },
+  "duration.second": {
+    "translated": true,
+    "validated": true
+  },
+  "duration.second_plural": {
+    "translated": true,
+    "validated": true
+  },
+  "duration.separator": {
+    "translated": true,
+    "validated": true
+  },
+  "help.header": {
+    "translated": true,
+    "validated": true
+  },
+  "help.intro": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.title": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.navigation_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.navigation_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.inventory_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.inventory_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.bank_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.bank_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.goal_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.goal_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.item_wiki_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.item_wiki_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.item_wiki_callout": {
+    "translated": true,
+    "validated": true
+  },
+  "help.get_started.item_wiki_link": {
+    "translated": true,
+    "validated": true
+  },
+  "help.early_tips.title": {
+    "translated": true,
+    "validated": true
+  },
+  "help.early_tips.starting_off_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.early_tips.starting_off_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.early_tips.quests_while_skilling_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.early_tips.quests_while_skilling_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.early_tips.combat_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.early_tips.combat_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.skilling.title": {
+    "translated": true,
+    "validated": true
+  },
+  "help.skilling.skills_12_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.skilling.skills_12_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.skilling.gathering_label": {
+    "translated": true,
+    "validated": true
+  },
+  "help.skilling.gathering_text": {
+    "translated": true,
+    "validated": true
+  },
+  "help.skilling.production_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.skilling.production_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.skilling.boosts_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.skilling.boosts_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.skilling.tools_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.skilling.tools_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.skilling.pet_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.skilling.pet_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.stronger": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.defence_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.defence_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.offense_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.offense_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.combat_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.combat_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.magic_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.magic_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.ranged_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.ranged_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.potions_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.potions_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.food_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.food_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.prayer_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.prayer_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.hitpoints_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.hitpoints_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.hits_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.hits_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.offline_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.combat.offline_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.monster_info_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.monster_info_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.defensive_bonuses_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.defensive_bonuses_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.accuracy_bonuses_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.accuracy_bonuses_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.combat_styles_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.combat_styles_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.slayer_categories_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.rolls_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.monsters.rolls_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.melee_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.melee_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.ranged_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.ranged_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.magic_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.gear.magic_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.how_boosts_work": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.powering_up": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.skilling_combat_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.skilling_combat_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.active_effect_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.active_effect_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.cooldown_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.cooldown_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.achievements_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.achievements_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.boosts_progress_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.boosts.boosts_progress_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.containers.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.containers.intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.containers.list_intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.containers.storage_slots": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.what_are_they": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.how_to_get": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.challenges_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.challenges_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.four_difficulties_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.four_difficulties_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.chests_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.chests_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.combat_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.combat_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.skilling_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.skilling_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.contract_cases_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.contract_cases_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.quests_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.contracts.quests_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.quests.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.quests.what_are_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.quests.what_are_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.quests.why_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.quests.why_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.quests.points_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.quests.points_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.achievements.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.achievements.what_are_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.achievements.what_are_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.achievements.how_to_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.achievements.how_to_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.achievements.tip_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.achievements.tip_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.collection_log.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.collection_log.three_sections_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.collection_log.three_sections_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.collection_log.why_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.collection_log.why_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shop.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shop.buy_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shop.buy_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shop.no_items_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shop.no_items_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.openables.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.openables.intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.openables.hover_hint": {
+    "translated": true,
+    "validated": false
+  },
+  "help.openables.drop_rolls": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.countryside_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.countryside_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.wilderness_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.wilderness_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.city_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.account_types.city_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.skilling_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.skilling_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.combat_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.combat_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.quests_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.offline_progress.quests_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.items.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.items.lock_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.items.lock_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.intro": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.settings_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.settings_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.gear_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.gear_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.bank_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.bank_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.help_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.help_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.exit_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.exit_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.convenience_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.convenience_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.other_label": {
+    "translated": true,
+    "validated": false
+  },
+  "help.shortcuts.other_text": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.title": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.tokens_q": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.tokens_a": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.save_q": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.save_a": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.dead_q": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.dead_a": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.leaderboard_q": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.leaderboard_a": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.drops_q": {
+    "translated": true,
+    "validated": false
+  },
+  "help.faq.drops_a": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.page_title": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.tab_active": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.tab_completed": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.difficulty_label": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.quest_points_label": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.show_completed": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.show_incompletable": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.start_quest": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.stop_quest": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.duration_label": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.reward_label": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.no_item_cost": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.no_rewards": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.claim_reward": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.claim_nothing": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.in_progress_title": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.in_progress_total_time": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.in_progress_hint": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.all_done_title": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.all_done_text": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.no_quests_found": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.no_quests_with_name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.no_quests_with_skill": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.no_quests_of_difficulty": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.cancel_quest_warning": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.quests_completed_label": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.GETTING_STARTED.name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.GETTING_STARTED.description": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.INTO_THE_FOREST.name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.INTO_THE_FOREST.description": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.FIRE_PREVENTION.name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.FIRE_PREVENTION.description": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.STORM_FALLEN_OAK.name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.STORM_FALLEN_OAK.description": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.SERPENT_HUNT.name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.SERPENT_HUNT.description": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.ILLEGAL_LOGGING.name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.ILLEGAL_LOGGING.description": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.DODO_DEFENSE.name": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.DODO_DEFENSE.description": {
+    "translated": true,
+    "validated": false
+  },
+  "quests.THE_EMO_WAR.name": {
+    "translated": true,
+    "validated": false
+  }
+}

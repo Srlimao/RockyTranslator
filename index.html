@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocky Translator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Rocky Translator</h2>
+        <div class="language-controls">
+          <select id="language-select">
+            <option value="" disabled selected>Select Language</option>
+          </select>
+          <button id="btn-new-lang" class="btn-icon" title="New Language">+</button>
+        </div>
+      </div>
+      <div class="filter-controls">
+        <input type="text" id="search-input" placeholder="Search keys...">
+        <div class="filter-toggles">
+          <label><input type="checkbox" id="filter-untranslated"> Untranslated</label>
+          <label><input type="checkbox" id="filter-unvalidated"> Unvalidated</label>
+        </div>
+      </div>
+      <ul id="key-list" class="key-list">
+        <!-- Keys injected via JS -->
+      </ul>
+      <div class="sidebar-footer">
+        <div class="progress-bar-container">
+          <div id="progress-bar-translated" class="progress-bar translated"></div>
+          <div id="progress-bar-validated" class="progress-bar validated"></div>
+        </div>
+        <div class="progress-stats">
+          <span id="stats-translated">0%</span> Trans | 
+          <span id="stats-validated">0%</span> Val
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="main-header">
+        <h3 id="current-key-display">Select a key to translate</h3>
+        <div class="header-actions" style="display: flex; gap: 10px;">
+          <button id="btn-auto-translate" class="btn-primary" style="background: linear-gradient(135deg, #8b5cf6, #3b82f6);">🤖 Auto Translate All</button>
+          <button id="btn-glossary" class="btn-secondary">📖 Glossary</button>
+          <button id="btn-settings" class="btn-secondary">⚙️ AI Settings</button>
+        </div>
+      </header>
+
+      <div class="editor-area" id="editor-area" style="display: none;">
+        <div class="panel source-panel">
+          <h4>Source (English)</h4>
+          <textarea id="source-text" readonly></textarea>
+        </div>
+        
+        <div class="panel translation-panel">
+          <h4>Translation</h4>
+          <textarea id="translation-text" placeholder="Type translation here..."></textarea>
+          
+          <div class="ai-controls">
+            <button id="btn-ai-translate" class="btn-primary ai-btn">✨ Translate with AI</button>
+            <span id="ai-loading" style="display:none;">Thinking...</span>
+          </div>
+        </div>
+        
+        <div class="status-controls">
+          <label class="checkbox-container">
+            <input type="checkbox" id="cb-translated">
+            <span class="checkmark"></span>
+            Translated
+          </label>
+          <label class="checkbox-container">
+            <input type="checkbox" id="cb-validated">
+            <span class="checkmark"></span>
+            Validated
+          </label>
+          
+          <div class="action-buttons" style="display: flex; gap: 10px;">
+            <button id="btn-validate-next" class="btn-secondary" style="border-color: var(--accent-success); color: var(--accent-success);">✅ Validate & Next</button>
+            <button id="btn-save" class="btn-primary">Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal" class="modal">
+    <div class="modal-content glassmorphism">
+      <h3>AI Configuration (LM Studio)</h3>
+      <div class="form-group">
+        <label for="ai-url">API Endpoint URL</label>
+        <input type="text" id="ai-url" placeholder="http://localhost:1234/v1/chat/completions">
+      </div>
+      <div class="form-group">
+        <label for="ai-model">Model Name</label>
+        <input type="text" id="ai-model" placeholder="local-model">
+      </div>
+      <div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px;">
+        <input type="checkbox" id="ai-thinking" style="width: auto;">
+        <label for="ai-thinking" style="margin: 0; cursor: pointer;">Enable model thinking</label>
+      </div>
+      <div class="modal-actions">
+        <button id="btn-close-settings" class="btn-secondary">Cancel</button>
+        <button id="btn-save-settings" class="btn-primary">Save Settings</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- New Language Modal -->
+  <div id="new-lang-modal" class="modal">
+    <div class="modal-content glassmorphism">
+      <h3>Create New Language</h3>
+      <div class="form-group">
+        <label for="new-lang-code">Language Code (e.g., esES, deDE)</label>
+        <input type="text" id="new-lang-code" placeholder="esES">
+      </div>
+      <div class="modal-actions">
+        <button id="btn-close-new-lang" class="btn-secondary">Cancel</button>
+        <button id="btn-create-lang" class="btn-primary">Create</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Glossary Modal -->
+  <div id="glossary-modal" class="modal">
+    <div class="modal-content glassmorphism">
+      <h3>Do Not Translate Words</h3>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 15px;">Add words that the AI should ignore and leave in English, or provide a specific translation.</p>
+      <div class="form-group" style="display: flex; gap: 10px;">
+        <input type="text" id="glossary-term" placeholder="English Term (e.g. Skill)">
+        <input type="text" id="glossary-translation" placeholder="Translation (optional)">
+        <button id="btn-add-glossary" class="btn-primary">Add</button>
+      </div>
+      <ul id="glossary-list" class="glossary-list">
+        <!-- Glossary items injected here -->
+      </ul>
+      <div class="modal-actions">
+        <button id="btn-close-glossary" class="btn-secondary">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

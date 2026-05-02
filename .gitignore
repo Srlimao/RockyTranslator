@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+
+# Local configuration settings (AI URLs, Glossary, etc.)
+config.json
+
+# If you build the electron app, ignore build folders
+dist/
+build/
+out/
