@@ -227,7 +227,7 @@
       "tools_label": "Ferramentas",
       "tools_text": "Cada habilidade possui um conjunto de ferramentas que podem ser compradas com moedas; elas aceleram ações de recursos para essa habilidade.",
       "pet_label": "Pet",
-      "pet_text": "Após desbloquear os chefes de skilling, você tem uma chance de obter um pet de skilling. Os pets são cosméticos e um colecionável raro."
+      "pet_text": "Após desbloquear chefes de treinamento, você tem uma chance de obter um pet de treinamento. Pets são cosméticos e um colecionável raro."
     },
     "combat": {
       "title": "Combate",
@@ -268,36 +268,36 @@
       "combat_styles_text": "Apresenta os tipos de ataque disponíveis do monstro e seus Máximos Acertos. Passe o mouse sobre um estilo para ver a porcentagem de chance de o monstro escolher aquele ataque específico durante a luta. O estilo é rolado aleatoriamente em cada ataque.",
       "slayer_categories_text": "Monstros pertencem a categorias específicas de Extermínio. Enquanto estiver em uma tarefa de Extermínio, você ganha XP igual a (Pontos de Vida do Monstro / 2) por abate. Observação: O XP de Extermínio não é afetado por rolagens extras.",
       "rolls_label": "Rolagens",
-      "rolls_text": "Quando um rolo extra é acionado, você recebe itens extras, mas seu XP de Extermínio permanece no valor base. No entanto, os rolos diminuirão sua contagem restante de tarefas de Extermínio pelo valor rolado."
+      "rolls_text": "Quando uma rolagem extra é acionado, você recebe itens extras, mas seu XP de Extermínio permanece no valor base. No entanto, os rolos diminuirão sua contagem restante de tarefas de Extermínio pelo valor rolado."
     },
     "gear": {
       "title": "Equipamento",
-      "intro": "Existem três conjuntos de equipamento. Eles permitem que você armazene itens best-in-Slot para cada estilo de combate.",
+      "intro": "Existem três conjuntos de armadura. Eles permitem que você equipe os melhores itens para cada estilo de combate.",
       "melee_label": "Corpo a Corpo",
-      "melee_text": "Combate corpo a corpo. Equipe espadas ou cimitarra. Você pode treinar Melee e Defesa; clique no ícone de XP em uma página de monstro para mudar para XP de Defesa.",
+      "melee_text": "Combate Corpo a Corpo. Equipe espadas ou cimitarra. Você pode treinar Corpo a Corpo e Defesa; clique no ícone XP em uma página de monstro para mudar para XP de Defesa.",
       "ranged_label": "À Distância",
-      "ranged_text": "Requer um arco e flechas no seu slot de munição. Diferentes arcos usam tipos específicos de flechas. Você pode treinar Ranged ou Defence.",
+      "ranged_text": "Requer um arco e flechas no seu slot de munição. Diferentes arcos usam tipos específicos de flechas. Você pode treinar Combate à Distância ou Defesa.",
       "magic_label": "Mágica",
-      "magic_text": "Equipe um cajado para selecionar magias; você também deve ter os sigilos necessários no seu inventário. Você pode treinar Magic ou Defence."
+      "magic_text": "Equipe um cajado para selecionar magias; você também deve ter os sigilos necessários em seu inventário. Você pode treinar Mágica ou Defesa."
     },
     "boosts": {
       "title": "Impulsos",
-      "how_boosts_work": "Como funcionam os Boosts?",
-      "powering_up": "Aumentando os Boosts",
-      "skilling_combat_label": "Aprimoramento e Combate Boosts",
-      "skilling_combat_text": "Dois tipos de bônus: Skilling e Combat. Os bônus Skilling aumentam o tamanho do lote e a velocidade. Os bônus Combat aumentam o dano máximo, precisão e velocidade de ataque. Ative os bônus usando os ícones de relâmpago amarelo ou vermelho. A duração base é de 20 segundos e pode ser aumentada completando conquistas.",
+      "how_boosts_work": "Como funcionam os Impulsos?",
+      "powering_up": "Aprimorando os Impulsos",
+      "skilling_combat_label": "Impulsos de Treinamento e Combate",
+      "skilling_combat_text": "Dois tipos de Impulso: Treinamento e Combate. Os impulsos de treinamento aumentam o tamanho do lote e a velocidade. Os impulsos de Combate aumentam dano máximo, precisão e velocidade de ataque. Ative os impulsos usando os ícones de raio amarelo ou vermelho. A duração base é de 20 segundos e pode ser aumentada ao completar conquistas.",
       "active_effect_label": "Efeito Ativo",
-      "active_effect_text": "Ativar um boost concede o efeito temporário.",
+      "active_effect_text": "Ativar um Impulso concede o efeito temporário.",
       "cooldown_label": "Tempo de recarga",
       "cooldown_text": "Boosts têm um cooldown de 10 minutos após expirarem.",
       "achievements_label": "Conquistas",
-      "achievements_text": "Completar os feitos Médio (adiciona 2s) e Especialista (adiciona 5s) aumenta permanentemente as durações dos boosts para cada área concluída.",
-      "boosts_progress_label": "Progresso dos Boosts",
-      "boosts_progress_text": "Por exemplo: minerar uma rocha aumenta seu nível ao longo do tempo; cada novo nível concede pontos de habilidade. Atingir certos marcos aumenta o poder do boost. O mesmo se aplica ao combate — mais mortes aumentam os níveis. O nível mais alto é Diamond. Consulte a página de Boosts para detalhes e passe o mouse sobre as barras de progresso sob as imagens para ver o progresso em direção ao próximo nível."
+      "achievements_text": "Completar conquistas Médio (adiciona 2s) e Especialista (adiciona 5s) aumenta permanentemente as durações do Impulso para cada área concluída.",
+      "boosts_progress_label": "Progresso do Impulso",
+      "boosts_progress_text": "Minerar uma rocha aumenta seu nível ao longo do tempo; cada novo nível concede pontos de treinamento. Atingir certos marcos aumenta o poder do Impulso. O mesmo se aplica ao combate — mais mortes elevam os níveis. O nível mais alto é Diamante. Consulte a página de Impulsos para detalhes e passe o mouse sobre as barras de progresso abaixo das imagens para ver o progresso em direção ao próximo nível."
     },
     "containers": {
       "title": "Containers e Armazenamento",
-      "intro": "Containers podem ser adquiridos ao completar Hard achievements; eles fornecem Slots de armazenamento adicionais para o inventário. Os itens que podem ser armazenados nesses containers são limitados a tipos específicos de itens. Se um container estiver em seu inventário, os itens que você ganharão irão automaticamente para o container e serão usados dele conforme necessário.",
+      "intro": "Containers podem ser adquiridos completando Conquistas Difícil; eles fornecem slots de armazenamento adicionais para o inventário. Os itens que podem ser armazenados nesses containers são limitados a tipos específicos de itens. Se um container estiver no seu inventário, os itens que você ganharão irão automaticamente para o container e serão usados dele conforme necessário.",
       "list_intro": "Abaixo está uma lista de containers disponíveis e os itens que eles podem armazenar:",
       "storage_slots": "{{count}} Slots de Armazenamento"
     },
@@ -308,22 +308,22 @@
       "challenges_label": "Desafios",
       "challenges_text": "Ao ser aberto, você receberá um conjunto de desafios, por exemplo, matar Moozey 10 vezes ou pescar 12 peixes-gato crus.",
       "four_difficulties_label": "Quatro Dificuldades",
-      "four_difficulties_text": "Fácil, Médio, Difícil e Expert.",
+      "four_difficulties_text": "Fácil, Médio, Difícil e Especialista.",
       "chests_label": "Baús",
       "chests_text": "Ao completar os desafios, você recebe uma chave para abrir os baús associados.",
       "combat_label": "Combate",
       "combat_text": "Pequena chance de conseguir um ao matar monstros.",
-      "skilling_label": "Skilling",
+      "skilling_label": "Treinamento",
       "skilling_text": "Pequena chance de conseguir um ao coletar recursos, como woodcutting.",
-      "contract_cases_label": "Casos de Contrato",
+      "contract_cases_label": "Maletas de Contratos",
       "contract_cases_text": "Adquirido ao criar sigilos na Arcaneria ou como drop de monstros.",
       "quests_label": "Missões",
       "quests_text": "Quests iniciais recompensam você com contratos."
     },
     "quests": {
       "title": "Missões",
-      "what_are_label": "O que são quests?",
-      "what_are_text": "Uma quest é uma tarefa de longo prazo que pode ser iniciada quando os requisitos (como níveis de habilidade ou itens) são atendidos. Uma vez iniciadas, as quests rodam em segundo plano e você pode coletar a recompensa quando elas terminarem (elas continuam enquanto você estiver Offline). Quests podem ser iniciadas enquanto você realiza outras atividades, como skilling.",
+      "what_are_label": "O que são missões?",
+      "what_are_text": "Uma missão é uma tarefa de longo prazo que pode ser iniciada quando os requisitos (como níveis de habilidade ou itens) são atendidos. Uma vez iniciadas, as missões rodam em segundo plano e você pode coletar a recompensa quando elas terminarem (elas continuam enquanto você estiver Offline). Missões podem ser iniciadas enquanto você realiza outras atividades, como treinamento.",
       "why_label": "Por que Missões?",
       "why_text": "Missões são uma ótima maneira de ganhar experiência em diferentes habilidades. Elas também desbloqueiam novos monstros, recursos e itens (veja a loja na aba Missão).",
       "points_label": "Pontos de Missão",

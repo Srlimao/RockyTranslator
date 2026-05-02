@@ -757,367 +757,367 @@
   },
   "help.skilling.production_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.skilling.production_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.skilling.boosts_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.skilling.boosts_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.skilling.tools_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.skilling.tools_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.skilling.pet_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.skilling.pet_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.stronger": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.defence_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.defence_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.offense_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.offense_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.combat_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.combat_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.magic_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.magic_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.ranged_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.ranged_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.potions_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.potions_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.food_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.food_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.prayer_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.prayer_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.hitpoints_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.hitpoints_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.hits_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.hits_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.offline_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.combat.offline_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.monster_info_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.monster_info_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.defensive_bonuses_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.defensive_bonuses_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.accuracy_bonuses_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.accuracy_bonuses_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.combat_styles_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.combat_styles_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.slayer_categories_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.rolls_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.monsters.rolls_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.melee_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.melee_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.ranged_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.ranged_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.magic_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.gear.magic_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.how_boosts_work": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.powering_up": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.skilling_combat_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.skilling_combat_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.active_effect_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.active_effect_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.cooldown_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.cooldown_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.achievements_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.achievements_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.boosts_progress_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.boosts.boosts_progress_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.containers.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.containers.intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.containers.list_intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.containers.storage_slots": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.what_are_they": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.how_to_get": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.challenges_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.challenges_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.four_difficulties_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.four_difficulties_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.chests_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.chests_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.combat_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.combat_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.skilling_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.skilling_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.contract_cases_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.contract_cases_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.quests_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.contracts.quests_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.quests.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.quests.what_are_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.quests.what_are_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.quests.why_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.quests.why_text": {
     "translated": true,
