@@ -125,7 +125,7 @@ async function init() {
   btnNewLang.addEventListener('click', () => newLangModal.classList.add('show'));
   btnCloseNewLang.addEventListener('click', () => newLangModal.classList.remove('show'));
   btnCreateLang.addEventListener('click', createNewLanguage);
-  
+
   // Glossary Modal
   btnGlossary.addEventListener('click', () => {
     if (!appState.config.glossary) appState.config.glossary = [];
@@ -181,13 +181,13 @@ async function addGlossaryWord() {
   const translation = inputGlossaryTranslation.value.trim();
   if (term) {
     const existsIndex = appState.config.glossary.findIndex(i => (typeof i === 'string' ? i : i.term) === term);
-    
+
     if (existsIndex >= 0) {
       appState.config.glossary[existsIndex] = { term, translation };
     } else {
       appState.config.glossary.push({ term, translation });
     }
-    
+
     inputGlossaryTerm.value = '';
     inputGlossaryTranslation.value = '';
     renderGlossary();
@@ -400,19 +400,19 @@ async function translateWithAi() {
 
   try {
     let systemPrompt = `You are a professional translator for a game. Translate the following English text to ${lang}. The text is for the UI element of a game, for context the original english text JSON path is: "${appState.currentKey}". Keep the exact same formatting, tone, and any special placeholders like {{variable}}. Only output the translation, without any explanations or quotation marks.`;
-    
+
     if (appState.config.glossary && appState.config.glossary.length > 0) {
       const doNotTranslate = appState.config.glossary
         .filter(i => typeof i === 'string' || !i.translation)
         .map(i => typeof i === 'string' ? i : i.term);
-        
+
       const commonTranslations = appState.config.glossary
         .filter(i => typeof i === 'object' && i.translation);
 
       if (doNotTranslate.length > 0) {
         systemPrompt += `\n\nIMPORTANT: Do not translate the following game-specific words, keep them exactly as they are in English: ${doNotTranslate.join(', ')}.`;
       }
-      
+
       if (commonTranslations.length > 0) {
         const mappings = commonTranslations.map(i => `'${i.term}' must be translated as '${i.translation}'`).join(', ');
         systemPrompt += `\n\nIMPORTANT: Use the following specific translations for these game terms: ${mappings}.`;
@@ -486,19 +486,19 @@ async function translateKeyBackground(key) {
 
   try {
     let systemPrompt = `You are a professional translator for a game. Translate the following English text to ${lang}. The text is for the UI element with the key path: "${key}". Keep the exact same meaning, formatting, tone, and any special placeholders like {{variable}}. Only output the translation, without any explanations or quotation marks.`;
-    
+
     if (appState.config.glossary && appState.config.glossary.length > 0) {
       const doNotTranslate = appState.config.glossary
         .filter(i => typeof i === 'string' || !i.translation)
         .map(i => typeof i === 'string' ? i : i.term);
-        
+
       const commonTranslations = appState.config.glossary
         .filter(i => typeof i === 'object' && i.translation);
 
       if (doNotTranslate.length > 0) {
         systemPrompt += `\n\nIMPORTANT: Do not translate the following game-specific words, keep them exactly as they are in English: ${doNotTranslate.join(', ')}.`;
       }
-      
+
       if (commonTranslations.length > 0) {
         const mappings = commonTranslations.map(i => `'${i.term}' must be translated as '${i.translation}'`).join(', ');
         systemPrompt += `\n\nIMPORTANT: Use the following specific translations for these game terms: ${mappings}.`;
@@ -609,6 +609,7 @@ async function validateSaveAndNext() {
 
   // Set as validated
   cbValidated.checked = true;
+  cbTranslated.checked = true;
 
   // Save current
   await saveCurrentKey();

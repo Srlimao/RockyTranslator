@@ -39,9 +39,13 @@ app.on('window-all-closed', () => {
 
 ipcMain.handle('get-languages', async () => {
   try {
-    const files = await fs.readdir(__dirname, { withFileTypes: true });
-    // Any directory that is not node_modules or source or .git etc
-    const ignoreDirs = ['node_modules', 'source', '.git'];
+    const langDir = path.join(__dirname, 'languages');
+    // Ensure dir exists to prevent crash on first run
+    try { await fs.access(langDir); } catch { await fs.mkdir(langDir); }
+    
+    const files = await fs.readdir(langDir, { withFileTypes: true });
+    // Any directory that is not source
+    const ignoreDirs = ['source'];
     const languages = files
       .filter(dirent => dirent.isDirectory() && !ignoreDirs.includes(dirent.name))
       .map(dirent => dirent.name);
@@ -54,7 +58,7 @@ ipcMain.handle('get-languages', async () => {
 
 ipcMain.handle('create-language', async (event, langCode) => {
   try {
-    const langDir = path.join(__dirname, langCode);
+    const langDir = path.join(__dirname, 'languages', langCode);
     await fs.mkdir(langDir, { recursive: true });
     await fs.writeFile(path.join(langDir, 'translation.json'), '{}', 'utf8');
     await fs.writeFile(path.join(langDir, 'progress.json'), '{}', 'utf8');
@@ -67,11 +71,11 @@ ipcMain.handle('create-language', async (event, langCode) => {
 
 ipcMain.handle('load-translation', async (event, langCode) => {
   try {
-    const sourcePath = path.join(__dirname, 'source', 'translation.json');
+    const sourcePath = path.join(__dirname, 'languages', 'source', 'translation.json');
     const sourceContent = await fs.readFile(sourcePath, 'utf8');
     const sourceData = JSON.parse(sourceContent);
 
-    const langPath = path.join(__dirname, langCode, 'translation.json');
+    const langPath = path.join(__dirname, 'languages', langCode, 'translation.json');
     let langData = {};
     try {
       const langContent = await fs.readFile(langPath, 'utf8');
@@ -80,7 +84,7 @@ ipcMain.handle('load-translation', async (event, langCode) => {
       console.log(`No existing translation for ${langCode}, using empty object.`);
     }
 
-    const progressPath = path.join(__dirname, langCode, 'progress.json');
+    const progressPath = path.join(__dirname, 'languages', langCode, 'progress.json');
     let progressData = {};
     try {
       const progressContent = await fs.readFile(progressPath, 'utf8');
@@ -98,7 +102,7 @@ ipcMain.handle('load-translation', async (event, langCode) => {
 
 ipcMain.handle('save-translation', async (event, langCode, translationData, progressData) => {
   try {
-    const langDir = path.join(__dirname, langCode);
+    const langDir = path.join(__dirname, 'languages', langCode);
     await fs.mkdir(langDir, { recursive: true }); // Ensure dir exists
     
     await fs.writeFile(

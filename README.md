@@ -64,7 +64,7 @@ To prevent the AI from translating character names, locations, or to enforce a s
 3. **Common Translation**: Enter an English word in the first box (e.g., `Skill`) and the desired translation in the second box (e.g., `Habilidade`). The AI will be forced to use this specific translation.
 
 ## Directory Structure
-- `/source/translation.json` - The master English JSON file.
-- `/[langCode]/translation.json` - The translated JSON file.
-- `/[langCode]/progress.json` - Tracks the translated and validated status of every individual key.
+- `/languages/source/translation.json` - The master English JSON file.
+- `/languages/[langCode]/translation.json` - The translated JSON file.
+- `/languages/[langCode]/progress.json` - Tracks the translated and validated status of every individual key.
 - `config.json` - Stores your local AI settings and glossary (Git ignored).

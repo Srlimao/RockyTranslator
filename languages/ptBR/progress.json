@@ -1121,446 +1121,454 @@
   },
   "help.quests.why_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.quests.points_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.quests.points_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.achievements.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.achievements.what_are_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.achievements.what_are_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.achievements.how_to_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.achievements.how_to_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.achievements.tip_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.achievements.tip_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.collection_log.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.collection_log.three_sections_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.collection_log.three_sections_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.collection_log.why_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.collection_log.why_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shop.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shop.buy_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shop.buy_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shop.no_items_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shop.no_items_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.openables.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.openables.intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.openables.hover_hint": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.openables.drop_rolls": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.countryside_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.countryside_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.wilderness_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.wilderness_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.city_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.account_types.city_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.skilling_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.skilling_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.combat_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.combat_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.quests_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.offline_progress.quests_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.items.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.items.lock_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.items.lock_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.intro": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.settings_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.settings_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.gear_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.gear_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.bank_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.bank_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.help_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.help_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.exit_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.exit_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.convenience_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.convenience_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.other_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.shortcuts.other_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.tokens_q": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.tokens_a": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.save_q": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.save_a": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.dead_q": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.dead_a": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.leaderboard_q": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.leaderboard_a": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.drops_q": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "help.faq.drops_a": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.page_title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.tab_active": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.tab_completed": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.difficulty_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.quest_points_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.show_completed": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.show_incompletable": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.start_quest": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.stop_quest": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.duration_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.reward_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.no_item_cost": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.no_rewards": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.claim_reward": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.claim_nothing": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.in_progress_title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.in_progress_total_time": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.in_progress_hint": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.all_done_title": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.all_done_text": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.no_quests_found": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.no_quests_with_name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.no_quests_with_skill": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.no_quests_of_difficulty": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.cancel_quest_warning": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.quests_completed_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.GETTING_STARTED.name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.GETTING_STARTED.description": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.INTO_THE_FOREST.name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.INTO_THE_FOREST.description": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.FIRE_PREVENTION.name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.FIRE_PREVENTION.description": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.STORM_FALLEN_OAK.name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.STORM_FALLEN_OAK.description": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.SERPENT_HUNT.name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.SERPENT_HUNT.description": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.ILLEGAL_LOGGING.name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.ILLEGAL_LOGGING.description": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.DODO_DEFENSE.name": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.DODO_DEFENSE.description": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "quests.THE_EMO_WAR.name": {
     "translated": true,
-    "validated": false
+    "validated": true
+  },
+  "quests.THE_EMO_WAR.description": {
+    "translated": false,
+    "validated": true
+  },
+  "quests.FIRST_ANVIL.name": {
+    "translated": false,
+    "validated": true
   }
 }

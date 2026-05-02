@@ -331,18 +331,18 @@
     },
     "achievements": {
       "title": "Conquistas",
-      "what_are_label": "O que são Achievements?",
+      "what_are_label": "O que são Conquistas?",
       "what_are_text": "Cada uma das 7 áreas do jogo possui seu próprio conjunto de conquistas, consistindo em 5 níveis de dificuldade: Fácil, Médio, Difícil, Especialista e Nerd.",
-      "how_to_label": "Como completar os achievements?",
-      "how_to_text": "Complete todos os desafios — eles ficam progressivamente mais difíceis com níveis de dificuldade maiores. Os Achievements sempre exigem que você tenha completado um certo conjunto de missões, matado um número específico de monstros e cumprido requisitos específicos de habilidade (skilling) e nível.",
+      "how_to_label": "Como completar as conquistas?",
+      "how_to_text": "Complete todos os desafios — eles ficam progressivamente mais difíceis com níveis de dificuldade maiores. As conquistas sempre exigem que você tenha completado um certo conjunto de missões, matado um número específico de monstros e cumprido requisitos específicos de habilidade (treinamento) e nível.",
       "tip_label": "Dica",
       "tip_text": "Conquistas concedem aumentos permanentes e outras recompensas. Complete-as sempre que puder."
     },
     "collection_log": {
       "title": "Registro de Coleção",
       "three_sections_label": "Três seções",
-      "three_sections_text": "O Log de Coleção tem três seções: 1) Ferramentas de Skilling (compradas nas páginas de habilidade), 2) Pets (drops raros de chefes de combate e skilling), e 3) Drops de Monstros (saque regular de monstros).",
-      "why_label": "Por que rastrear um collection log?",
+      "three_sections_text": "O Log de Coleção tem três seções: 1) Ferramentas de Treinamento (compradas nas páginas de habilidade), 2) Pets (drops raros de chefes de combate e treinamento), e 3) Drops de Monstros (saque regular de monstros).",
+      "why_label": "Por que rastrear um registro de coleção?",
       "why_text": "É principalmente um recurso para colecionadores — colete itens e mostre seu progresso. Não afeta diretamente o avanço principal."
     },
     "shop": {
@@ -350,28 +350,28 @@
       "buy_label": "Compre itens que você precisa",
       "buy_text": "Compre os itens que você precisa e venda os que não precisa (venda por {{percentage}}% do preço de compra). Alguns itens estão bloqueados atrás de missões ou conquistas.",
       "no_items_label": "Por que não há itens na minha loja?",
-      "no_items_text": "Isso pode ser porque sua conta está no modo Wilderness ou Countryside. Esses tipos de conta exigem que você encontre os itens por conta própria. Para desbloquear a loja completa, altere seu tipo de conta em Configurações."
+      "no_items_text": "Isso pode ser porque sua conta está no modo Ermos ou Campos. Esses tipos de conta exigem que você encontre os itens por conta própria. Para desbloquear a loja completa, altere seu tipo de conta em Configurações."
     },
     "openables": {
       "title": "Abríveis",
-      "intro": "Openables são itens que podem ser abertos para receber recompensas aleatórias. Cada openable possui um número de drop rolls que determina quantas chances você tem de receber itens dele. Para abrir um openable, clique nele no seu inventário. Para abrir vários de uma vez, clique com o botão direito (ou pressione e segure) no item e selecione a opção \"Abrir Todos\".",
+      "intro": "Abríveis são itens que podem ser abertos para receber recompensas aleatórias. Cada abrível possui um número de rolagem de drop que determina quantas chances você tem de receber itens dele. Para abrir um abrível, clique nele no seu inventário. Para abrir vários de uma vez, clique com o botão direito (ou pressione e segure) no item e selecione a opção \"Abrir Todos\".",
       "hover_hint": "Passe o mouse sobre os itens abaixo para ver a probabilidade de cada um ser droppado.",
       "drop_rolls": "Rolagens de Drop: {{count}}"
     },
     "account_types": {
       "title": "Tipos de Conta",
-      "intro": "Ao criar um personagem, você pode escolher entre diferentes modos de jogo. Depois de selecionar um modo de jogo, ele só pode ser rebaixado. O modo Wilderness é o mais difícil; você pode rebaixar para Countryside, depois para City mode. Não é possível fazer upgrade na conta após a criação.",
+      "intro": "Ao criar um personagem, você pode escolher entre diferentes modos de jogo. Depois de selecionar um modo de jogo, ele só pode ser rebaixado. O modo Ermos é o mais difícil; você pode rebaixar para Campos, depois para Cidade. Não é possível fazer upgrade na conta após a criação.",
       "city_label": "Cidade",
       "city_text": "Todas as lojas estão desbloqueadas e muitos itens estão disponíveis de vendedores em vez de drops.",
-      "countryside_label": "Campo aberto",
+      "countryside_label": "Campos",
       "countryside_text": "Lojas são limitadas; você precisará obter itens matando monstros e criá-los.",
-      "wilderness_label": "Terras Selvagens",
+      "wilderness_label": "Ermos",
       "wilderness_text": "As lojas são extremamente limitadas, e você só tem seu inventário para armazenamento (sem banco)."
     },
     "offline_progress": {
       "title": "Progresso Offline",
-      "intro": "Enquanto você estiver desconectado, seu personagem simulará progresso e concederá recompensas quando você fizer login novamente. O progresso Offline representa o que você teria ganho enquanto jogasse e é limitado a 24 horas (a menos que você morra ou fique sem recursos). O progresso pode ser em Skilling ou Combat — nenhuma ação é necessária, exceto fechar a aba para skilling. Para combate, você precisa desbloquear a habilidade de matá-los Offline.",
-      "quests_label": "Quests e Farming (árvores e arbustos)",
+      "intro": "Enquanto você estiver desconectado, seu personagem simulará progresso e concederá recompensas quando você fizer login novamente. O progresso Offline representa o que você teria ganho enquanto jogasse e é limitado a 24 horas (a menos que você morra ou fique sem recursos). O progresso pode ser em Treinamento ou Combate — nenhuma ação é necessária. Para combate, você precisa desbloquear a habilidade de matá-los Offline.",
+      "quests_label": "Missões e Cultivo (árvores e arbustos)",
       "quests_text": "Os temporizadores continuam enquanto você estiver ausente; colha as culturas e colete as recompensas da missão ao fazer login novamente.",
       "skilling_label": "Treinamento",
       "skilling_text": "Funciona por até 24 horas ou até você esgotar recursos utilizáveis.",
@@ -391,9 +391,9 @@
       "other_label": "Outros Atalhos",
       "other_text": "Monstros, habilidades, recursos, missões e conquistas podem ser fixados na barra de atalhos. Ao passar o mouse sobre um item, um ícone de marcador aparece; clique nele para adicionar o item aos seus atalhos. Pressione as teclas 1–9 para pular para o atalho correspondente.",
       "settings_label": "Configurações",
-      "settings_text": "Teclado 'S'",
-      "gear_label": "Configurações",
-      "gear_text": "Teclado 'G'",
+      "settings_text": "Tecla 'S'",
+      "gear_label": "Equipamento",
+      "gear_text": "Tecla 'G'",
       "bank_label": "Banco",
       "bank_text": "Tecla B",
       "help_label": "Ajuda",
@@ -404,12 +404,12 @@
     "faq": {
       "title": "Perguntas Frequentes",
       "tokens_q": "Para que servem os tokens?",
-      "tokens_a": "Tokens de Skilling podem ser usados para desafiar bosses de Skilling assim que desbloqueados no nível 75. Tokens Boss podem ser usados para desafiar um chefe específico. Esses chefes são geralmente difíceis.",
+      "tokens_a": "Tokens de Treinamento podem ser usados para desafiar Chefes de Treinamento assim que desbloqueados no nível 75. Tokens de Chefe podem ser usados para desafiar um chefe específico. Esses chefes são geralmente difíceis.",
       "save_q": "Como o jogo salva?",
       "save_a": "Salva localmente a cada 10s e em certos eventos + salva automaticamente na nuvem a cada 2h.",
       "leaderboard_q": "Podemos ter um placar de líderes, por favor?",
-      "leaderboard_a": "Não, sinto muito, mas não é possível já que é muito fácil para trapaceiros arruinarem todo o leaderboard. O jogo já teve um leaderboard, e eu gasto horas demais procurando e removendo trapaceiros.",
-      "drops_q": "Tenho 20k mortes e não consegui o drop de 1/5k, o jogo está com bug?",
+      "leaderboard_a": "Não, sinto muito, mas não é possível já que é muito fácil pra cheaters arruinarem todo o leaderboard. O jogo já teve um leaderboard, e eu gasto horas demais procurando e removendo cheaters.",
+      "drops_q": "Já matei mais de 20 mil e não consegui o drop de 1/5k, o jogo está com bug?",
       "drops_a": "Provavelmente você está apenas azarado; em casos raros pode ser um bug.",
       "dead_q": "Estou morto, como posso voltar à vida?",
       "dead_a": "Coma comida cozida clicando nela (Lagosta, Peixe-Prateado, etc.) no seu inventário para restaurar Pontos de Vida."
@@ -444,7 +444,7 @@
     "quests_completed_label": "Quests Concluídas",
     "GETTING_STARTED": {
       "name": "Começando",
-      "description": "Comece o jogo = ganhe saque grátis"
+      "description": "Comece o jogo = ganhe loot grátis"
     },
     "INTO_THE_FOREST": {
       "name": "Para a Floresta",
