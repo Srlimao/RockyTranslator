@@ -1564,11 +1564,239 @@
     "validated": true
   },
   "quests.THE_EMO_WAR.description": {
-    "translated": false,
+    "translated": true,
     "validated": true
   },
   "quests.FIRST_ANVIL.name": {
-    "translated": false,
+    "translated": true,
+    "validated": true
+  },
+  "quests.FIRST_ANVIL.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BLACK_SMITH.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BLACK_SMITH.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SILVER_HEIST.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SILVER_HEIST.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.JADE_RESCUE.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.JADE_RESCUE.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.GOLD_RUSH.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.GOLD_RUSH.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MINING_LEGEND.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MINING_LEGEND.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PRECIOUS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PRECIOUS.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SCORPION_HUNTER.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SCORPION_HUNTER.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.FISHY_START.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.FISHY_START.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.GET_COOKING.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.GET_COOKING.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SEAFOOD_STORY.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SEAFOOD_STORY.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SPEAR_FISHER.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SPEAR_FISHER.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SPEAR_FISHER_2.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SPEAR_FISHER_2.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PROTECT_THE_REEF.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PROTECT_THE_REEF.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.TIDAL_BATTLE.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.TIDAL_BATTLE.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.DEADLY_DISH.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.DEADLY_DISH.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SACRED_OFFERING_1.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SACRED_OFFERING_1.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SPRAY_AND_PRAY.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SPRAY_AND_PRAY.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SACRED_OFFERING_2.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SACRED_OFFERING_2.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_MONK_1.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_MONK_1.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_MONK_2.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_MONK_2.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PRAY_ADDICT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PRAY_ADDICT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BLESSING.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BLESSING.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MEET_ANGELA.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MEET_ANGELA.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SOUL_BARGAIN.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SOUL_BARGAIN.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.FARMING_CONTRACT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.FARMING_CONTRACT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.ELIXIR.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.ELIXIR.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.CROP_MASTER.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.CROP_MASTER.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.HARVEST_TIME.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.HARVEST_TIME.description": {
+    "translated": true,
     "validated": true
   }
 }
