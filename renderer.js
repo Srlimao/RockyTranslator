@@ -88,6 +88,7 @@ const inputAiThinking = document.getElementById('ai-thinking');
 const btnCloseNewLang = document.getElementById('btn-close-new-lang');
 const btnCreateLang = document.getElementById('btn-create-lang');
 const inputNewLangCode = document.getElementById('new-lang-code');
+const inputCopySource = document.getElementById('copy-source-cb');
 
 const btnGlossary = document.getElementById('btn-glossary');
 const glossaryModal = document.getElementById('glossary-modal');
@@ -221,7 +222,8 @@ async function createNewLanguage() {
   const code = inputNewLangCode.value.trim();
   if (!code) return;
 
-  const result = await window.api.createLanguage(code);
+  const copySource = inputCopySource.checked;
+  const result = await window.api.createLanguage(code, copySource);
   if (result.success) {
     newLangModal.classList.remove('show');
     inputNewLangCode.value = '';

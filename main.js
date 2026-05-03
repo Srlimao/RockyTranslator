@@ -56,11 +56,22 @@ ipcMain.handle('get-languages', async () => {
   }
 });
 
-ipcMain.handle('create-language', async (event, langCode) => {
+ipcMain.handle('create-language', async (event, langCode, copySource) => {
   try {
     const langDir = path.join(__dirname, 'languages', langCode);
     await fs.mkdir(langDir, { recursive: true });
-    await fs.writeFile(path.join(langDir, 'translation.json'), '{}', 'utf8');
+    
+    if (copySource) {
+      const sourcePath = path.join(__dirname, 'languages', 'source', 'translation.json');
+      try {
+        await fs.copyFile(sourcePath, path.join(langDir, 'translation.json'));
+      } catch (e) {
+        await fs.writeFile(path.join(langDir, 'translation.json'), '{}', 'utf8');
+      }
+    } else {
+      await fs.writeFile(path.join(langDir, 'translation.json'), '{}', 'utf8');
+    }
+    
     await fs.writeFile(path.join(langDir, 'progress.json'), '{}', 'utf8');
     return { success: true };
   } catch (error) {
