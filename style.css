@@ -26,10 +26,10 @@ body {
   color: var(--text-primary);
   height: 100vh;
   overflow: hidden;
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.3) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.3) 0, transparent 50%);
+  background-image:
+    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 0.3) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 0.3) 0, transparent 50%);
 }
 
 .app-container {
@@ -59,7 +59,7 @@ body {
   font-weight: 700;
   margin-bottom: 15px;
   background: linear-gradient(to right, #60a5fa, #a78bfa);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -256,7 +256,8 @@ select:focus {
   word-break: break-all;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   padding: 10px 20px;
   border-radius: 6px;
   font-family: var(--font-main);
@@ -363,9 +364,17 @@ textarea:focus {
 }
 
 @keyframes pulse {
-  0% { opacity: 0.5; }
-  50% { opacity: 1; }
-  100% { opacity: 0.5; }
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
 }
 
 .status-controls {
@@ -408,11 +417,11 @@ textarea:focus {
   transition: all 0.2s;
 }
 
-.checkbox-container:hover input ~ .checkmark {
+.checkbox-container:hover input~.checkmark {
   border-color: var(--accent-primary);
 }
 
-.checkbox-container input:checked ~ .checkmark {
+.checkbox-container input:checked~.checkmark {
   background-color: var(--accent-primary);
   border-color: var(--accent-primary);
 }
@@ -423,7 +432,7 @@ textarea:focus {
   display: none;
 }
 
-.checkbox-container input:checked ~ .checkmark:after {
+.checkbox-container input:checked~.checkmark:after {
   display: block;
 }
 
@@ -466,7 +475,7 @@ textarea:focus {
   border-radius: 12px;
   width: 400px;
   border: 1px solid var(--glass-border);
-  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
 .glassmorphism {
@@ -512,6 +521,7 @@ textarea:focus {
   gap: 10px;
   margin-top: 30px;
 }
+
 .glossary-list {
   list-style: none;
   max-height: 200px;
@@ -550,4 +560,57 @@ textarea:focus {
 .btn-remove-word:hover {
   transform: scale(1.2);
   color: #ef4444;
+}
+
+/* Sidebar Toggle (Global) */
+.sidebar {
+  display: none; /* hidden by default */
+}
+
+.sidebar.show {
+  display: flex; /* overridden in media query if needed, but flex works */
+}
+
+.mobile-only {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: 50vh;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .main-content {
+    flex: 1;
+    padding: 15px;
+  }
+
+  .header-actions {
+    flex-wrap: wrap;
+  }
+
+  .status-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .action-buttons {
+    margin-left: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .modal-content {
+    width: 90%;
+    max-width: 400px;
+  }
 }

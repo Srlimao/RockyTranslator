@@ -52,6 +52,8 @@ let appState = {
 };
 
 // DOM Elements
+const sidebar = document.querySelector('.sidebar');
+const btnToggleSidebar = document.getElementById('btn-toggle-sidebar');
 const languageSelect = document.getElementById('language-select');
 const btnNewLang = document.getElementById('btn-new-lang');
 const searchInput = document.getElementById('search-input');
@@ -100,6 +102,12 @@ const btnCloseGlossary = document.getElementById('btn-close-glossary');
 
 // Initialize
 async function init() {
+  if (btnToggleSidebar) {
+    btnToggleSidebar.addEventListener('click', () => {
+      sidebar.classList.toggle('show');
+    });
+  }
+
   await loadConfig();
   await refreshLanguages();
 
@@ -144,7 +152,8 @@ async function init() {
 }
 
 async function loadConfig() {
-  const data = await window.api.loadConfig();
+  const response = await fetch('/api/config');
+  const data = await response.json();
   if (data) {
     appState.config = { ...appState.config, ...data };
   }
@@ -155,7 +164,11 @@ async function saveConfig() {
   appState.config.modelName = inputAiModel.value;
   appState.config.enableThinking = inputAiThinking.checked;
   // Glossary is saved independently or together
-  await window.api.saveConfig(appState.config);
+  await fetch('/api/config', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(appState.config)
+  });
   settingsModal.classList.remove('show');
 }
 
@@ -192,18 +205,27 @@ async function addGlossaryWord() {
     inputGlossaryTerm.value = '';
     inputGlossaryTranslation.value = '';
     renderGlossary();
-    await window.api.saveConfig(appState.config);
+    await fetch('/api/config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(appState.config)
+    });
   }
 }
 
 async function removeGlossaryWord(index) {
   appState.config.glossary.splice(index, 1);
   renderGlossary();
-  await window.api.saveConfig(appState.config);
+  await fetch('/api/config', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(appState.config)
+  });
 }
 
 async function refreshLanguages() {
-  appState.languages = await window.api.getLanguages();
+  const response = await fetch('/api/languages');
+  appState.languages = await response.json();
 
   languageSelect.innerHTML = '<option value="" disabled selected>Select Language</option>';
   appState.languages.forEach(lang => {
@@ -223,7 +245,12 @@ async function createNewLanguage() {
   if (!code) return;
 
   const copySource = inputCopySource.checked;
-  const result = await window.api.createLanguage(code, copySource);
+  const response = await fetch('/api/languages', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ langCode: code, copySource })
+  });
+  const result = await response.json();
   if (result.success) {
     newLangModal.classList.remove('show');
     inputNewLangCode.value = '';
@@ -238,7 +265,8 @@ async function createNewLanguage() {
 async function loadLanguage(langCode) {
   appState.currentLanguage = langCode;
 
-  const data = await window.api.loadTranslation(langCode);
+  const response = await fetch(`/api/translation/${langCode}`);
+  const data = await response.json();
   appState.sourceFlat = flattenObject(data.source);
   appState.translationFlat = flattenObject(data.translation);
   appState.progressData = data.progress || {};
@@ -295,6 +323,9 @@ function renderKeyList() {
 function selectKey(key, liElement) {
   appState.currentKey = key;
 
+  // Hide the sidebar when a key is selected
+  sidebar.classList.remove('show');
+
   // Update UI active state
   document.querySelectorAll('.key-item').forEach(el => el.classList.remove('active'));
   if (liElement) liElement.classList.add('active');
@@ -349,11 +380,15 @@ async function saveCurrentKey() {
   btnSave.textContent = 'Saving...';
   btnSave.disabled = true;
 
-  const result = await window.api.saveTranslation(
-    appState.currentLanguage,
-    fullTranslation,
-    appState.progressData
-  );
+  const response = await fetch(`/api/translation/${appState.currentLanguage}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      translationData: fullTranslation,
+      progressData: appState.progressData
+    })
+  });
+  const result = await response.json();
 
   btnSave.textContent = 'Save Changes';
   btnSave.disabled = false;
@@ -552,7 +587,14 @@ async function translateKeyBackground(key) {
 
     // Save to Disk
     const fullTranslation = unflattenObject(appState.translationFlat);
-    await window.api.saveTranslation(appState.currentLanguage, fullTranslation, appState.progressData);
+    await fetch(`/api/translation/${appState.currentLanguage}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        translationData: fullTranslation,
+        progressData: appState.progressData
+      })
+    });
 
     // Update UI if this is the currently selected key
     if (appState.currentKey === key) {

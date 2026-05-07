@@ -607,7 +607,7 @@
       "description": "Troque suas sementes por melhores no mercado."
     },
     "TOUCH_GRASS": {
-      "name": "Tocar Grama",
+      "name": "Tocar na Grama",
       "description": "Você está plantando loucamente, doe frutas e descanse."
     },
     "LEATHER_HEIST": {
@@ -698,9 +698,9 @@
     "refresh_cloud_saves": "Atualizar saves na nuvem",
     "upload_save_title": "Subir Save",
     "upload_placeholder": "Insira sua string comprimida aqui...",
-    "upload": "Subir",
+    "upload": "Upload",
     "hide": "Esconder",
-    "save_to_local": "Salvar no local",
+    "save_to_local": "Salvar local",
     "character_number": "Personagem #{{index}}",
     "in_sync": "Sincronizado",
     "save_to_cloud": "Salvar na nuvem",
@@ -715,7 +715,7 @@
     "xp_label": "Xp: {{xp}}",
     "cloud_save_label": "Save na nuvem",
     "local_save_label": "Save local",
-    "copy_string": "Copiar String",
+    "copy_string": "Copiar Texto",
     "copied": "Copiado",
     "legacy_demo_slot": "Slot Demo Legado {{index}}",
     "demo_data_from_google": "Dados demo do Google",
@@ -733,7 +733,7 @@
     "saved_to_cloud": "Dados salvos na nuvem no slot {{slot}}!",
     "saves_refreshed": "Saves atualizados com sucesso!",
     "demo_slot_deleted": "Slot demo deletado com sucesso!",
-    "no_cloud_state": "Nenhum estado na nuvem achado para este slot",
+    "no_cloud_state": "Nenhum save na nuvem achado para este slot",
     "no_slot_selected": "Nenhum slot selecionado",
     "no_local_data": "Nenhum dado local achado para este slot",
     "parse_failed": "Falha ao ler dados locais",

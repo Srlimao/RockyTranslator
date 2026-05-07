@@ -4,11 +4,12 @@
   "description": "Translator app for Rocky Idle",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^41.5.0"
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
   }
 }
