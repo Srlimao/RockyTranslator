@@ -607,7 +607,7 @@
       "description": "Troque suas sementes por melhores no mercado."
     },
     "TOUCH_GRASS": {
-      "name": "Tocar Grama",
+      "name": "Tocar na Grama",
       "description": "Você está plantando loucamente, doe frutas e descanse."
     },
     "LEATHER_HEIST": {
@@ -698,9 +698,9 @@
     "refresh_cloud_saves": "Atualizar saves na nuvem",
     "upload_save_title": "Subir Save",
     "upload_placeholder": "Insira sua string comprimida aqui...",
-    "upload": "Subir",
+    "upload": "Upload",
     "hide": "Esconder",
-    "save_to_local": "Salvar no local",
+    "save_to_local": "Salvar local",
     "character_number": "Personagem #{{index}}",
     "in_sync": "Sincronizado",
     "save_to_cloud": "Salvar na nuvem",
@@ -715,7 +715,7 @@
     "xp_label": "Xp: {{xp}}",
     "cloud_save_label": "Save na nuvem",
     "local_save_label": "Save local",
-    "copy_string": "Copiar String",
+    "copy_string": "Copiar Texto",
     "copied": "Copiado",
     "legacy_demo_slot": "Slot Demo Legado {{index}}",
     "demo_data_from_google": "Dados demo do Google",
@@ -733,7 +733,7 @@
     "saved_to_cloud": "Dados salvos na nuvem no slot {{slot}}!",
     "saves_refreshed": "Saves atualizados com sucesso!",
     "demo_slot_deleted": "Slot demo deletado com sucesso!",
-    "no_cloud_state": "Nenhum estado na nuvem achado para este slot",
+    "no_cloud_state": "Nenhum save na nuvem achado para este slot",
     "no_slot_selected": "Nenhum slot selecionado",
     "no_local_data": "Nenhum dado local achado para este slot",
     "parse_failed": "Falha ao ler dados locais",
@@ -769,12 +769,12 @@
       "countryside": {
         "badge": "Campo",
         "label": "Modo Campo",
-        "description": "Jogadores precisam obter todos os itens sozinhos"
+        "description": "No modo Campos jogadores precisam obter todos os itens sozinhos"
       },
       "wilderness": {
-        "badge": "Yermo",
-        "label": "Modo Yermo",
-        "description": "Sem banco para itens e precisa obter tudo sozinho"
+        "badge": "Ermos",
+        "label": "Modo Ermos",
+        "description": "No modo Ermos não tem banco para itens e precisa obter tudo sozinho"
       },
       "city": {
         "badge": "Cidade",
@@ -784,9 +784,9 @@
     }
   },
   "account_settings": {
-    "remove_status_warning": "Isso removerá o status {{accountType}} para sempre.",
+    "remove_status_warning": "Isso removerá o status {{accountType}} para sempre. ISTO NÃO PODE SER DESFEITO",
     "ruin_account": "Arruinar conta",
-    "downgrade_warning": "Isso rebaixará sua conta para {{accountType}}.",
+    "downgrade_warning": "Isso rebaixará sua conta para {{accountType}}. ISTO NÃO PODE SER DESFEITO. ",
     "downgrade": "Rebaixar",
     "downgrade_to": "Rebaixar para {{accountType}}"
   },
@@ -802,12 +802,12 @@
   "slayer": {
     "cancel_task_warning": "Cancelar esta tarefa custará {{cost}} pontos de Slayer e removerá sua tarefa atual. Sua sequência NÃO será redefinida.",
     "cancel_task_anyway": "Cancelar tarefa mesmo assim",
-    "reset_streak_warning": "Isso redefinirá sua sequência de slayer para 0 e removerá sua tarefa de slayer atual.",
+    "reset_streak_warning": "Isso redefinirá sua sequência de Extermínio para 0 e removerá sua tarefa de Extermínio atual.",
     "reset_anyway": "Redefinir mesmo assim",
-    "rewards_title": "Recompensas de Slayer",
-    "points_label": "Pontos de Slayer:",
+    "rewards_title": "Recompensas de Extermínio",
+    "points_label": "Pontos de Extermínio:",
     "points": "pontos",
-    "difficulties_title": "Dificuldades de Slayer",
+    "difficulties_title": "Dificuldades de Extermínio",
     "locked_alt": "bloqueado",
     "tab": {
       "tasks": "Tarefas",

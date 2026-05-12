@@ -1798,5 +1798,657 @@
   "quests.HARVEST_TIME.description": {
     "translated": true,
     "validated": true
+  },
+  "quests.FERTILE_GROUNDS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.FERTILE_GROUNDS.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.REPLANT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.REPLANT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.REPLANT_2.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.REPLANT_2.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SEED_SWAP.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.SEED_SWAP.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.TOUCH_GRASS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.TOUCH_GRASS.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.LEATHER_HEIST.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.LEATHER_HEIST.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.ROLE_PLAY_CLUB.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.ROLE_PLAY_CLUB.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BLAME_THE_WIZARD.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BLAME_THE_WIZARD.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PEARL_EXCHANGE.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.PEARL_EXCHANGE.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.STOLEN_SCALES.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.STOLEN_SCALES.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.HEIST_OF_THE_CENTURY.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.HEIST_OF_THE_CENTURY.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MAGE_DEFENCE.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MAGE_DEFENCE.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BANK_ROBBERY.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.BANK_ROBBERY.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.DRAGONS_LAIR.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.DRAGONS_LAIR.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.FINAL_OFFER.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.FINAL_OFFER.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_BASICS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_BASICS.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.DEFENCE_TRAINING.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.DEFENCE_TRAINING.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MAGIC_TRANING.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.MAGIC_TRANING.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_ARMY.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.THE_ARMY.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.WIZARD_CONTEST.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.WIZARD_CONTEST.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.ROMAN_INVADERS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.ROMAN_INVADERS.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.RAGNAR.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.RAGNAR.description": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.HOT_GATES.name": {
+    "translated": true,
+    "validated": true
+  },
+  "quests.HOT_GATES.description": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.overwrite_cloud": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.overwrite_local": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.delete_cloud_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.delete_cloud": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.delete_local_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.delete_local": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.delete_demo_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.delete_forever": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.page_title": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.logout": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.login": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.refresh_cloud_saves": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.upload_save_title": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.upload_placeholder": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.upload": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.hide": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.save_to_local": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.character_number": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.in_sync": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.save_to_cloud": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.last_cloud_save": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.show": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_save_up_to_date": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.add_new_character": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.copy_save": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.download_save": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.delete_save": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.level_label": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.xp_label": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_save_label": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.local_save_label": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.copy_string": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.copied": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.legacy_demo_slot": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.demo_data_from_google": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.demo_import_info": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.buy_full_version_error": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.newest": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.last_played": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.no_cloud_save": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.no_local_save": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.please_save_from_cloud": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.or_delete_cloud_save": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.local_overwrites_cloud": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_overwrites_local": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.deleted_successfully": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.saved_to_cloud": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.saves_refreshed": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.demo_slot_deleted": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.no_cloud_state": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.no_slot_selected": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.no_local_data": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.parse_failed": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_autosave_success": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_autosave_skipped_xp": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_autosave_skipped_newer": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_autosave_skipped_mismatch": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.cloud_autosave_failed": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.not_synced_to_cloud": {
+    "translated": true,
+    "validated": true
+  },
+  "account_overview.save_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "account.change_avatar": {
+    "translated": true,
+    "validated": true
+  },
+  "account.edit_name": {
+    "translated": true,
+    "validated": true
+  },
+  "account.delete_account_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account.delete_account": {
+    "translated": true,
+    "validated": true
+  },
+  "account.delete_account_button": {
+    "translated": true,
+    "validated": true
+  },
+  "account.unlink_google_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account.unlink_google": {
+    "translated": true,
+    "validated": true
+  },
+  "account.link_with_google": {
+    "translated": true,
+    "validated": true
+  },
+  "account.link_google_info_1": {
+    "translated": true,
+    "validated": true
+  },
+  "account.link_google_info_2": {
+    "translated": true,
+    "validated": true
+  },
+  "account.link_google_info_3": {
+    "translated": true,
+    "validated": true
+  },
+  "account.link_google_info_4": {
+    "translated": true,
+    "validated": true
+  },
+  "account.link_google_info_5": {
+    "translated": true,
+    "validated": true
+  },
+  "account.google_linked_success": {
+    "translated": true,
+    "validated": true
+  },
+  "account.account_deleted": {
+    "translated": true,
+    "validated": true
+  },
+  "account.google_unlinked_success": {
+    "translated": true,
+    "validated": true
+  },
+  "account.unlink_failed": {
+    "translated": true,
+    "validated": true
+  },
+  "account.name_empty_error": {
+    "translated": true,
+    "validated": true
+  },
+  "account.name_length_error": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.countryside.badge": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.countryside.label": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.countryside.description": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.wilderness.badge": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.wilderness.label": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.wilderness.description": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.city.badge": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.city.label": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.city.description": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.remove_status_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.ruin_account": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.downgrade_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.downgrade": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.downgrade_to": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.stop_run_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.stop_run": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.claim": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.bushes": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.trees": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.nothing_to_claim": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.claim_all": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.cancel_task_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.cancel_task_anyway": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.reset_streak_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.reset_anyway": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards_title": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.points_label": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.points": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.difficulties_title": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.locked_alt": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.tasks": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.extend": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.buy": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.offline": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.block": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tasks.name_header": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tasks.weight_header": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tasks.extended_badge": {
+    "translated": true,
+    "validated": true
   }
 }
