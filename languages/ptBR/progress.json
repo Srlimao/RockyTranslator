@@ -2884,14 +2884,1202 @@
     "validated": false
   },
   "steam_page.long_description_13": {
-    "translated": true,
-    "validated": true
+    "translated": false,
+    "validated": false
   },
   "steam_page.long_description_1": {
     "translated": true,
     "validated": true
   },
   "steam_page.long_description_2": {
+    "translated": true,
+    "validated": true
+  },
+  "achievements.monster_required": {
+    "translated": true,
+    "validated": true
+  },
+  "achievements.process_required": {
+    "translated": true,
+    "validated": true
+  },
+  "achievements.level_required": {
+    "translated": true,
+    "validated": true
+  },
+  "achievements.quest_required": {
+    "translated": true,
+    "validated": true
+  },
+  "achievements.show_completed": {
+    "translated": true,
+    "validated": true
+  },
+  "items.page_title": {
+    "translated": true,
+    "validated": true
+  },
+  "items.antique_lamp_name": {
+    "translated": true,
+    "validated": true
+  },
+  "items.GEODES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BIRDS_NEST": {
+    "translated": true,
+    "validated": true
+  },
+  "items.OYSTER": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BONE_GRAVE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.CONTRACTS_CASE": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.UNDEAD": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.MINIONS": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.GIANTS": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.BIRDS": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.PEST": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.SNAKE": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.BOSS": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.category.FIELD": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.sell_all_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.sell_all_anyway": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.buy_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.buy_anyway": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.buy_non_sellable_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.choose_custom_buy": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.buy": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.sell": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.all_shops": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.only_for": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.sell_all": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.no_sellable_items": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.auto_loot": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.hybrid_loot": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.deposit_to_bank": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.deposit_to_inventory": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.wield": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.eat": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.drink": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.use": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.read": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.open_all": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.open_ten": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.open_one": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.cancel_current": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.move_to_inventory": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.destroy": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.lock": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.action.deposit": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.header": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.clear_all_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.clear_all": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.clear_all_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.added": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.removed": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.max_reached": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.add_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.remove_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "shortcuts.aria_label": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.CROP_BAG": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.WOOD_SACK": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.ORE_SACK": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.SIGIL_SACK": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.SEED_SACK": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.KEY_RING": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.FISH_SACK": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.SCROLL_BOTTLE": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.PET_BAG": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.RAW_FOOD_SACK": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.TOKEN_VAULT": {
+    "translated": true,
+    "validated": true
+  },
+  "containers.INVENTORY": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.page_title": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.chest_count": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.open": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.used_on_label": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.average_value_label": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.reward_info_title": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.possible_rewards_title": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.EASY_CHEST": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.MEDIUM_CHEST": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.HARD_CHEST": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.quantity": {
+    "translated": true,
+    "validated": true
+  },
+  "chests.EXPERT_CHEST": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.bought": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.items_count": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.no_items_found": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.combat_level_up": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.skilling_level_up": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.in_shop": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.total_label": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.skill_level_up": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.you_are_now_level": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.pet_congrats": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.sell_percentage_title": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.pet_name": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.process_level_up": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.custom_amount_label": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.error_occurred": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.claim_reward": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.new_item": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.slayer_streak": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.cant_sell": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.empty": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.slayer_points": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.slayer_req_unlocked": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.total_quest_points": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.slayer_req_locked": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.claim_reward_quests_hint": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.contract_completed": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.clue_suffix": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.upgrades_title": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.no_more_upgrades": {
+    "translated": true,
+    "validated": true
+  },
+  "shop.current_upgrade": {
+    "translated": true,
+    "validated": true
+  },
+  "contracts.cancel_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "contracts.cancel_contract": {
+    "translated": true,
+    "validated": true
+  },
+  "contracts.cancel_all_tooltip": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.destroy_all_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.destroy_all": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.destroy_item_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.destroy": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.items_on_ground_space": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.delete_mode": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.loot_on_ground": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.monster_drops_title": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.drop_on_ground": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.auto_loot_label": {
+    "translated": true,
+    "validated": true
+  },
+  "ground_items.hybrid_label": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.destroy_item_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.destroy_anyway": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.withdraw_from_bank": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.item_fallback_name": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.bank_all_from": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.get_items_from_bank": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.put_items_into_inventory": {
+    "translated": true,
+    "validated": true
+  },
+  "inventory.see_allowed_items": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SLINGSHOT": {
+    "translated": true,
+    "validated": true
+  },
+  "items.GREEN_SCALE_FEATHER_HAT": {
+    "translated": true,
+    "validated": true
+  },
+  "items.GREEN_SCALE_PANTS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.GREEN_SCALE_VEST": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLUE_SCALE_FEATHER_HAT": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLUE_SCALE_PANTS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLUE_SCALE_VEST": {
+    "translated": true,
+    "validated": true
+  },
+  "items.RED_SCALE_FEATHER_HAT": {
+    "translated": true,
+    "validated": true
+  },
+  "items.RED_SCALE_PANTS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.RED_SCALE_VEST": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SLINGSHOT_AMMO": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_ARROWS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_ARROWS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_ARROWS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_ARROWS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.CANARY_BOW": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.total_completed": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.reward_label": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SUNSTONE_ARROWS": {
+    "translated": true,
+    "validated": true
+  },
+  "toast.diaries_completed": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.FOREST": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.MINE": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.SEA": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.FIELDS": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.TEMPLE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLACK_SCALE_FEATHER_HAT": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLACK_SCALE_PANTS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLACK_SCALE_VEST": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LEATHER_PANTS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LEATHER_VEST": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LEATHER_SKIRT": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LEATHER_ROBE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BONE_ARROWS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.TINY_BONES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SMALL_BONES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.GIANT_BONES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.MASSIVE_BONES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.EMPTY_FLASK": {
+    "translated": true,
+    "validated": true
+  },
+  "items.MAGIC_PRAYER_UNLOCK": {
+    "translated": true,
+    "validated": true
+  },
+  "items.MELEE_PRAYER_UNLOCK": {
+    "translated": true,
+    "validated": true
+  },
+  "items.RANGED_PRAYER_UNLOCK": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_MAGIC_PRAYER_UNLOCK": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_MELEE_PRAYER_UNLOCK": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_RANGED_PRAYER_UNLOCK": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DEFENCE_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.RANGED_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.MELEE_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.MAGIC_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.COMBAT_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_DEFENCE_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_RANGED_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_MELEE_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_MAGIC_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.STRONG_COMBAT_POTION": {
+    "translated": true,
+    "validated": true
+  },
+  "items.HARLEY_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.SERPIA_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.BARK_WRAITH_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.GEMSTONE_GOLEM_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.ANGELA_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.INFERNAL_DRAGON_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.BERNARD_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.MAMMOTH_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.TUSKAR_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.WALRUS_PET": {
+    "translated": false,
+    "validated": false
+  },
+  "items.WHISPER_PET": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.MARKET": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.FORTRESS": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.boost.juicy_loot": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ARCANERY_PET": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.boost.boost_duration": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.boost.storage": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.boost.batch_bonus": {
+    "translated": true,
+    "validated": true
+  },
+  "diary.boost.speed_bonus": {
+    "translated": true,
+    "validated": true
+  },
+  "achievements.page_title": {
+    "translated": true,
+    "validated": true
+  },
+  "items.CROP_BASKET": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SCALE_TREASURE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.RED_SCALES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLUE_SCALES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.GREEN_SCALES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BLACK_SCALES": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LEATHER": {
+    "translated": true,
+    "validated": true
+  },
+  "items.COINS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ROCK_FRAGMENT": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_ORE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SILVER_ORE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_ORE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.GOLD_ORE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_ORE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_ORE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SUNSTONE_ORE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_HELMET": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_DAGGER": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_SHIELD": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_PLATE_LEGS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_CHAIN_BODY": {
+    "translated": true,
+    "validated": true
+  },
+  "items.BRONZE_SCIMITAR": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SILVER_HELMET": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SILVER_DAGGER": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SILVER_SHIELD": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SILVER_PLATE_LEGS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SILVER_CHAIN_BODY": {
+    "translated": true,
+    "validated": true
+  },
+  "items.SILVER_SCIMITAR": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_HELMET": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_DAGGER": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_SHIELD": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_PLATE_LEGS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_CHAIN_BODY": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JADE_SCIMITAR": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_HELMET": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_DAGGER": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_SHIELD": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_PLATE_LEGS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_CHAIN_BODY": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ROCKYS_APRON": {
+    "translated": true,
+    "validated": true
+  },
+  "xp_lamp.pick_skill_title": {
+    "translated": true,
+    "validated": true
+  },
+  "items.PLATINUM_SCIMITAR": {
+    "translated": true,
+    "validated": true
+  },
+  "xp_lamp.pick_skill_hint": {
+    "translated": true,
+    "validated": true
+  },
+  "xp_lamp.open_lamp": {
+    "translated": true,
+    "validated": true
+  },
+  "prayer.reading_prefix": {
+    "translated": true,
+    "validated": true
+  },
+  "prayer.reading_middle": {
+    "translated": true,
+    "validated": true
+  },
+  "prayer.prayer_label": {
+    "translated": true,
+    "validated": true
+  },
+  "prayer.read_the_book": {
+    "translated": true,
+    "validated": true
+  },
+  "login_page.sign_in": {
+    "translated": true,
+    "validated": true
+  },
+  "login_page.login_failed": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.go_to_landing_page": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_HELMET": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_DAGGER": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_SHIELD": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.join_discord": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.send_email": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.open_bank": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.gear_stats": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.gear": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.bank": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.monsters": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.skilling": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.slayer": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.combat": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.quests": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.achievements": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.chests": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.collection_log": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.shops": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.boosts": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.account_linked_title": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.link_your_account_title": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.invalid_compressed_data": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.invalid_game_data": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.no_slot_data": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.failed_load_user_data": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_PLATE_LEGS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_CHAIN_BODY": {
+    "translated": true,
+    "validated": true
+  },
+  "items.DIAMOND_SCIMITAR": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ROOT_HELMET": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ROOT_SHIELD": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ROOT_LEGS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ROOT_PLATE_BODY": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LIZARD_BLADE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LIZARD_RING": {
+    "translated": true,
+    "validated": true
+  },
+  "items.LIZARD_NECKLACE": {
+    "translated": true,
+    "validated": true
+  },
+  "items.JIGGYS_CLAWS": {
+    "translated": true,
+    "validated": true
+  },
+  "items.ROCKYS_PICKAXE": {
     "translated": true,
     "validated": true
   }

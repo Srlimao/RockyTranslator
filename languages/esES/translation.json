@@ -4,7 +4,7 @@
     "_variables": "Placeholders like {{count}}, {{time}}, {{percentage}} are filled in at runtime — copy them verbatim into your translation. Do not translate or remove them."
   },
   "steam_page": {
-    "short_description": "Rocky Idle is a single-player idle/incremental game. Level up your skills, gather resources, and complete your collection log.",
+    "short_description": "Rocky Idle es un juego idle/incremental para un solo jugador. Mejora tus habilidades, recolecta recursos y completa tu registro de colección.",
     "long_description": "Rocky Idle is the first game I’ve developed, and it's been under development for 2,5 years, hope you enjoy it!. It's a single-player idle/incremental game. You level up 18 different skills simply by clicking a tree or a rock. You collect items that can be used to advance your character or level up other skills. You also have an active boost that can be activated once every 10 minutes; the boost becomes stronger and stronger as you progress. Skilling There are skills like Mining, Woodcutting, Crafting, and more. Each skill serves its own purpose, use the rocks mined to smith stronger gear, and increase your max hit. The more you use a resource, the stronger and more efficient it becomes, improving speed, batch size, and active boosts. Background Farming & Passive Activities. Farming, and questing all run passively in the background once started. Plant and harvest crops to craft potions. The more you harvest, the more efficient your crops become, growing faster and yielding higher rewards over time. Contracts.   Contracts are rare drops from skilling and combat. Complete specific tasks to receive keys.Offline progress. Keep progressing even while you’re offline. When you return, get a detailed summary of all the resources gathered and experience gained. Automated Combat & Collection. Use your crafted gear, food and potions in automated battles. The more you fight, the stronger your gear and boosts become. Defeat monsters to fill your collection log and unlock upgrades. Good luck getting little Rocky's Apron drop, it's quite rare. Purchase on Steam (Windows) and link your Google account to continue your progress on the WEB version! Note: A Wi-Fi connection is required to play this game. This ensures your data is saved to the cloud and allows you to share progress across different devices."
   },
   "common": {
@@ -710,7 +710,7 @@
     "save_to_cloud": "Save to cloud",
     "last_cloud_save": "Last cloud save:",
     "show": "Show",
-    "cloud_save_up_to_date": "Cloud save is up to date",
+    "cloud_save_up_to_date": "Guardado en la nube actualizado",
     "add_new_character": "Add New Character",
     "copy_save": "Copy save",
     "download_save": "Download save",

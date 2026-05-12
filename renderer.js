@@ -293,10 +293,14 @@ async function init() {
 }
 
 async function loadConfig() {
-  const response = await fetch('/api/config');
-  const data = await response.json();
+  const data = localStorage.getItem('rt-config');
   if (data) {
-    appState.config = { ...appState.config, ...data };
+    try {
+      const parsed = JSON.parse(data);
+      appState.config = { ...appState.config, ...parsed };
+    } catch (e) {
+      console.error('Failed to parse config from local storage');
+    }
   }
 }
 
@@ -305,11 +309,7 @@ async function saveConfig() {
   appState.config.modelName = inputAiModel.value;
   appState.config.enableThinking = inputAiThinking.checked;
   // Glossary is saved independently or together
-  await fetch('/api/config', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(appState.config)
-  });
+  localStorage.setItem('rt-config', JSON.stringify(appState.config));
   settingsModal.classList.remove('show');
 }
 
@@ -346,22 +346,14 @@ async function addGlossaryWord() {
     inputGlossaryTerm.value = '';
     inputGlossaryTranslation.value = '';
     renderGlossary();
-    await fetch('/api/config', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(appState.config)
-    });
+    localStorage.setItem('rt-config', JSON.stringify(appState.config));
   }
 }
 
 async function removeGlossaryWord(index) {
   appState.config.glossary.splice(index, 1);
   renderGlossary();
-  await fetch('/api/config', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(appState.config)
-  });
+  localStorage.setItem('rt-config', JSON.stringify(appState.config));
 }
 
 async function refreshLanguages() {

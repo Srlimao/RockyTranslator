@@ -22,3 +22,1215 @@
 [2026-05-12T17:34:19.621Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_2 
 [2026-05-12T17:34:19.623Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_3 
 [2026-05-12T17:35:00.425Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_4 
+[2026-05-12T18:52:00.219Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T18:53:34.441Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_3 
+[2026-05-12T18:53:34.442Z] [ptBR] Will: LOCKED | Key: achievements.monster_required 
+[2026-05-12T18:53:43.146Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: achievements.monster_required -> "Monstro Exigido"
+[2026-05-12T18:53:43.150Z] [ptBR] Will: UNLOCKED | Key: achievements.monster_required 
+[2026-05-12T18:53:43.150Z] [ptBR] Will: LOCKED | Key: achievements.process_required 
+[2026-05-12T18:53:47.249Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: achievements.process_required -> "Processo Exigido"
+[2026-05-12T18:53:47.253Z] [ptBR] Will: UNLOCKED | Key: achievements.process_required 
+[2026-05-12T18:53:47.253Z] [ptBR] Will: LOCKED | Key: achievements.level_required 
+[2026-05-12T18:53:48.533Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: achievements.level_required -> "Nível Exigido"
+[2026-05-12T18:53:48.535Z] [ptBR] Will: UNLOCKED | Key: achievements.level_required 
+[2026-05-12T18:53:48.536Z] [ptBR] Will: LOCKED | Key: achievements.quest_required 
+[2026-05-12T18:53:51.696Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: achievements.quest_required -> "Missão Exigida"
+[2026-05-12T18:53:51.698Z] [ptBR] Will: UNLOCKED | Key: achievements.quest_required 
+[2026-05-12T18:53:51.699Z] [ptBR] Will: LOCKED | Key: achievements.show_completed 
+[2026-05-12T18:53:53.834Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: achievements.show_completed -> "Mostrar conquistas concluídas"
+[2026-05-12T18:53:53.836Z] [ptBR] Will: UNLOCKED | Key: achievements.show_completed 
+[2026-05-12T18:53:53.837Z] [ptBR] Will: LOCKED | Key: items.page_title 
+[2026-05-12T18:53:54.658Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.page_title -> "Itens"
+[2026-05-12T18:53:54.660Z] [ptBR] Will: UNLOCKED | Key: items.page_title 
+[2026-05-12T18:53:54.660Z] [ptBR] Will: LOCKED | Key: items.antique_lamp_name 
+[2026-05-12T18:53:57.200Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.antique_lamp_name -> "Lâmpada antiga({{xp}}xp)({{min..."
+[2026-05-12T18:53:57.202Z] [ptBR] Will: UNLOCKED | Key: items.antique_lamp_name 
+[2026-05-12T18:53:57.202Z] [ptBR] Will: LOCKED | Key: items.GEODES 
+[2026-05-12T18:54:01.224Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.GEODES -> "Geodos"
+[2026-05-12T18:54:01.226Z] [ptBR] Will: UNLOCKED | Key: items.GEODES 
+[2026-05-12T18:54:01.227Z] [ptBR] Will: LOCKED | Key: items.BIRDS_NEST 
+[2026-05-12T18:54:02.566Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.BIRDS_NEST -> "Ninho de pássaro"
+[2026-05-12T18:54:02.569Z] [ptBR] Will: UNLOCKED | Key: items.BIRDS_NEST 
+[2026-05-12T18:54:02.569Z] [ptBR] Will: LOCKED | Key: items.OYSTER 
+[2026-05-12T18:54:03.598Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.OYSTER -> "Ostra"
+[2026-05-12T18:54:03.600Z] [ptBR] Will: UNLOCKED | Key: items.OYSTER 
+[2026-05-12T18:54:03.601Z] [ptBR] Will: LOCKED | Key: items.BONE_GRAVE 
+[2026-05-12T18:54:06.842Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.BONE_GRAVE -> "Tumba de ossos"
+[2026-05-12T18:54:06.844Z] [ptBR] Will: UNLOCKED | Key: items.BONE_GRAVE 
+[2026-05-12T18:54:06.846Z] [ptBR] Will: LOCKED | Key: items.CONTRACTS_CASE 
+[2026-05-12T18:54:07.824Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.CONTRACTS_CASE -> "Maleta de contratos"
+[2026-05-12T18:54:07.826Z] [ptBR] Will: UNLOCKED | Key: items.CONTRACTS_CASE 
+[2026-05-12T18:54:07.827Z] [ptBR] Will: LOCKED | Key: items.CROP_BASKET 
+[2026-05-12T18:54:17.854Z] [ptBR] Will: UNLOCKED | Key: items.CROP_BASKET 
+[2026-05-12T18:54:17.854Z] [ptBR] Will: LOCKED | Key: slayer.category.UNDEAD 
+[2026-05-12T18:54:19.454Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.UNDEAD -> "Mortos-vivos"
+[2026-05-12T18:54:19.457Z] [ptBR] Will: UNLOCKED | Key: slayer.category.UNDEAD 
+[2026-05-12T18:54:19.459Z] [ptBR] Will: LOCKED | Key: slayer.category.MINIONS 
+[2026-05-12T18:58:52.192Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.MINIONS -> "Lacaios"
+[2026-05-12T18:58:52.195Z] [ptBR] Will: UNLOCKED | Key: slayer.category.MINIONS 
+[2026-05-12T18:58:52.197Z] [ptBR] Will: LOCKED | Key: slayer.category.GIANTS 
+[2026-05-12T18:58:53.222Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.GIANTS -> "Gigantes"
+[2026-05-12T18:58:53.226Z] [ptBR] Will: UNLOCKED | Key: slayer.category.GIANTS 
+[2026-05-12T18:58:53.228Z] [ptBR] Will: LOCKED | Key: slayer.category.BIRDS 
+[2026-05-12T18:58:54.700Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.BIRDS -> "Pássaros"
+[2026-05-12T18:58:54.703Z] [ptBR] Will: UNLOCKED | Key: slayer.category.BIRDS 
+[2026-05-12T18:58:54.705Z] [ptBR] Will: LOCKED | Key: slayer.category.PEST 
+[2026-05-12T18:58:56.421Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.PEST -> "Pragas"
+[2026-05-12T18:58:56.424Z] [ptBR] Will: UNLOCKED | Key: slayer.category.PEST 
+[2026-05-12T18:58:56.425Z] [ptBR] Will: LOCKED | Key: slayer.category.SNAKE 
+[2026-05-12T18:58:57.284Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.SNAKE -> "Cobras"
+[2026-05-12T18:58:57.286Z] [ptBR] Will: UNLOCKED | Key: slayer.category.SNAKE 
+[2026-05-12T18:58:57.288Z] [ptBR] Will: LOCKED | Key: slayer.category.BOSS 
+[2026-05-12T18:58:57.917Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.BOSS -> "Chefes"
+[2026-05-12T18:58:57.920Z] [ptBR] Will: UNLOCKED | Key: slayer.category.BOSS 
+[2026-05-12T18:58:57.922Z] [ptBR] Will: LOCKED | Key: slayer.category.FIELD 
+[2026-05-12T18:58:58.798Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: slayer.category.FIELD -> "Campo"
+[2026-05-12T18:58:58.800Z] [ptBR] Will: UNLOCKED | Key: slayer.category.FIELD 
+[2026-05-12T18:58:58.802Z] [ptBR] Will: LOCKED | Key: shop.sell_all_warning 
+[2026-05-12T18:59:03.005Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.sell_all_warning -> "Isso venderá todos os itens do..."
+[2026-05-12T18:59:03.008Z] [ptBR] Will: UNLOCKED | Key: shop.sell_all_warning 
+[2026-05-12T18:59:03.010Z] [ptBR] Will: LOCKED | Key: shop.sell_all_anyway 
+[2026-05-12T18:59:06.347Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.sell_all_anyway -> "Vender Tudo Mesmo Assim"
+[2026-05-12T18:59:06.349Z] [ptBR] Will: UNLOCKED | Key: shop.sell_all_anyway 
+[2026-05-12T18:59:06.351Z] [ptBR] Will: LOCKED | Key: shop.buy_warning 
+[2026-05-12T18:59:11.432Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.buy_warning -> "Isso fará você comprar por mai..."
+[2026-05-12T18:59:11.435Z] [ptBR] Will: UNLOCKED | Key: shop.buy_warning 
+[2026-05-12T18:59:11.437Z] [ptBR] Will: LOCKED | Key: shop.buy_anyway 
+[2026-05-12T18:59:13.287Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.buy_anyway -> "Comprar Mesmo Assim"
+[2026-05-12T18:59:13.293Z] [ptBR] Will: UNLOCKED | Key: shop.buy_anyway 
+[2026-05-12T18:59:13.294Z] [ptBR] Will: LOCKED | Key: shop.buy_non_sellable_warning 
+[2026-05-12T18:59:20.137Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.buy_non_sellable_warning -> "O ITEM NÃO PODE SER VENDIDO, t..."
+[2026-05-12T18:59:20.140Z] [ptBR] Will: UNLOCKED | Key: shop.buy_non_sellable_warning 
+[2026-05-12T18:59:20.142Z] [ptBR] Will: LOCKED | Key: shop.choose_custom_buy 
+[2026-05-12T18:59:22.565Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.choose_custom_buy -> "Escolha uma quantidade persona..."
+[2026-05-12T18:59:22.569Z] [ptBR] Will: UNLOCKED | Key: shop.choose_custom_buy 
+[2026-05-12T18:59:22.571Z] [ptBR] Will: LOCKED | Key: shop.buy 
+[2026-05-12T18:59:23.363Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.buy -> "Comprar"
+[2026-05-12T18:59:23.365Z] [ptBR] Will: UNLOCKED | Key: shop.buy 
+[2026-05-12T18:59:23.367Z] [ptBR] Will: LOCKED | Key: shop.sell 
+[2026-05-12T18:59:23.883Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.sell -> "Vender"
+[2026-05-12T18:59:23.885Z] [ptBR] Will: UNLOCKED | Key: shop.sell 
+[2026-05-12T18:59:23.887Z] [ptBR] Will: LOCKED | Key: shop.all_shops 
+[2026-05-12T18:59:24.733Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.all_shops -> "Todas as Lojas"
+[2026-05-12T18:59:24.736Z] [ptBR] Will: UNLOCKED | Key: shop.all_shops 
+[2026-05-12T18:59:24.737Z] [ptBR] Will: LOCKED | Key: shop.only_for 
+[2026-05-12T18:59:25.825Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.only_for -> "Apenas por"
+[2026-05-12T18:59:25.827Z] [ptBR] Will: UNLOCKED | Key: shop.only_for 
+[2026-05-12T18:59:25.829Z] [ptBR] Will: LOCKED | Key: shop.sell_all 
+[2026-05-12T18:59:26.754Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.sell_all -> "Vender tudo"
+[2026-05-12T18:59:26.760Z] [ptBR] Will: UNLOCKED | Key: shop.sell_all 
+[2026-05-12T18:59:26.762Z] [ptBR] Will: LOCKED | Key: shop.no_sellable_items 
+[2026-05-12T18:59:27.588Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shop.no_sellable_items -> "Sem itens vendíveis"
+[2026-05-12T18:59:27.590Z] [ptBR] Will: UNLOCKED | Key: shop.no_sellable_items 
+[2026-05-12T18:59:27.592Z] [ptBR] Will: LOCKED | Key: shop.quantity 
+[2026-05-12T19:05:36.514Z] [ptBR] Kikah: LOCKED | Key: steam_page.short_description 
+[2026-05-12T19:05:50.769Z] [ptBR] Will: UNLOCKED | Key: shop.quantity 
+[2026-05-12T19:05:50.770Z] [ptBR] Will: LOCKED | Key: ground_items.auto_loot 
+[2026-05-12T19:06:06.626Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: ground_items.auto_loot -> "Coloca drops diretamente no in..."
+[2026-05-12T19:06:06.629Z] [ptBR] Will: UNLOCKED | Key: ground_items.auto_loot 
+[2026-05-12T19:06:06.629Z] [ptBR] Will: LOCKED | Key: ground_items.hybrid_loot 
+[2026-05-12T19:06:11.515Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: ground_items.hybrid_loot -> "Coloca drops no chão se não es..."
+[2026-05-12T19:06:11.518Z] [ptBR] Will: UNLOCKED | Key: ground_items.hybrid_loot 
+[2026-05-12T19:06:11.518Z] [ptBR] Will: LOCKED | Key: ground_items.deposit_to_bank 
+[2026-05-12T19:06:12.908Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: ground_items.deposit_to_bank -> "Depositar no banco"
+[2026-05-12T19:06:12.910Z] [ptBR] Will: UNLOCKED | Key: ground_items.deposit_to_bank 
+[2026-05-12T19:06:12.911Z] [ptBR] Will: LOCKED | Key: ground_items.deposit_to_inventory 
+[2026-05-12T19:06:13.816Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: ground_items.deposit_to_inventory -> "Depositar no inventário"
+[2026-05-12T19:06:13.819Z] [ptBR] Will: UNLOCKED | Key: ground_items.deposit_to_inventory 
+[2026-05-12T19:06:13.819Z] [ptBR] Will: LOCKED | Key: ground_items.monster_drops_title 
+[2026-05-12T19:06:16.911Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.short_description 
+[2026-05-12T19:06:16.911Z] [ptBR] Kikah: LOCKED | Key: _context_NOT_TO_BE_TRANSLATED._about 
+[2026-05-12T19:06:19.989Z] [ptBR] Kikah: UNLOCKED | Key: _context_NOT_TO_BE_TRANSLATED._about 
+[2026-05-12T19:06:19.989Z] [ptBR] Kikah: LOCKED | Key: steam_page.short_description 
+[2026-05-12T19:06:42.562Z] [ptBR] Will: UNLOCKED | Key: ground_items.monster_drops_title 
+[2026-05-12T19:07:38.184Z] [ptBR] Will: LOCKED | Key: inventory.action.wield 
+[2026-05-12T19:07:39.960Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.wield -> "Equipar"
+[2026-05-12T19:07:39.964Z] [ptBR] Will: UNLOCKED | Key: inventory.action.wield 
+[2026-05-12T19:07:39.967Z] [ptBR] Will: LOCKED | Key: inventory.action.eat 
+[2026-05-12T19:07:42.134Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.eat -> "Comer"
+[2026-05-12T19:07:42.141Z] [ptBR] Will: UNLOCKED | Key: inventory.action.eat 
+[2026-05-12T19:07:42.142Z] [ptBR] Will: LOCKED | Key: inventory.action.drink 
+[2026-05-12T19:07:42.890Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.drink -> "Beber"
+[2026-05-12T19:07:42.893Z] [ptBR] Will: UNLOCKED | Key: inventory.action.drink 
+[2026-05-12T19:07:42.895Z] [ptBR] Will: LOCKED | Key: inventory.action.use 
+[2026-05-12T19:07:43.462Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.use -> "Usar"
+[2026-05-12T19:07:43.469Z] [ptBR] Will: UNLOCKED | Key: inventory.action.use 
+[2026-05-12T19:07:43.472Z] [ptBR] Will: LOCKED | Key: inventory.action.read 
+[2026-05-12T19:07:44.130Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.read -> "Ler"
+[2026-05-12T19:07:44.136Z] [ptBR] Will: UNLOCKED | Key: inventory.action.read 
+[2026-05-12T19:07:44.138Z] [ptBR] Will: LOCKED | Key: inventory.action.open_all 
+[2026-05-12T19:07:44.881Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.open_all -> "Abrir Tudo"
+[2026-05-12T19:07:44.885Z] [ptBR] Will: UNLOCKED | Key: inventory.action.open_all 
+[2026-05-12T19:07:44.887Z] [ptBR] Will: LOCKED | Key: inventory.action.open_ten 
+[2026-05-12T19:07:45.410Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.open_ten -> "Abrir 10"
+[2026-05-12T19:07:45.413Z] [ptBR] Will: UNLOCKED | Key: inventory.action.open_ten 
+[2026-05-12T19:07:45.415Z] [ptBR] Will: LOCKED | Key: inventory.action.open_one 
+[2026-05-12T19:07:45.958Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.open_one -> "Abrir 1"
+[2026-05-12T19:07:45.965Z] [ptBR] Will: UNLOCKED | Key: inventory.action.open_one 
+[2026-05-12T19:07:45.968Z] [ptBR] Will: LOCKED | Key: inventory.action.cancel_current 
+[2026-05-12T19:07:48.298Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.cancel_current -> "Cancelar atual({{multiplier}})"
+[2026-05-12T19:07:48.304Z] [ptBR] Will: UNLOCKED | Key: inventory.action.cancel_current 
+[2026-05-12T19:07:48.307Z] [ptBR] Will: LOCKED | Key: inventory.action.move_to_inventory 
+[2026-05-12T19:07:50.811Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.move_to_inventory -> "Mover para o Inventário"
+[2026-05-12T19:07:50.814Z] [ptBR] Will: UNLOCKED | Key: inventory.action.move_to_inventory 
+[2026-05-12T19:07:50.815Z] [ptBR] Will: LOCKED | Key: inventory.action.destroy 
+[2026-05-12T19:07:51.669Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.destroy -> "Destruir"
+[2026-05-12T19:07:51.689Z] [ptBR] Will: UNLOCKED | Key: inventory.action.destroy 
+[2026-05-12T19:07:51.691Z] [ptBR] Will: LOCKED | Key: inventory.action.lock 
+[2026-05-12T19:07:52.512Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.lock -> "Bloquear"
+[2026-05-12T19:07:52.514Z] [ptBR] Will: UNLOCKED | Key: inventory.action.lock 
+[2026-05-12T19:07:52.516Z] [ptBR] Will: LOCKED | Key: inventory.action.deposit 
+[2026-05-12T19:07:52.552Z] [ptBR] Kikah: SAVED TRANSLATION & VALIDATED | Key: steam_page.short_description -> "Rocky Idle é um jogo idle/incr..."
+[2026-05-12T19:07:52.822Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.short_description 
+[2026-05-12T19:07:52.823Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:07:53.525Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: inventory.action.deposit -> "Depositar-{{amount}}"
+[2026-05-12T19:07:53.528Z] [ptBR] Will: UNLOCKED | Key: inventory.action.deposit 
+[2026-05-12T19:07:53.531Z] [ptBR] Will: LOCKED | Key: shortcuts.header 
+[2026-05-12T19:07:54.237Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.header -> "Atalhos"
+[2026-05-12T19:07:54.239Z] [ptBR] Will: UNLOCKED | Key: shortcuts.header 
+[2026-05-12T19:07:54.241Z] [ptBR] Will: LOCKED | Key: shortcuts.clear_all_warning 
+[2026-05-12T19:07:55.572Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.clear_all_warning -> "Isso removerá todos os atalhos..."
+[2026-05-12T19:07:55.574Z] [ptBR] Will: UNLOCKED | Key: shortcuts.clear_all_warning 
+[2026-05-12T19:07:55.576Z] [ptBR] Will: LOCKED | Key: shortcuts.clear_all 
+[2026-05-12T19:07:56.328Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.clear_all -> "Limpar Tudo"
+[2026-05-12T19:07:56.333Z] [ptBR] Will: UNLOCKED | Key: shortcuts.clear_all 
+[2026-05-12T19:07:56.335Z] [ptBR] Will: LOCKED | Key: shortcuts.clear_all_tooltip 
+[2026-05-12T19:07:58.308Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:07:58.309Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_1 
+[2026-05-12T19:07:58.455Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.clear_all_tooltip -> "Limpar Todos os Atalhos"
+[2026-05-12T19:07:58.458Z] [ptBR] Will: UNLOCKED | Key: shortcuts.clear_all_tooltip 
+[2026-05-12T19:07:58.459Z] [ptBR] Will: LOCKED | Key: shortcuts.added 
+[2026-05-12T19:07:59.068Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.added -> "Atalho Adicionado"
+[2026-05-12T19:07:59.070Z] [ptBR] Will: UNLOCKED | Key: shortcuts.added 
+[2026-05-12T19:07:59.072Z] [ptBR] Will: LOCKED | Key: shortcuts.removed 
+[2026-05-12T19:07:59.935Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.removed -> "Atalho Removido"
+[2026-05-12T19:07:59.938Z] [ptBR] Will: UNLOCKED | Key: shortcuts.removed 
+[2026-05-12T19:07:59.940Z] [ptBR] Will: LOCKED | Key: shortcuts.max_reached 
+[2026-05-12T19:08:00.596Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.max_reached -> "Máximo de {{max}} atalhos perm..."
+[2026-05-12T19:08:00.599Z] [ptBR] Will: UNLOCKED | Key: shortcuts.max_reached 
+[2026-05-12T19:08:00.601Z] [ptBR] Will: LOCKED | Key: shortcuts.add_tooltip 
+[2026-05-12T19:08:01.195Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.add_tooltip -> "Adicionar aos Atalhos"
+[2026-05-12T19:08:01.198Z] [ptBR] Will: UNLOCKED | Key: shortcuts.add_tooltip 
+[2026-05-12T19:08:01.200Z] [ptBR] Will: LOCKED | Key: shortcuts.remove_tooltip 
+[2026-05-12T19:08:03.113Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.remove_tooltip -> "Remover Atalho"
+[2026-05-12T19:08:03.115Z] [ptBR] Will: UNLOCKED | Key: shortcuts.remove_tooltip 
+[2026-05-12T19:08:03.117Z] [ptBR] Will: LOCKED | Key: shortcuts.aria_label 
+[2026-05-12T19:08:10.329Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: shortcuts.aria_label -> "Adicionar aos atalhos"
+[2026-05-12T19:08:10.332Z] [ptBR] Will: UNLOCKED | Key: shortcuts.aria_label 
+[2026-05-12T19:08:10.334Z] [ptBR] Will: LOCKED | Key: containers.CROP_BAG 
+[2026-05-12T19:08:11.475Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.CROP_BAG -> "Bolsa de Colheita"
+[2026-05-12T19:08:11.480Z] [ptBR] Will: UNLOCKED | Key: containers.CROP_BAG 
+[2026-05-12T19:08:11.484Z] [ptBR] Will: LOCKED | Key: containers.WOOD_SACK 
+[2026-05-12T19:08:12.952Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.WOOD_SACK -> "Saco de Madeira"
+[2026-05-12T19:08:12.959Z] [ptBR] Will: UNLOCKED | Key: containers.WOOD_SACK 
+[2026-05-12T19:08:12.962Z] [ptBR] Will: LOCKED | Key: containers.ORE_SACK 
+[2026-05-12T19:08:13.811Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.ORE_SACK -> "Saco de Minério"
+[2026-05-12T19:08:13.814Z] [ptBR] Will: UNLOCKED | Key: containers.ORE_SACK 
+[2026-05-12T19:08:13.816Z] [ptBR] Will: LOCKED | Key: containers.SIGIL_SACK 
+[2026-05-12T19:08:17.057Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.SIGIL_SACK -> "Saco de Sigilos"
+[2026-05-12T19:08:17.061Z] [ptBR] Will: UNLOCKED | Key: containers.SIGIL_SACK 
+[2026-05-12T19:08:17.062Z] [ptBR] Will: LOCKED | Key: containers.SEED_SACK 
+[2026-05-12T19:08:17.744Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.SEED_SACK -> "Saco de Sementes"
+[2026-05-12T19:08:17.747Z] [ptBR] Will: UNLOCKED | Key: containers.SEED_SACK 
+[2026-05-12T19:08:17.751Z] [ptBR] Will: LOCKED | Key: containers.KEY_RING 
+[2026-05-12T19:08:18.756Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.KEY_RING -> "Chaveiro"
+[2026-05-12T19:08:18.759Z] [ptBR] Will: UNLOCKED | Key: containers.KEY_RING 
+[2026-05-12T19:08:18.762Z] [ptBR] Will: LOCKED | Key: containers.FISH_SACK 
+[2026-05-12T19:08:19.381Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.FISH_SACK -> "Saco de Alimentos"
+[2026-05-12T19:08:19.384Z] [ptBR] Will: UNLOCKED | Key: containers.FISH_SACK 
+[2026-05-12T19:08:19.385Z] [ptBR] Will: LOCKED | Key: containers.SCROLL_BOTTLE 
+[2026-05-12T19:08:20.016Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.SCROLL_BOTTLE -> "Garrafa de Pergaminhos"
+[2026-05-12T19:08:20.018Z] [ptBR] Will: UNLOCKED | Key: containers.SCROLL_BOTTLE 
+[2026-05-12T19:08:20.021Z] [ptBR] Will: LOCKED | Key: containers.PET_BAG 
+[2026-05-12T19:08:20.756Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.PET_BAG -> "Bolsa de Mascotes"
+[2026-05-12T19:08:20.760Z] [ptBR] Will: UNLOCKED | Key: containers.PET_BAG 
+[2026-05-12T19:08:20.761Z] [ptBR] Will: LOCKED | Key: containers.RAW_FOOD_SACK 
+[2026-05-12T19:08:21.496Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.RAW_FOOD_SACK -> "Saco de Alimentos Crus"
+[2026-05-12T19:08:21.499Z] [ptBR] Will: UNLOCKED | Key: containers.RAW_FOOD_SACK 
+[2026-05-12T19:08:21.501Z] [ptBR] Will: LOCKED | Key: containers.TOKEN_VAULT 
+[2026-05-12T19:08:22.311Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.TOKEN_VAULT -> "Cofre de Tokens"
+[2026-05-12T19:08:22.314Z] [ptBR] Will: UNLOCKED | Key: containers.TOKEN_VAULT 
+[2026-05-12T19:08:22.316Z] [ptBR] Will: LOCKED | Key: containers.INVENTORY 
+[2026-05-12T19:08:22.952Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: containers.INVENTORY -> "Inventário"
+[2026-05-12T19:08:22.955Z] [ptBR] Will: UNLOCKED | Key: containers.INVENTORY 
+[2026-05-12T19:08:22.957Z] [ptBR] Will: LOCKED | Key: chests.page_title 
+[2026-05-12T19:08:23.593Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.page_title -> "Baús"
+[2026-05-12T19:08:23.595Z] [ptBR] Will: UNLOCKED | Key: chests.page_title 
+[2026-05-12T19:08:23.597Z] [ptBR] Will: LOCKED | Key: chests.chest_count 
+[2026-05-12T19:08:33.529Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.chest_count -> "Contagem de baús: {{count}}"
+[2026-05-12T19:08:33.534Z] [ptBR] Will: UNLOCKED | Key: chests.chest_count 
+[2026-05-12T19:08:33.537Z] [ptBR] Will: LOCKED | Key: chests.open 
+[2026-05-12T19:08:34.085Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.open -> "Abrir"
+[2026-05-12T19:08:34.092Z] [ptBR] Will: UNLOCKED | Key: chests.open 
+[2026-05-12T19:08:34.094Z] [ptBR] Will: LOCKED | Key: chests.used_on_label 
+[2026-05-12T19:08:36.457Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.used_on_label -> "Usado em:"
+[2026-05-12T19:08:36.461Z] [ptBR] Will: UNLOCKED | Key: chests.used_on_label 
+[2026-05-12T19:08:36.463Z] [ptBR] Will: LOCKED | Key: chests.average_value_label 
+[2026-05-12T19:08:37.510Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.average_value_label -> "Valor médio do baú:"
+[2026-05-12T19:08:37.515Z] [ptBR] Will: UNLOCKED | Key: chests.average_value_label 
+[2026-05-12T19:08:37.519Z] [ptBR] Will: LOCKED | Key: chests.reward_info_title 
+[2026-05-12T19:08:39.323Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.reward_info_title -> "Informações de Recompensa de C..."
+[2026-05-12T19:08:39.327Z] [ptBR] Will: UNLOCKED | Key: chests.reward_info_title 
+[2026-05-12T19:08:39.331Z] [ptBR] Will: LOCKED | Key: chests.possible_rewards_title 
+[2026-05-12T19:08:40.344Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.possible_rewards_title -> "Recompensas Possíveis"
+[2026-05-12T19:08:40.348Z] [ptBR] Will: UNLOCKED | Key: chests.possible_rewards_title 
+[2026-05-12T19:08:40.352Z] [ptBR] Will: LOCKED | Key: chests.EASY_CHEST 
+[2026-05-12T19:08:41.566Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.EASY_CHEST -> "Baú de contrato fácil"
+[2026-05-12T19:08:41.569Z] [ptBR] Will: UNLOCKED | Key: chests.EASY_CHEST 
+[2026-05-12T19:08:41.572Z] [ptBR] Will: LOCKED | Key: chests.MEDIUM_CHEST 
+[2026-05-12T19:10:44.119Z] [ptBR] Felipe: LOCKED | Key: _context_NOT_TO_BE_TRANSLATED._about 
+[2026-05-12T19:11:14.438Z] [ptBR] Kikah: SAVED TRANSLATION & VALIDATED | Key: steam_page.long_description_1 -> "Rocky Idle é o primeiro jogo q..."
+[2026-05-12T19:11:14.737Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_1 
+[2026-05-12T19:11:14.738Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:11:17.104Z] [ptBR] Felipe: UNLOCKED | Key: _context_NOT_TO_BE_TRANSLATED._about 
+[2026-05-12T19:11:20.341Z] [ptBR] Felipe: LOCKED | Key: _context_NOT_TO_BE_TRANSLATED._about 
+[2026-05-12T19:11:20.539Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:11:20.540Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:11:36.272Z] [ptBR] Felipe: UNLOCKED | Key: _context_NOT_TO_BE_TRANSLATED._about 
+[2026-05-12T19:11:36.282Z] [ptBR] Felipe: LOCKED | Key: shop.quantity 
+[2026-05-12T19:11:38.776Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.MEDIUM_CHEST -> "Baú de contrato médio"
+[2026-05-12T19:11:38.779Z] [ptBR] Will: UNLOCKED | Key: chests.MEDIUM_CHEST 
+[2026-05-12T19:11:38.782Z] [ptBR] Will: LOCKED | Key: chests.HARD_CHEST 
+[2026-05-12T19:11:39.366Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.HARD_CHEST -> "Baú de contrato difícil"
+[2026-05-12T19:11:39.369Z] [ptBR] Will: UNLOCKED | Key: chests.HARD_CHEST 
+[2026-05-12T19:11:39.371Z] [ptBR] Will: LOCKED | Key: chests.EXPERT_CHEST 
+[2026-05-12T19:11:39.692Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.quantity -> "Quantidade"
+[2026-05-12T19:11:39.859Z] [ptBR] Felipe: UNLOCKED | Key: shop.quantity 
+[2026-05-12T19:11:39.870Z] [ptBR] Felipe: LOCKED | Key: shop.items_count 
+[2026-05-12T19:11:40.452Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: chests.EXPERT_CHEST -> "Baú de contrato especialista"
+[2026-05-12T19:11:40.456Z] [ptBR] Will: UNLOCKED | Key: chests.EXPERT_CHEST 
+[2026-05-12T19:11:40.458Z] [ptBR] Will: LOCKED | Key: toast.bought 
+[2026-05-12T19:11:42.239Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.bought -> "{{name}} comprado"
+[2026-05-12T19:11:42.242Z] [ptBR] Will: UNLOCKED | Key: toast.bought 
+[2026-05-12T19:11:42.244Z] [ptBR] Will: LOCKED | Key: toast.combat_level_up 
+[2026-05-12T19:11:43.390Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.items_count -> "{{count}} Itens"
+[2026-05-12T19:11:43.558Z] [ptBR] Felipe: UNLOCKED | Key: shop.items_count 
+[2026-05-12T19:11:43.559Z] [ptBR] Felipe: LOCKED | Key: shop.no_items_found 
+[2026-05-12T19:11:46.598Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.no_items_found -> "Nenhum item encontrado com o n..."
+[2026-05-12T19:11:46.764Z] [ptBR] Felipe: UNLOCKED | Key: shop.no_items_found 
+[2026-05-12T19:11:46.769Z] [ptBR] Felipe: LOCKED | Key: shop.in_shop 
+[2026-05-12T19:11:47.462Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.combat_level_up -> "Nível de combate subiu"
+[2026-05-12T19:11:47.465Z] [ptBR] Will: UNLOCKED | Key: toast.combat_level_up 
+[2026-05-12T19:11:47.467Z] [ptBR] Will: LOCKED | Key: toast.skilling_level_up 
+[2026-05-12T19:11:48.191Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.skilling_level_up -> "Nível de habilidade subiu"
+[2026-05-12T19:11:48.199Z] [ptBR] Will: UNLOCKED | Key: toast.skilling_level_up 
+[2026-05-12T19:11:48.201Z] [ptBR] Will: LOCKED | Key: toast.total_label 
+[2026-05-12T19:11:48.727Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.in_shop -> "na loja: {{shop}}"
+[2026-05-12T19:11:48.892Z] [ptBR] Felipe: UNLOCKED | Key: shop.in_shop 
+[2026-05-12T19:11:48.899Z] [ptBR] Felipe: LOCKED | Key: shop.sell_percentage_title 
+[2026-05-12T19:11:49.162Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.total_label -> "Total:"
+[2026-05-12T19:11:49.165Z] [ptBR] Will: UNLOCKED | Key: toast.total_label 
+[2026-05-12T19:11:49.167Z] [ptBR] Will: LOCKED | Key: toast.skill_level_up 
+[2026-05-12T19:11:50.254Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.skill_level_up -> "Nível de {{skill}} subiu,"
+[2026-05-12T19:11:50.258Z] [ptBR] Will: UNLOCKED | Key: toast.skill_level_up 
+[2026-05-12T19:11:50.259Z] [ptBR] Will: LOCKED | Key: toast.you_are_now_level 
+[2026-05-12T19:11:51.503Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.you_are_now_level -> "você agora é nível {{level}}"
+[2026-05-12T19:11:51.506Z] [ptBR] Will: UNLOCKED | Key: toast.you_are_now_level 
+[2026-05-12T19:11:51.508Z] [ptBR] Will: LOCKED | Key: toast.pet_congrats 
+[2026-05-12T19:11:52.347Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.pet_congrats -> "Parabéns, você conseguiu um ma..."
+[2026-05-12T19:11:52.350Z] [ptBR] Will: UNLOCKED | Key: toast.pet_congrats 
+[2026-05-12T19:11:52.353Z] [ptBR] Will: LOCKED | Key: toast.pet_name 
+[2026-05-12T19:11:52.396Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.sell_percentage_title -> "Vender ({{percentage}}% do Pre..."
+[2026-05-12T19:11:52.559Z] [ptBR] Felipe: UNLOCKED | Key: shop.sell_percentage_title 
+[2026-05-12T19:11:52.571Z] [ptBR] Felipe: LOCKED | Key: shop.custom_amount_label 
+[2026-05-12T19:11:53.280Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.pet_name -> "Nome do mascote:"
+[2026-05-12T19:11:53.289Z] [ptBR] Will: UNLOCKED | Key: toast.pet_name 
+[2026-05-12T19:11:53.292Z] [ptBR] Will: LOCKED | Key: toast.process_level_up 
+[2026-05-12T19:11:53.988Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.process_level_up -> "Nível de Processo Subiu!"
+[2026-05-12T19:11:53.991Z] [ptBR] Will: UNLOCKED | Key: toast.process_level_up 
+[2026-05-12T19:11:53.995Z] [ptBR] Will: LOCKED | Key: toast.error_occurred 
+[2026-05-12T19:11:54.672Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.custom_amount_label -> "X"
+[2026-05-12T19:11:54.838Z] [ptBR] Felipe: UNLOCKED | Key: shop.custom_amount_label 
+[2026-05-12T19:11:54.844Z] [ptBR] Felipe: LOCKED | Key: shop.cant_sell 
+[2026-05-12T19:11:55.380Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.error_occurred -> "Ocorreu um erro. Tente novamen..."
+[2026-05-12T19:11:55.384Z] [ptBR] Will: UNLOCKED | Key: toast.error_occurred 
+[2026-05-12T19:11:55.388Z] [ptBR] Will: LOCKED | Key: toast.claim_reward 
+[2026-05-12T19:11:56.724Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.claim_reward -> "Resgatar Recompensa:"
+[2026-05-12T19:11:56.732Z] [ptBR] Will: UNLOCKED | Key: toast.claim_reward 
+[2026-05-12T19:11:56.735Z] [ptBR] Will: LOCKED | Key: toast.new_item 
+[2026-05-12T19:11:57.644Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.new_item -> "Novo Item:"
+[2026-05-12T19:11:57.647Z] [ptBR] Will: UNLOCKED | Key: toast.new_item 
+[2026-05-12T19:11:57.650Z] [ptBR] Will: LOCKED | Key: toast.slayer_streak 
+[2026-05-12T19:11:58.202Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.slayer_streak -> "Sequência: {{count}}"
+[2026-05-12T19:11:58.209Z] [ptBR] Will: UNLOCKED | Key: toast.slayer_streak 
+[2026-05-12T19:11:58.213Z] [ptBR] Will: LOCKED | Key: toast.slayer_points 
+[2026-05-12T19:12:00.555Z] [ptBR] Kikah: SAVED TRANSLATION & VALIDATED | Key: steam_page.long_description_2 -> "É um jogo incremental/idle par..."
+[2026-05-12T19:12:00.837Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:12:00.845Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:12:03.990Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.cant_sell -> "Não é possível vender"
+[2026-05-12T19:12:04.157Z] [ptBR] Felipe: UNLOCKED | Key: shop.cant_sell 
+[2026-05-12T19:12:04.165Z] [ptBR] Felipe: LOCKED | Key: shop.empty 
+[2026-05-12T19:12:06.557Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.empty -> "Vazio"
+[2026-05-12T19:12:06.723Z] [ptBR] Felipe: UNLOCKED | Key: shop.empty 
+[2026-05-12T19:12:06.731Z] [ptBR] Felipe: LOCKED | Key: shop.slayer_req_unlocked 
+[2026-05-12T19:12:08.417Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.slayer_points -> "+{{count}} Pontos de Extermíni..."
+[2026-05-12T19:12:08.421Z] [ptBR] Will: UNLOCKED | Key: toast.slayer_points 
+[2026-05-12T19:12:08.425Z] [ptBR] Will: LOCKED | Key: toast.total_quest_points 
+[2026-05-12T19:12:09.482Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.slayer_req_unlocked -> "{{name}} (Desbloqueado)"
+[2026-05-12T19:12:09.648Z] [ptBR] Felipe: UNLOCKED | Key: shop.slayer_req_unlocked 
+[2026-05-12T19:12:09.654Z] [ptBR] Felipe: LOCKED | Key: shop.slayer_req_locked 
+[2026-05-12T19:12:09.719Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.total_quest_points -> "Total de Pontos de Missão: {{c..."
+[2026-05-12T19:12:09.725Z] [ptBR] Will: UNLOCKED | Key: toast.total_quest_points 
+[2026-05-12T19:12:09.728Z] [ptBR] Will: LOCKED | Key: toast.claim_reward_quests_hint 
+[2026-05-12T19:12:10.578Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.slayer_req_locked -> "{{name}} (Bloqueado)"
+[2026-05-12T19:12:10.755Z] [ptBR] Felipe: UNLOCKED | Key: shop.slayer_req_locked 
+[2026-05-12T19:12:10.756Z] [ptBR] Felipe: LOCKED | Key: shop.upgrades_title 
+[2026-05-12T19:12:11.151Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.claim_reward_quests_hint -> "Resgate a recompensa na página..."
+[2026-05-12T19:12:11.156Z] [ptBR] Will: UNLOCKED | Key: toast.claim_reward_quests_hint 
+[2026-05-12T19:12:11.159Z] [ptBR] Will: LOCKED | Key: toast.contract_completed 
+[2026-05-12T19:12:11.809Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.contract_completed -> "Contrato Concluído!"
+[2026-05-12T19:12:11.817Z] [ptBR] Will: UNLOCKED | Key: toast.contract_completed 
+[2026-05-12T19:12:11.821Z] [ptBR] Will: LOCKED | Key: toast.clue_suffix 
+[2026-05-12T19:12:12.488Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.clue_suffix -> "Dica"
+[2026-05-12T19:12:12.496Z] [ptBR] Will: UNLOCKED | Key: toast.clue_suffix 
+[2026-05-12T19:12:12.500Z] [ptBR] Will: LOCKED | Key: toast.total_completed 
+[2026-05-12T19:12:13.232Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.upgrades_title -> "Melhorias"
+[2026-05-12T19:12:13.398Z] [ptBR] Felipe: UNLOCKED | Key: shop.upgrades_title 
+[2026-05-12T19:12:13.405Z] [ptBR] Felipe: LOCKED | Key: shop.no_more_upgrades 
+[2026-05-12T19:12:17.089Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.no_more_upgrades -> "Não há mais melhorias disponív..."
+[2026-05-12T19:12:17.255Z] [ptBR] Felipe: UNLOCKED | Key: shop.no_more_upgrades 
+[2026-05-12T19:12:17.260Z] [ptBR] Felipe: LOCKED | Key: shop.current_upgrade 
+[2026-05-12T19:12:18.573Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: shop.current_upgrade -> "Melhoria Atual"
+[2026-05-12T19:12:18.737Z] [ptBR] Felipe: UNLOCKED | Key: shop.current_upgrade 
+[2026-05-12T19:12:18.745Z] [ptBR] Felipe: LOCKED | Key: contracts.cancel_warning 
+[2026-05-12T19:12:24.924Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: contracts.cancel_warning -> "Isso removerá as tarefas atuai..."
+[2026-05-12T19:12:25.090Z] [ptBR] Felipe: UNLOCKED | Key: contracts.cancel_warning 
+[2026-05-12T19:12:25.101Z] [ptBR] Felipe: LOCKED | Key: contracts.cancel_contract 
+[2026-05-12T19:12:27.349Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: contracts.cancel_contract -> "Cancelar Contrato"
+[2026-05-12T19:12:27.521Z] [ptBR] Felipe: UNLOCKED | Key: contracts.cancel_contract 
+[2026-05-12T19:12:27.522Z] [ptBR] Felipe: LOCKED | Key: contracts.cancel_all_tooltip 
+[2026-05-12T19:12:29.202Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: contracts.cancel_all_tooltip -> "Cancelar todas as tarefas"
+[2026-05-12T19:12:29.367Z] [ptBR] Felipe: UNLOCKED | Key: contracts.cancel_all_tooltip 
+[2026-05-12T19:12:29.379Z] [ptBR] Felipe: LOCKED | Key: ground_items.destroy_all_warning 
+[2026-05-12T19:12:33.550Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.destroy_all_warning -> "Isso DESTRUIRÁ todos os itens ..."
+[2026-05-12T19:12:33.716Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.destroy_all_warning 
+[2026-05-12T19:12:33.725Z] [ptBR] Felipe: LOCKED | Key: ground_items.destroy_all 
+[2026-05-12T19:12:35.461Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.destroy_all -> "DESTRUIR Tudo"
+[2026-05-12T19:12:35.626Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.destroy_all 
+[2026-05-12T19:12:35.634Z] [ptBR] Felipe: LOCKED | Key: ground_items.destroy_item_warning 
+[2026-05-12T19:12:37.748Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.destroy_item_warning -> "Isso destruirá o item para sem..."
+[2026-05-12T19:12:37.913Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.destroy_item_warning 
+[2026-05-12T19:12:37.918Z] [ptBR] Felipe: LOCKED | Key: ground_items.destroy 
+[2026-05-12T19:12:38.792Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.destroy -> "DESTRUIR"
+[2026-05-12T19:12:38.972Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.destroy 
+[2026-05-12T19:12:38.973Z] [ptBR] Felipe: LOCKED | Key: ground_items.items_on_ground_space 
+[2026-05-12T19:12:40.904Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.items_on_ground_space -> "Itens no chão {{used}} de {{ma..."
+[2026-05-12T19:12:41.068Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.items_on_ground_space 
+[2026-05-12T19:12:41.076Z] [ptBR] Felipe: LOCKED | Key: ground_items.delete_mode 
+[2026-05-12T19:12:44.169Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.delete_mode -> "Modo de exclusão"
+[2026-05-12T19:12:44.336Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.delete_mode 
+[2026-05-12T19:12:44.344Z] [ptBR] Felipe: LOCKED | Key: ground_items.loot_on_ground 
+[2026-05-12T19:12:47.319Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.loot_on_ground -> "Coloca todos os espólios no ch..."
+[2026-05-12T19:12:47.492Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.loot_on_ground 
+[2026-05-12T19:12:47.508Z] [ptBR] Felipe: LOCKED | Key: ground_items.monster_drops_title 
+[2026-05-12T19:12:48.560Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.monster_drops_title -> "Espólios de Monstros"
+[2026-05-12T19:12:48.726Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.monster_drops_title 
+[2026-05-12T19:12:48.731Z] [ptBR] Felipe: LOCKED | Key: ground_items.drop_on_ground 
+[2026-05-12T19:12:50.566Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.drop_on_ground -> "Soltar no Chão"
+[2026-05-12T19:12:50.733Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.drop_on_ground 
+[2026-05-12T19:12:50.738Z] [ptBR] Felipe: LOCKED | Key: ground_items.auto_loot_label 
+[2026-05-12T19:12:51.738Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.auto_loot_label -> "Auto Coleta"
+[2026-05-12T19:12:51.906Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.auto_loot_label 
+[2026-05-12T19:12:51.911Z] [ptBR] Felipe: LOCKED | Key: ground_items.hybrid_label 
+[2026-05-12T19:12:52.665Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: ground_items.hybrid_label -> "Híbrido"
+[2026-05-12T19:12:52.830Z] [ptBR] Felipe: UNLOCKED | Key: ground_items.hybrid_label 
+[2026-05-12T19:12:52.836Z] [ptBR] Felipe: LOCKED | Key: inventory.destroy_item_warning 
+[2026-05-12T19:12:54.898Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.destroy_item_warning -> "Isso destruirá o item para sem..."
+[2026-05-12T19:12:55.065Z] [ptBR] Felipe: UNLOCKED | Key: inventory.destroy_item_warning 
+[2026-05-12T19:12:55.070Z] [ptBR] Felipe: LOCKED | Key: inventory.destroy_anyway 
+[2026-05-12T19:12:56.378Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.destroy_anyway -> "Destruir mesmo assim"
+[2026-05-12T19:12:56.545Z] [ptBR] Felipe: UNLOCKED | Key: inventory.destroy_anyway 
+[2026-05-12T19:12:56.550Z] [ptBR] Felipe: LOCKED | Key: inventory.withdraw_from_bank 
+[2026-05-12T19:12:57.305Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.withdraw_from_bank -> "Retirar itens do banco"
+[2026-05-12T19:12:57.473Z] [ptBR] Felipe: UNLOCKED | Key: inventory.withdraw_from_bank 
+[2026-05-12T19:12:57.479Z] [ptBR] Felipe: LOCKED | Key: inventory.item_fallback_name 
+[2026-05-12T19:12:58.273Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.item_fallback_name -> "Item"
+[2026-05-12T19:12:58.439Z] [ptBR] Felipe: UNLOCKED | Key: inventory.item_fallback_name 
+[2026-05-12T19:12:58.446Z] [ptBR] Felipe: LOCKED | Key: inventory.bank_all_from 
+[2026-05-12T19:13:00.115Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.bank_all_from -> "Guardar todos os itens de {{na..."
+[2026-05-12T19:13:00.281Z] [ptBR] Felipe: UNLOCKED | Key: inventory.bank_all_from 
+[2026-05-12T19:13:00.286Z] [ptBR] Felipe: LOCKED | Key: inventory.get_items_from_bank 
+[2026-05-12T19:13:01.655Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.get_items_from_bank -> "Pegar itens do banco"
+[2026-05-12T19:13:01.823Z] [ptBR] Felipe: UNLOCKED | Key: inventory.get_items_from_bank 
+[2026-05-12T19:13:01.830Z] [ptBR] Felipe: LOCKED | Key: inventory.put_items_into_inventory 
+[2026-05-12T19:13:03.454Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.put_items_into_inventory -> "Colocar itens de {{name}} no i..."
+[2026-05-12T19:13:03.630Z] [ptBR] Felipe: UNLOCKED | Key: inventory.put_items_into_inventory 
+[2026-05-12T19:13:03.630Z] [ptBR] Felipe: LOCKED | Key: inventory.see_allowed_items 
+[2026-05-12T19:13:05.367Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: inventory.see_allowed_items -> "Ver itens permitidos"
+[2026-05-12T19:13:05.539Z] [ptBR] Felipe: UNLOCKED | Key: inventory.see_allowed_items 
+[2026-05-12T19:13:15.139Z] [ptBR] Felipe: LOCKED | Key: items.SLINGSHOT 
+[2026-05-12T19:13:17.001Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SLINGSHOT -> "Estilingue"
+[2026-05-12T19:13:17.189Z] [ptBR] Felipe: UNLOCKED | Key: items.SLINGSHOT 
+[2026-05-12T19:13:17.198Z] [ptBR] Felipe: LOCKED | Key: items.GREEN_SCALE_FEATHER_HAT 
+[2026-05-12T19:13:30.295Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:13:30.295Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_13 
+[2026-05-12T19:13:38.758Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.GREEN_SCALE_FEATHER_HAT -> "Chapéu de pena e escama verde"
+[2026-05-12T19:13:38.928Z] [ptBR] Felipe: UNLOCKED | Key: items.GREEN_SCALE_FEATHER_HAT 
+[2026-05-12T19:13:38.933Z] [ptBR] Felipe: LOCKED | Key: items.GREEN_SCALE_PANTS 
+[2026-05-12T19:13:41.721Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.GREEN_SCALE_PANTS -> "Calças de escama verde"
+[2026-05-12T19:13:41.902Z] [ptBR] Felipe: UNLOCKED | Key: items.GREEN_SCALE_PANTS 
+[2026-05-12T19:13:41.909Z] [ptBR] Felipe: LOCKED | Key: items.GREEN_SCALE_VEST 
+[2026-05-12T19:13:42.835Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.GREEN_SCALE_VEST -> "Colete de escama verde"
+[2026-05-12T19:13:43.000Z] [ptBR] Felipe: UNLOCKED | Key: items.GREEN_SCALE_VEST 
+[2026-05-12T19:13:43.008Z] [ptBR] Felipe: LOCKED | Key: items.BLUE_SCALE_FEATHER_HAT 
+[2026-05-12T19:13:48.669Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BLUE_SCALE_FEATHER_HAT -> "Chapéu de pena e escama azul"
+[2026-05-12T19:13:48.835Z] [ptBR] Felipe: UNLOCKED | Key: items.BLUE_SCALE_FEATHER_HAT 
+[2026-05-12T19:13:48.843Z] [ptBR] Felipe: LOCKED | Key: items.BLUE_SCALE_PANTS 
+[2026-05-12T19:13:50.813Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BLUE_SCALE_PANTS -> "Calças de escama azul"
+[2026-05-12T19:13:50.980Z] [ptBR] Felipe: UNLOCKED | Key: items.BLUE_SCALE_PANTS 
+[2026-05-12T19:13:50.986Z] [ptBR] Felipe: LOCKED | Key: items.BLUE_SCALE_VEST 
+[2026-05-12T19:13:51.518Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BLUE_SCALE_VEST -> "Colete de escama azul"
+[2026-05-12T19:13:51.684Z] [ptBR] Felipe: UNLOCKED | Key: items.BLUE_SCALE_VEST 
+[2026-05-12T19:13:51.691Z] [ptBR] Felipe: LOCKED | Key: items.RED_SCALE_FEATHER_HAT 
+[2026-05-12T19:13:56.635Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.RED_SCALE_FEATHER_HAT -> "Chapéu de pena e escama vermel..."
+[2026-05-12T19:13:56.801Z] [ptBR] Felipe: UNLOCKED | Key: items.RED_SCALE_FEATHER_HAT 
+[2026-05-12T19:13:56.809Z] [ptBR] Felipe: LOCKED | Key: items.RED_SCALE_PANTS 
+[2026-05-12T19:13:59.526Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.RED_SCALE_PANTS -> "Calças de escama vermelha"
+[2026-05-12T19:13:59.691Z] [ptBR] Felipe: UNLOCKED | Key: items.RED_SCALE_PANTS 
+[2026-05-12T19:13:59.699Z] [ptBR] Felipe: LOCKED | Key: items.RED_SCALE_VEST 
+[2026-05-12T19:14:00.134Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.RED_SCALE_VEST -> "Colete de escama vermelha"
+[2026-05-12T19:14:00.298Z] [ptBR] Felipe: UNLOCKED | Key: items.RED_SCALE_VEST 
+[2026-05-12T19:14:00.304Z] [ptBR] Felipe: LOCKED | Key: items.SLINGSHOT_AMMO 
+[2026-05-12T19:14:00.366Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_13 
+[2026-05-12T19:14:00.376Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_15 
+[2026-05-12T19:14:01.218Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SLINGSHOT_AMMO -> "Munição de estilingue"
+[2026-05-12T19:14:01.384Z] [ptBR] Felipe: UNLOCKED | Key: items.SLINGSHOT_AMMO 
+[2026-05-12T19:14:01.388Z] [ptBR] Felipe: LOCKED | Key: items.BRONZE_ARROWS 
+[2026-05-12T19:14:01.907Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_ARROWS -> "Flechas de bronze"
+[2026-05-12T19:14:02.076Z] [ptBR] Felipe: UNLOCKED | Key: items.BRONZE_ARROWS 
+[2026-05-12T19:14:02.081Z] [ptBR] Felipe: LOCKED | Key: items.JADE_ARROWS 
+[2026-05-12T19:14:02.539Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JADE_ARROWS -> "Flechas de jade"
+[2026-05-12T19:14:02.705Z] [ptBR] Felipe: UNLOCKED | Key: items.JADE_ARROWS 
+[2026-05-12T19:14:02.709Z] [ptBR] Felipe: LOCKED | Key: items.PLATINUM_ARROWS 
+[2026-05-12T19:14:03.051Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_15 
+[2026-05-12T19:14:03.052Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_13 
+[2026-05-12T19:14:03.074Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_ARROWS -> "Flechas de platina"
+[2026-05-12T19:14:03.239Z] [ptBR] Felipe: UNLOCKED | Key: items.PLATINUM_ARROWS 
+[2026-05-12T19:14:03.244Z] [ptBR] Felipe: LOCKED | Key: items.DIAMOND_ARROWS 
+[2026-05-12T19:14:03.801Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_ARROWS -> "Flechas de diamante"
+[2026-05-12T19:14:03.972Z] [ptBR] Felipe: UNLOCKED | Key: items.DIAMOND_ARROWS 
+[2026-05-12T19:14:03.980Z] [ptBR] Felipe: LOCKED | Key: items.CANARY_BOW 
+[2026-05-12T19:14:04.664Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.CANARY_BOW -> "Arco de canário"
+[2026-05-12T19:14:04.832Z] [ptBR] Felipe: UNLOCKED | Key: items.CANARY_BOW 
+[2026-05-12T19:14:04.839Z] [ptBR] Felipe: LOCKED | Key: items.SUNSTONE_ARROWS 
+[2026-05-12T19:14:06.909Z] [ptBR] Felipe: UNLOCKED | Key: items.SUNSTONE_ARROWS 
+[2026-05-12T19:14:06.915Z] [ptBR] Felipe: LOCKED | Key: items.CANARY_BOW 
+[2026-05-12T19:14:08.361Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.total_completed -> "Total Concluído: {{count}}"
+[2026-05-12T19:14:08.366Z] [ptBR] Will: UNLOCKED | Key: toast.total_completed 
+[2026-05-12T19:14:08.369Z] [ptBR] Will: LOCKED | Key: toast.reward_label 
+[2026-05-12T19:14:09.284Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.CANARY_BOW -> "Arco de canário"
+[2026-05-12T19:14:09.456Z] [ptBR] Felipe: UNLOCKED | Key: items.CANARY_BOW 
+[2026-05-12T19:14:09.472Z] [ptBR] Felipe: LOCKED | Key: items.SUNSTONE_ARROWS 
+[2026-05-12T19:14:09.790Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.reward_label -> "Recompensa:"
+[2026-05-12T19:14:09.803Z] [ptBR] Will: UNLOCKED | Key: toast.reward_label 
+[2026-05-12T19:14:09.806Z] [ptBR] Will: LOCKED | Key: toast.diaries_completed 
+[2026-05-12T19:14:10.095Z] [ptBR] Kikah: SAVED TRANSLATION | Key: steam_page.long_description_13 -> "Hello there"
+[2026-05-12T19:14:11.569Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SUNSTONE_ARROWS -> "Flechas de pedra solar"
+[2026-05-12T19:14:11.740Z] [ptBR] Felipe: UNLOCKED | Key: items.SUNSTONE_ARROWS 
+[2026-05-12T19:14:11.757Z] [ptBR] Felipe: LOCKED | Key: items.BLACK_SCALE_FEATHER_HAT 
+[2026-05-12T19:14:12.580Z] [ptBR] Felipe: UNLOCKED | Key: items.BLACK_SCALE_FEATHER_HAT 
+[2026-05-12T19:14:12.580Z] [ptBR] Felipe: LOCKED | Key: items.CANARY_BOW 
+[2026-05-12T19:14:13.829Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_13 
+[2026-05-12T19:14:13.829Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:14:15.544Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: toast.diaries_completed -> "Diários Concluídos!"
+[2026-05-12T19:14:15.548Z] [ptBR] Will: UNLOCKED | Key: toast.diaries_completed 
+[2026-05-12T19:14:15.551Z] [ptBR] Will: LOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:17.832Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:14:17.833Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_1 
+[2026-05-12T19:14:18.474Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:18.475Z] [ptBR] Will: LOCKED | Key: toast.invalid_compressed_data 
+[2026-05-12T19:14:18.985Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_compressed_data 
+[2026-05-12T19:14:18.986Z] [ptBR] Will: LOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:22.460Z] [ptBR] Kikah: SAVED TRANSLATION & VALIDATED | Key: steam_page.long_description_1 -> "Rocky Idle é o primeiro jogo q..."
+[2026-05-12T19:14:25.162Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_1 
+[2026-05-12T19:14:25.170Z] [ptBR] Kikah: LOCKED | Key: steam_page.short_description 
+[2026-05-12T19:14:26.165Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:26.166Z] [ptBR] Will: LOCKED | Key: toast.invalid_compressed_data 
+[2026-05-12T19:14:27.527Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_compressed_data 
+[2026-05-12T19:14:27.528Z] [ptBR] Will: LOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:27.946Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:27.948Z] [ptBR] Will: LOCKED | Key: toast.invalid_compressed_data 
+[2026-05-12T19:14:28.066Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.short_description 
+[2026-05-12T19:14:28.067Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:14:28.356Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_compressed_data 
+[2026-05-12T19:14:28.357Z] [ptBR] Will: LOCKED | Key: toast.invalid_game_data 
+[2026-05-12T19:14:29.189Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_game_data 
+[2026-05-12T19:14:29.190Z] [ptBR] Will: LOCKED | Key: toast.no_data_for_slot 
+[2026-05-12T19:14:29.601Z] [ptBR] Will: UNLOCKED | Key: toast.no_data_for_slot 
+[2026-05-12T19:14:29.603Z] [ptBR] Will: LOCKED | Key: toast.invalid_game_data 
+[2026-05-12T19:14:30.092Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_game_data 
+[2026-05-12T19:14:30.094Z] [ptBR] Will: LOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:30.689Z] [ptBR] Will: UNLOCKED | Key: toast.invalid_slot_id 
+[2026-05-12T19:14:30.691Z] [ptBR] Will: LOCKED | Key: toast.save_success 
+[2026-05-12T19:14:31.128Z] [ptBR] Will: UNLOCKED | Key: toast.save_success 
+[2026-05-12T19:14:31.129Z] [ptBR] Will: LOCKED | Key: toast.failed_to_find_user_data 
+[2026-05-12T19:14:33.359Z] [ptBR] Will: UNLOCKED | Key: toast.failed_to_find_user_data 
+[2026-05-12T19:14:33.360Z] [ptBR] Will: LOCKED | Key: diary.FOREST 
+[2026-05-12T19:14:34.083Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.CANARY_BOW -> "Arco Canário"
+[2026-05-12T19:14:34.253Z] [ptBR] Felipe: UNLOCKED | Key: items.CANARY_BOW 
+[2026-05-12T19:14:34.260Z] [ptBR] Felipe: LOCKED | Key: items.BLACK_SCALE_FEATHER_HAT 
+[2026-05-12T19:14:34.738Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.FOREST -> "Floresta"
+[2026-05-12T19:14:34.748Z] [ptBR] Will: UNLOCKED | Key: diary.FOREST 
+[2026-05-12T19:14:34.750Z] [ptBR] Will: LOCKED | Key: diary.MINE 
+[2026-05-12T19:14:35.357Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.MINE -> "Mina"
+[2026-05-12T19:14:35.367Z] [ptBR] Will: UNLOCKED | Key: diary.MINE 
+[2026-05-12T19:14:35.370Z] [ptBR] Will: LOCKED | Key: diary.SEA 
+[2026-05-12T19:14:35.906Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.SEA -> "Mar"
+[2026-05-12T19:14:35.910Z] [ptBR] Will: UNLOCKED | Key: diary.SEA 
+[2026-05-12T19:14:35.913Z] [ptBR] Will: LOCKED | Key: diary.FIELDS 
+[2026-05-12T19:14:36.475Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.FIELDS -> "Campos"
+[2026-05-12T19:14:36.480Z] [ptBR] Will: UNLOCKED | Key: diary.FIELDS 
+[2026-05-12T19:14:36.482Z] [ptBR] Will: LOCKED | Key: diary.TEMPLE 
+[2026-05-12T19:14:37.909Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.TEMPLE -> "Templo"
+[2026-05-12T19:14:37.917Z] [ptBR] Will: UNLOCKED | Key: diary.TEMPLE 
+[2026-05-12T19:14:37.921Z] [ptBR] Will: LOCKED | Key: diary.MARKET 
+[2026-05-12T19:14:39.438Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BLACK_SCALE_FEATHER_HAT -> "Chapéu de pena e escama negra"
+[2026-05-12T19:14:39.604Z] [ptBR] Felipe: UNLOCKED | Key: items.BLACK_SCALE_FEATHER_HAT 
+[2026-05-12T19:14:39.610Z] [ptBR] Felipe: LOCKED | Key: items.BLACK_SCALE_PANTS 
+[2026-05-12T19:14:40.544Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BLACK_SCALE_PANTS -> "Calças de escama negra"
+[2026-05-12T19:14:40.712Z] [ptBR] Felipe: UNLOCKED | Key: items.BLACK_SCALE_PANTS 
+[2026-05-12T19:14:40.718Z] [ptBR] Felipe: LOCKED | Key: items.BLACK_SCALE_VEST 
+[2026-05-12T19:14:41.059Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BLACK_SCALE_VEST -> "Colete de escama negra"
+[2026-05-12T19:14:41.228Z] [ptBR] Felipe: UNLOCKED | Key: items.BLACK_SCALE_VEST 
+[2026-05-12T19:14:41.233Z] [ptBR] Felipe: LOCKED | Key: items.LEATHER_PANTS 
+[2026-05-12T19:14:41.796Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.LEATHER_PANTS -> "Calças de couro"
+[2026-05-12T19:14:41.962Z] [ptBR] Felipe: UNLOCKED | Key: items.LEATHER_PANTS 
+[2026-05-12T19:14:41.968Z] [ptBR] Felipe: LOCKED | Key: items.LEATHER_VEST 
+[2026-05-12T19:14:42.433Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.LEATHER_VEST -> "Colete de couro"
+[2026-05-12T19:14:42.598Z] [ptBR] Felipe: UNLOCKED | Key: items.LEATHER_VEST 
+[2026-05-12T19:14:42.610Z] [ptBR] Felipe: LOCKED | Key: items.LEATHER_SKIRT 
+[2026-05-12T19:14:43.032Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.LEATHER_SKIRT -> "Saia de couro"
+[2026-05-12T19:14:43.212Z] [ptBR] Felipe: UNLOCKED | Key: items.LEATHER_SKIRT 
+[2026-05-12T19:14:43.220Z] [ptBR] Felipe: LOCKED | Key: items.LEATHER_ROBE 
+[2026-05-12T19:14:43.682Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.LEATHER_ROBE -> "Túnica de couro"
+[2026-05-12T19:14:43.846Z] [ptBR] Felipe: UNLOCKED | Key: items.LEATHER_ROBE 
+[2026-05-12T19:14:43.851Z] [ptBR] Felipe: LOCKED | Key: items.BONE_ARROWS 
+[2026-05-12T19:14:44.259Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BONE_ARROWS -> "Flechas de osso"
+[2026-05-12T19:14:44.426Z] [ptBR] Felipe: UNLOCKED | Key: items.BONE_ARROWS 
+[2026-05-12T19:14:44.432Z] [ptBR] Felipe: LOCKED | Key: items.TINY_BONES 
+[2026-05-12T19:14:44.905Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.TINY_BONES -> "Ossos minúsculos"
+[2026-05-12T19:14:45.076Z] [ptBR] Felipe: UNLOCKED | Key: items.TINY_BONES 
+[2026-05-12T19:14:45.089Z] [ptBR] Felipe: LOCKED | Key: items.SMALL_BONES 
+[2026-05-12T19:14:45.541Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SMALL_BONES -> "Ossos pequenos"
+[2026-05-12T19:14:45.708Z] [ptBR] Felipe: UNLOCKED | Key: items.SMALL_BONES 
+[2026-05-12T19:14:45.716Z] [ptBR] Felipe: LOCKED | Key: items.GIANT_BONES 
+[2026-05-12T19:14:46.129Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.GIANT_BONES -> "Ossos gigantes"
+[2026-05-12T19:14:46.298Z] [ptBR] Felipe: UNLOCKED | Key: items.GIANT_BONES 
+[2026-05-12T19:14:46.303Z] [ptBR] Felipe: LOCKED | Key: items.MASSIVE_BONES 
+[2026-05-12T19:14:46.738Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.MASSIVE_BONES -> "Ossos massivos"
+[2026-05-12T19:14:46.908Z] [ptBR] Felipe: UNLOCKED | Key: items.MASSIVE_BONES 
+[2026-05-12T19:14:46.917Z] [ptBR] Felipe: LOCKED | Key: items.EMPTY_FLASK 
+[2026-05-12T19:14:47.919Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.EMPTY_FLASK -> "Frasco vazio"
+[2026-05-12T19:14:48.084Z] [ptBR] Felipe: UNLOCKED | Key: items.EMPTY_FLASK 
+[2026-05-12T19:14:48.089Z] [ptBR] Felipe: LOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:14:55.601Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.MAGIC_PRAYER_UNLOCK -> "Desbloqueio de oração mágica"
+[2026-05-12T19:14:55.778Z] [ptBR] Felipe: UNLOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:14:55.786Z] [ptBR] Felipe: LOCKED | Key: items.MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:14:58.558Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.MELEE_PRAYER_UNLOCK -> "Desbloqueio de oração corpo a ..."
+[2026-05-12T19:14:58.726Z] [ptBR] Felipe: UNLOCKED | Key: items.MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:14:58.731Z] [ptBR] Felipe: LOCKED | Key: items.RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:15:13.735Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.RANGED_PRAYER_UNLOCK -> "Desbloqueio de oração ataque à..."
+[2026-05-12T19:15:13.906Z] [ptBR] Felipe: UNLOCKED | Key: items.RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:15:13.912Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:15.591Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:15.591Z] [ptBR] Felipe: LOCKED | Key: items.RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:15:22.050Z] [ptBR] Felipe: UNLOCKED | Key: items.RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:15:22.057Z] [ptBR] Felipe: LOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:38.496Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.MAGIC_PRAYER_UNLOCK -> "Desbloqueio de oração para Mag..."
+[2026-05-12T19:15:38.662Z] [ptBR] Felipe: UNLOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:38.670Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:52.634Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK -> "Desbloqueio de oração para Mag..."
+[2026-05-12T19:15:52.802Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:52.810Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:15:56.166Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:15:56.172Z] [ptBR] Felipe: LOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:57.587Z] [ptBR] Felipe: UNLOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:15:57.596Z] [ptBR] Felipe: LOCKED | Key: items.MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:15:59.901Z] [ptBR] Felipe: UNLOCKED | Key: items.MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:16:00.425Z] [ptBR] Felipe: LOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:16:01.430Z] [ptBR] Felipe: UNLOCKED | Key: items.MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:16:01.441Z] [ptBR] Felipe: LOCKED | Key: items.MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:16:03.344Z] [ptBR] Felipe: UNLOCKED | Key: items.MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:16:03.351Z] [ptBR] Felipe: LOCKED | Key: items.RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:16:05.389Z] [ptBR] Felipe: UNLOCKED | Key: items.RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:16:05.397Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:16:07.522Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK -> "Desbloqueio de oração para Mag..."
+[2026-05-12T19:16:07.689Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_MAGIC_PRAYER_UNLOCK 
+[2026-05-12T19:16:07.695Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:16:13.892Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_MELEE_PRAYER_UNLOCK -> "Desbloqueio de oração corpo a ..."
+[2026-05-12T19:16:14.060Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_MELEE_PRAYER_UNLOCK 
+[2026-05-12T19:16:14.066Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:16:24.944Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_RANGED_PRAYER_UNLOCK -> "Desbloqueio de oração ataque à..."
+[2026-05-12T19:16:25.122Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_RANGED_PRAYER_UNLOCK 
+[2026-05-12T19:16:25.122Z] [ptBR] Felipe: LOCKED | Key: items.DEFENCE_POTION 
+[2026-05-12T19:16:27.166Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DEFENCE_POTION -> "Poção de defesa"
+[2026-05-12T19:16:27.342Z] [ptBR] Felipe: UNLOCKED | Key: items.DEFENCE_POTION 
+[2026-05-12T19:16:27.350Z] [ptBR] Felipe: LOCKED | Key: items.RANGED_POTION 
+[2026-05-12T19:16:35.084Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.RANGED_POTION -> "Poção ataque à distância"
+[2026-05-12T19:16:35.249Z] [ptBR] Felipe: UNLOCKED | Key: items.RANGED_POTION 
+[2026-05-12T19:16:35.261Z] [ptBR] Felipe: LOCKED | Key: items.MELEE_POTION 
+[2026-05-12T19:16:36.035Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.MELEE_POTION -> "Poção corpo a corpo"
+[2026-05-12T19:16:36.200Z] [ptBR] Felipe: UNLOCKED | Key: items.MELEE_POTION 
+[2026-05-12T19:16:36.203Z] [ptBR] Felipe: LOCKED | Key: items.MAGIC_POTION 
+[2026-05-12T19:16:37.073Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.MAGIC_POTION -> "Poção de magia"
+[2026-05-12T19:16:37.238Z] [ptBR] Felipe: UNLOCKED | Key: items.MAGIC_POTION 
+[2026-05-12T19:16:37.243Z] [ptBR] Felipe: LOCKED | Key: items.COMBAT_POTION 
+[2026-05-12T19:16:39.567Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.COMBAT_POTION -> "Poção de combate"
+[2026-05-12T19:16:39.735Z] [ptBR] Felipe: UNLOCKED | Key: items.COMBAT_POTION 
+[2026-05-12T19:16:39.738Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_DEFENCE_POTION 
+[2026-05-12T19:16:41.333Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_DEFENCE_POTION -> "Poção de defesa forte"
+[2026-05-12T19:16:41.498Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_DEFENCE_POTION 
+[2026-05-12T19:16:41.507Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_RANGED_POTION 
+[2026-05-12T19:16:42.058Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_RANGED_POTION -> "Poção à distância forte"
+[2026-05-12T19:16:42.223Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_RANGED_POTION 
+[2026-05-12T19:16:42.230Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_MELEE_POTION 
+[2026-05-12T19:16:43.073Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_MELEE_POTION -> "Poção corpo a corpo forte"
+[2026-05-12T19:16:43.241Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_MELEE_POTION 
+[2026-05-12T19:16:43.248Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_MAGIC_POTION 
+[2026-05-12T19:16:44.581Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_MAGIC_POTION -> "Poção de magia forte"
+[2026-05-12T19:16:44.746Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_MAGIC_POTION 
+[2026-05-12T19:16:44.754Z] [ptBR] Felipe: LOCKED | Key: items.STRONG_COMBAT_POTION 
+[2026-05-12T19:16:46.628Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.STRONG_COMBAT_POTION -> "Poção de combate forte"
+[2026-05-12T19:16:46.798Z] [ptBR] Felipe: UNLOCKED | Key: items.STRONG_COMBAT_POTION 
+[2026-05-12T19:16:46.805Z] [ptBR] Felipe: LOCKED | Key: items.HARLEY_PET 
+[2026-05-12T19:16:48.855Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.HARLEY_PET -> "Mascote Harley"
+[2026-05-12T19:16:49.019Z] [ptBR] Felipe: UNLOCKED | Key: items.HARLEY_PET 
+[2026-05-12T19:16:49.025Z] [ptBR] Felipe: LOCKED | Key: items.SERPIA_PET 
+[2026-05-12T19:16:50.820Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SERPIA_PET -> "Mascote Serpia"
+[2026-05-12T19:16:50.987Z] [ptBR] Felipe: UNLOCKED | Key: items.SERPIA_PET 
+[2026-05-12T19:16:50.995Z] [ptBR] Felipe: LOCKED | Key: items.BARK_WRAITH_PET 
+[2026-05-12T19:16:55.271Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BARK_WRAITH_PET -> "Mascote espectro de casca"
+[2026-05-12T19:16:55.437Z] [ptBR] Felipe: UNLOCKED | Key: items.BARK_WRAITH_PET 
+[2026-05-12T19:16:55.444Z] [ptBR] Felipe: LOCKED | Key: items.GEMSTONE_GOLEM_PET 
+[2026-05-12T19:16:56.241Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.GEMSTONE_GOLEM_PET -> "Mascote golem de rocha"
+[2026-05-12T19:16:56.408Z] [ptBR] Felipe: UNLOCKED | Key: items.GEMSTONE_GOLEM_PET 
+[2026-05-12T19:16:56.413Z] [ptBR] Felipe: LOCKED | Key: items.ANGELA_PET 
+[2026-05-12T19:16:57.855Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ANGELA_PET -> "Mascote Angela"
+[2026-05-12T19:16:58.019Z] [ptBR] Felipe: UNLOCKED | Key: items.ANGELA_PET 
+[2026-05-12T19:16:58.025Z] [ptBR] Felipe: LOCKED | Key: items.INFERNAL_DRAGON_PET 
+[2026-05-12T19:17:12.407Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_14 
+[2026-05-12T19:17:14.939Z] [ptBR] WillCelular: UNLOCKED | Key: steam_page.long_description_14 
+[2026-05-12T19:17:14.940Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_15 
+[2026-05-12T19:17:16.400Z] [ptBR] WillCelular: UNLOCKED | Key: steam_page.long_description_15 
+[2026-05-12T19:17:16.401Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_13 
+[2026-05-12T19:17:21.726Z] [ptBR] WillCelular: UNLOCKED | Key: steam_page.long_description_13 
+[2026-05-12T19:17:21.726Z] [ptBR] WillCelular: LOCKED | Key: common.save 
+[2026-05-12T19:18:49.531Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:18:49.532Z] [ptBR] Kikah: LOCKED | Key: common.save 
+[2026-05-12T19:18:51.783Z] [ptBR] Kikah: UNLOCKED | Key: common.save 
+[2026-05-12T19:18:51.784Z] [ptBR] Kikah: LOCKED | Key: common.back 
+[2026-05-12T19:18:54.286Z] [ptBR] Kikah: UNLOCKED | Key: common.back 
+[2026-05-12T19:18:54.287Z] [ptBR] Kikah: LOCKED | Key: common.cancel 
+[2026-05-12T19:18:56.210Z] [ptBR] Kikah: UNLOCKED | Key: common.cancel 
+[2026-05-12T19:18:56.211Z] [ptBR] Kikah: LOCKED | Key: common.reset 
+[2026-05-12T19:19:00.810Z] [ptBR] Kikah: UNLOCKED | Key: common.reset 
+[2026-05-12T19:19:00.810Z] [ptBR] Kikah: LOCKED | Key: common.language 
+[2026-05-12T19:19:03.233Z] [ptBR] Kikah: UNLOCKED | Key: common.language 
+[2026-05-12T19:19:03.234Z] [ptBR] Kikah: LOCKED | Key: common.amount 
+[2026-05-12T19:19:05.198Z] [ptBR] Kikah: UNLOCKED | Key: common.amount 
+[2026-05-12T19:19:05.199Z] [ptBR] Kikah: LOCKED | Key: common.search 
+[2026-05-12T19:19:07.010Z] [ptBR] Kikah: UNLOCKED | Key: common.search 
+[2026-05-12T19:19:07.011Z] [ptBR] Kikah: LOCKED | Key: common.completed 
+[2026-05-12T19:19:11.986Z] [ptBR] Kikah: UNLOCKED | Key: common.completed 
+[2026-05-12T19:19:11.987Z] [ptBR] Kikah: LOCKED | Key: common.warning 
+[2026-05-12T19:19:14.972Z] [ptBR] Kikah: UNLOCKED | Key: common.warning 
+[2026-05-12T19:19:14.980Z] [ptBR] Kikah: LOCKED | Key: common.continue 
+[2026-05-12T19:19:17.408Z] [ptBR] Kikah: UNLOCKED | Key: common.continue 
+[2026-05-12T19:19:17.408Z] [ptBR] Kikah: LOCKED | Key: common.xp 
+[2026-05-12T19:19:19.373Z] [ptBR] Kikah: UNLOCKED | Key: common.xp 
+[2026-05-12T19:19:19.382Z] [ptBR] Kikah: LOCKED | Key: common.none 
+[2026-05-12T19:19:21.522Z] [ptBR] Kikah: UNLOCKED | Key: common.none 
+[2026-05-12T19:19:21.523Z] [ptBR] Kikah: LOCKED | Key: common.or 
+[2026-05-12T19:19:23.675Z] [ptBR] Kikah: UNLOCKED | Key: common.or 
+[2026-05-12T19:19:23.676Z] [ptBR] Kikah: LOCKED | Key: common.quit_game 
+[2026-05-12T19:19:27.086Z] [ptBR] Kikah: UNLOCKED | Key: common.quit_game 
+[2026-05-12T19:19:27.094Z] [ptBR] Kikah: LOCKED | Key: common.loading 
+[2026-05-12T19:19:32.215Z] [ptBR] Kikah: UNLOCKED | Key: common.loading 
+[2026-05-12T19:19:32.216Z] [ptBR] Kikah: LOCKED | Key: common.home 
+[2026-05-12T19:19:40.529Z] [ptBR] Kikah: UNLOCKED | Key: common.home 
+[2026-05-12T19:19:40.530Z] [ptBR] Kikah: LOCKED | Key: common.batch_multipliers 
+[2026-05-12T19:20:07.177Z] [ptBR] Kikah: UNLOCKED | Key: common.batch_multipliers 
+[2026-05-12T19:20:07.177Z] [ptBR] Kikah: LOCKED | Key: common.total_xp 
+[2026-05-12T19:20:12.775Z] [ptBR] Kikah: UNLOCKED | Key: common.total_xp 
+[2026-05-12T19:20:12.776Z] [ptBR] Kikah: LOCKED | Key: common.swap 
+[2026-05-12T19:20:15.027Z] [ptBR] Kikah: UNLOCKED | Key: common.swap 
+[2026-05-12T19:20:15.028Z] [ptBR] Kikah: LOCKED | Key: common.in_progress 
+[2026-05-12T19:20:17.523Z] [ptBR] Kikah: UNLOCKED | Key: common.in_progress 
+[2026-05-12T19:20:17.524Z] [ptBR] Kikah: LOCKED | Key: common.all 
+[2026-05-12T19:20:20.959Z] [ptBR] Kikah: UNLOCKED | Key: common.all 
+[2026-05-12T19:20:20.960Z] [ptBR] Kikah: LOCKED | Key: common.all_minus_one 
+[2026-05-12T19:20:28.436Z] [ptBR] Kikah: UNLOCKED | Key: common.all_minus_one 
+[2026-05-12T19:20:28.437Z] [ptBR] Kikah: LOCKED | Key: common.separator_ampersand 
+[2026-05-12T19:20:30.967Z] [ptBR] Kikah: UNLOCKED | Key: common.separator_ampersand 
+[2026-05-12T19:20:30.967Z] [ptBR] Kikah: LOCKED | Key: common.difficulty.tutorial 
+[2026-05-12T19:20:35.434Z] [ptBR] Kikah: UNLOCKED | Key: common.difficulty.tutorial 
+[2026-05-12T19:20:35.435Z] [ptBR] Kikah: LOCKED | Key: common.all 
+[2026-05-12T19:20:37.247Z] [ptBR] Kikah: UNLOCKED | Key: common.all 
+[2026-05-12T19:20:37.248Z] [ptBR] Kikah: LOCKED | Key: common.all_minus_one 
+[2026-05-12T19:20:38.959Z] [ptBR] Kikah: UNLOCKED | Key: common.all_minus_one 
+[2026-05-12T19:20:38.960Z] [ptBR] Kikah: LOCKED | Key: common.all 
+[2026-05-12T19:20:39.824Z] [ptBR] Kikah: UNLOCKED | Key: common.all 
+[2026-05-12T19:20:39.824Z] [ptBR] Kikah: LOCKED | Key: common.all_minus_one 
+[2026-05-12T19:20:42.088Z] [ptBR] Kikah: UNLOCKED | Key: common.all_minus_one 
+[2026-05-12T19:20:42.088Z] [ptBR] Kikah: LOCKED | Key: common.separator_ampersand 
+[2026-05-12T19:20:44.467Z] [ptBR] Kikah: UNLOCKED | Key: common.separator_ampersand 
+[2026-05-12T19:20:44.475Z] [ptBR] Kikah: LOCKED | Key: common.difficulty.tutorial 
+[2026-05-12T19:20:46.107Z] [ptBR] Kikah: UNLOCKED | Key: common.difficulty.tutorial 
+[2026-05-12T19:20:46.107Z] [ptBR] Kikah: LOCKED | Key: common.difficulty.easy 
+[2026-05-12T19:20:48.009Z] [ptBR] Kikah: UNLOCKED | Key: common.difficulty.easy 
+[2026-05-12T19:20:48.009Z] [ptBR] Kikah: LOCKED | Key: common.difficulty.medium 
+[2026-05-12T19:20:48.897Z] [ptBR] Kikah: UNLOCKED | Key: common.difficulty.medium 
+[2026-05-12T19:20:48.898Z] [ptBR] Kikah: LOCKED | Key: common.difficulty.hard 
+[2026-05-12T19:20:50.330Z] [ptBR] Kikah: UNLOCKED | Key: common.difficulty.hard 
+[2026-05-12T19:20:50.331Z] [ptBR] Kikah: LOCKED | Key: common.difficulty.expert 
+[2026-05-12T19:20:52.824Z] [ptBR] Kikah: UNLOCKED | Key: common.difficulty.expert 
+[2026-05-12T19:20:52.825Z] [ptBR] Kikah: LOCKED | Key: common.difficulty.nerd 
+[2026-05-12T19:20:57.410Z] [ptBR] Kikah: UNLOCKED | Key: common.difficulty.nerd 
+[2026-05-12T19:20:57.410Z] [ptBR] Kikah: LOCKED | Key: common.custom_amount 
+[2026-05-12T19:21:04.485Z] [ptBR] Kikah: UNLOCKED | Key: common.custom_amount 
+[2026-05-12T19:21:04.485Z] [ptBR] Kikah: LOCKED | Key: common.enter_a_value 
+[2026-05-12T19:21:08.446Z] [ptBR] Kikah: UNLOCKED | Key: common.enter_a_value 
+[2026-05-12T19:21:08.447Z] [ptBR] Kikah: LOCKED | Key: common.create 
+[2026-05-12T19:21:37.380Z] [ptBR] Kikah: UNLOCKED | Key: common.create 
+[2026-05-12T19:21:37.381Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:21:44.786Z] [ptBR] Kikah: UNLOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:21:44.787Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_4 
+[2026-05-12T19:24:41.630Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.INFERNAL_DRAGON_PET -> "Mascote dragão infernal"
+[2026-05-12T19:24:44.026Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.INFERNAL_DRAGON_PET -> "Mascote dragão infernal"
+[2026-05-12T19:24:44.190Z] [ptBR] Felipe: UNLOCKED | Key: items.INFERNAL_DRAGON_PET 
+[2026-05-12T19:24:44.197Z] [ptBR] Felipe: LOCKED | Key: items.BERNARD_PET 
+[2026-05-12T19:24:51.905Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BERNARD_PET -> "Mascote Bernardo"
+[2026-05-12T19:24:52.072Z] [ptBR] Felipe: UNLOCKED | Key: items.BERNARD_PET 
+[2026-05-12T19:24:52.077Z] [ptBR] Felipe: LOCKED | Key: items.MAMMOTH_PET 
+[2026-05-12T19:24:53.541Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.MAMMOTH_PET -> "Mascote mamute"
+[2026-05-12T19:24:53.706Z] [ptBR] Felipe: UNLOCKED | Key: items.MAMMOTH_PET 
+[2026-05-12T19:24:53.715Z] [ptBR] Felipe: LOCKED | Key: items.STINGAR_PET 
+[2026-05-12T19:25:28.863Z] [ptBR] Felipe: UNLOCKED | Key: items.STINGAR_PET 
+[2026-05-12T19:25:28.874Z] [ptBR] Felipe: LOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:26:16.119Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.TUSKAR_PET -> "Mascote Morsa"
+[2026-05-12T19:26:16.298Z] [ptBR] Felipe: UNLOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:26:16.299Z] [ptBR] Felipe: LOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:26:30.816Z] [ptBR] Felipe: UNLOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:26:30.817Z] [ptBR] Felipe: LOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:26:36.978Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.TUSKAR_PET -> "Mascote Turskar"
+[2026-05-12T19:26:37.143Z] [ptBR] Felipe: UNLOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:26:37.149Z] [ptBR] Felipe: LOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:27:35.291Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.WALRUS_PET -> "Mascote Morsa"
+[2026-05-12T19:27:35.457Z] [ptBR] Felipe: UNLOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:27:35.469Z] [ptBR] Felipe: LOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:27:54.235Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.WHISPER_PET -> "Mascote Sussurrante"
+[2026-05-12T19:27:54.405Z] [ptBR] Felipe: UNLOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:27:54.411Z] [ptBR] Felipe: LOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:27:55.819Z] [ptBR] Felipe: UNLOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:27:55.820Z] [ptBR] Felipe: LOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:27:56.638Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.WHISPER_PET -> "Mascote Sussurrante"
+[2026-05-12T19:27:57.660Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.WHISPER_PET -> "Mascote Sussurrante"
+[2026-05-12T19:27:57.832Z] [ptBR] Felipe: UNLOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:27:57.841Z] [ptBR] Felipe: LOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:32:16.433Z] [ptBR] RockyIdle: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:32:20.652Z] [ptBR] RockyIdle: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:32:20.653Z] [ptBR] RockyIdle: LOCKED | Key: steam_page.long_description_15 
+[2026-05-12T19:32:27.990Z] [ptBR] RockyIdle: UNLOCKED | Key: steam_page.long_description_15 
+[2026-05-12T19:32:28.005Z] [ptBR] RockyIdle: LOCKED | Key: items.BLUE_SCALE_PANTS 
+[2026-05-12T19:32:31.062Z] [ptBR] RockyIdle: UNLOCKED | Key: items.BLUE_SCALE_PANTS 
+[2026-05-12T19:32:31.070Z] [ptBR] RockyIdle: LOCKED | Key: items.RED_SCALE_FEATHER_HAT 
+[2026-05-12T19:32:31.765Z] [ptBR] RockyIdle: UNLOCKED | Key: items.RED_SCALE_FEATHER_HAT 
+[2026-05-12T19:32:31.775Z] [ptBR] RockyIdle: LOCKED | Key: items.RED_SCALE_PANTS 
+[2026-05-12T19:32:32.463Z] [ptBR] RockyIdle: UNLOCKED | Key: items.RED_SCALE_PANTS 
+[2026-05-12T19:32:32.470Z] [ptBR] RockyIdle: LOCKED | Key: items.RED_SCALE_VEST 
+[2026-05-12T19:32:33.202Z] [ptBR] RockyIdle: UNLOCKED | Key: items.RED_SCALE_VEST 
+[2026-05-12T19:32:33.210Z] [ptBR] RockyIdle: LOCKED | Key: items.BRONZE_ARROWS 
+[2026-05-12T19:32:43.952Z] [ptBR] RockyIdle: UNLOCKED | Key: items.BRONZE_ARROWS 
+[2026-05-12T19:32:43.960Z] [ptBR] RockyIdle: LOCKED | Key: items.STINGAR_PET 
+[2026-05-12T19:32:45.622Z] [ptBR] RockyIdle: UNLOCKED | Key: items.STINGAR_PET 
+[2026-05-12T19:32:45.642Z] [ptBR] RockyIdle: LOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:32:47.072Z] [ptBR] RockyIdle: UNLOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:32:47.080Z] [ptBR] RockyIdle: LOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:32:48.030Z] [ptBR] RockyIdle: UNLOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:32:48.035Z] [ptBR] RockyIdle: LOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:32:49.302Z] [ptBR] RockyIdle: UNLOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:32:55.690Z] [ptBR] RockyIdle: LOCKED | Key: items.FISHING_PET 
+[2026-05-12T19:32:56.962Z] [ptBR] RockyIdle: UNLOCKED | Key: items.FISHING_PET 
+[2026-05-12T19:33:01.998Z] [ptBR] Will: UNLOCKED | Key: diary.MARKET 
+[2026-05-12T19:33:01.999Z] [ptBR] Will: LOCKED | Key: diary.FORTRESS 
+[2026-05-12T19:33:02.371Z] [ptBR] Will: UNLOCKED | Key: diary.FORTRESS 
+[2026-05-12T19:33:02.372Z] [ptBR] Will: LOCKED | Key: diary.MARKET 
+[2026-05-12T19:33:04.723Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.MARKET -> "Mercado"
+[2026-05-12T19:33:04.726Z] [ptBR] Will: UNLOCKED | Key: diary.MARKET 
+[2026-05-12T19:33:04.728Z] [ptBR] Will: LOCKED | Key: diary.FORTRESS 
+[2026-05-12T19:33:06.220Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.FORTRESS -> "Fortaleza"
+[2026-05-12T19:33:06.225Z] [ptBR] Will: UNLOCKED | Key: diary.FORTRESS 
+[2026-05-12T19:33:06.227Z] [ptBR] Will: LOCKED | Key: diary.boost.juicy_loot 
+[2026-05-12T19:33:07.680Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.boost.juicy_loot -> "Alguns espólios suculentos"
+[2026-05-12T19:33:07.683Z] [ptBR] Will: UNLOCKED | Key: diary.boost.juicy_loot 
+[2026-05-12T19:33:07.685Z] [ptBR] Will: LOCKED | Key: diary.boost.boost_duration 
+[2026-05-12T19:33:08.535Z] [ptBR] RockyIdle: LOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:33:09.942Z] [ptBR] RockyIdle: UNLOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:33:11.864Z] [ptBR] Kikah: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T19:33:18.667Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ARCANERY_PET -> "Mascote de Arcano"
+[2026-05-12T19:33:18.835Z] [ptBR] Felipe: UNLOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:33:18.844Z] [ptBR] Felipe: LOCKED | Key: items.FISHING_PET 
+[2026-05-12T19:33:35.361Z] [ptBR] Felipe: UNLOCKED | Key: items.FISHING_PET 
+[2026-05-12T19:33:35.361Z] [ptBR] Felipe: LOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:33:38.742Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.ARCANERY_PET -> "Mascote de Arcano"
+[2026-05-12T19:33:39.539Z] [ptBR] Felipe: UNLOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:33:39.540Z] [ptBR] Felipe: LOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:33:41.898Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.WHISPER_PET -> "Mascote Sussurrante"
+[2026-05-12T19:33:42.794Z] [ptBR] Felipe: UNLOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:33:42.803Z] [ptBR] Felipe: LOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:33:43.654Z] [ptBR] Felipe: UNLOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:33:43.659Z] [ptBR] Felipe: LOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:33:44.690Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.WHISPER_PET -> "Mascote Sussurrante"
+[2026-05-12T19:33:44.855Z] [ptBR] Felipe: UNLOCKED | Key: items.WHISPER_PET 
+[2026-05-12T19:33:44.862Z] [ptBR] Felipe: LOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:33:45.763Z] [ptBR] Felipe: UNLOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:33:45.770Z] [ptBR] Felipe: LOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:33:48.799Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.WALRUS_PET -> "Mascote Morsa"
+[2026-05-12T19:33:49.475Z] [ptBR] Felipe: UNLOCKED | Key: items.WALRUS_PET 
+[2026-05-12T19:33:49.475Z] [ptBR] Felipe: LOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:33:51.667Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.TUSKAR_PET -> "Mascote Turskar"
+[2026-05-12T19:33:52.500Z] [ptBR] Felipe: UNLOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:33:52.501Z] [ptBR] Felipe: LOCKED | Key: items.MAMMOTH_PET 
+[2026-05-12T19:33:55.940Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.MAMMOTH_PET -> "Mascote mamute"
+[2026-05-12T19:33:58.837Z] [ptBR] Felipe: UNLOCKED | Key: items.MAMMOTH_PET 
+[2026-05-12T19:33:58.843Z] [ptBR] Felipe: LOCKED | Key: items.HARLEY_PET 
+[2026-05-12T19:34:00.883Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.HARLEY_PET -> "Mascote Harley"
+[2026-05-12T19:34:02.182Z] [ptBR] Felipe: UNLOCKED | Key: items.HARLEY_PET 
+[2026-05-12T19:34:02.191Z] [ptBR] Felipe: LOCKED | Key: items.SERPIA_PET 
+[2026-05-12T19:34:04.455Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.SERPIA_PET -> "Mascote Serpia"
+[2026-05-12T19:34:05.003Z] [ptBR] Felipe: UNLOCKED | Key: items.SERPIA_PET 
+[2026-05-12T19:34:05.016Z] [ptBR] Felipe: LOCKED | Key: items.BARK_WRAITH_PET 
+[2026-05-12T19:34:05.498Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.boost.boost_duration -> "+{{seconds}}s de duração de bô..."
+[2026-05-12T19:34:05.501Z] [ptBR] Will: UNLOCKED | Key: diary.boost.boost_duration 
+[2026-05-12T19:34:05.503Z] [ptBR] Will: LOCKED | Key: diary.boost.storage 
+[2026-05-12T19:34:07.038Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.boost.storage -> "Um lugar legal para guardar co..."
+[2026-05-12T19:34:07.041Z] [ptBR] Will: UNLOCKED | Key: diary.boost.storage 
+[2026-05-12T19:34:07.043Z] [ptBR] Will: LOCKED | Key: diary.boost.batch_bonus 
+[2026-05-12T19:34:07.334Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.BARK_WRAITH_PET -> "Mascote espectro de casca"
+[2026-05-12T19:34:08.167Z] [ptBR] Felipe: UNLOCKED | Key: items.BARK_WRAITH_PET 
+[2026-05-12T19:34:08.187Z] [ptBR] Felipe: LOCKED | Key: items.GEMSTONE_GOLEM_PET 
+[2026-05-12T19:34:08.399Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.boost.batch_bonus -> "+{{percent}}% de Lote"
+[2026-05-12T19:34:08.402Z] [ptBR] Will: UNLOCKED | Key: diary.boost.batch_bonus 
+[2026-05-12T19:34:08.404Z] [ptBR] Will: LOCKED | Key: diary.boost.speed_bonus 
+[2026-05-12T19:34:10.140Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.GEMSTONE_GOLEM_PET -> "Mascote golem de rocha"
+[2026-05-12T19:34:11.063Z] [ptBR] Felipe: UNLOCKED | Key: items.GEMSTONE_GOLEM_PET 
+[2026-05-12T19:34:11.064Z] [ptBR] Felipe: LOCKED | Key: items.ANGELA_PET 
+[2026-05-12T19:34:13.458Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.ANGELA_PET -> "Mascote Angela"
+[2026-05-12T19:34:14.333Z] [ptBR] Felipe: UNLOCKED | Key: items.ANGELA_PET 
+[2026-05-12T19:34:14.341Z] [ptBR] Felipe: LOCKED | Key: items.INFERNAL_DRAGON_PET 
+[2026-05-12T19:34:15.846Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: diary.boost.speed_bonus -> "+{{percent}}% de Velocidade"
+[2026-05-12T19:34:15.853Z] [ptBR] Will: UNLOCKED | Key: diary.boost.speed_bonus 
+[2026-05-12T19:34:15.855Z] [ptBR] Will: LOCKED | Key: achievements.page_title 
+[2026-05-12T19:34:16.788Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.INFERNAL_DRAGON_PET -> "Mascote dragão infernal"
+[2026-05-12T19:34:17.601Z] [ptBR] Felipe: UNLOCKED | Key: items.INFERNAL_DRAGON_PET 
+[2026-05-12T19:34:17.602Z] [ptBR] Felipe: LOCKED | Key: items.BERNARD_PET 
+[2026-05-12T19:34:18.524Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: achievements.page_title -> "Conquistas"
+[2026-05-12T19:34:18.532Z] [ptBR] Will: UNLOCKED | Key: achievements.page_title 
+[2026-05-12T19:34:18.532Z] [ptBR] Will: LOCKED | Key: items.CROP_BASKET 
+[2026-05-12T19:34:19.864Z] [ptBR] Felipe: SAVED TRANSLATION | Key: items.BERNARD_PET -> "Mascote Bernardo"
+[2026-05-12T19:34:21.120Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.CROP_BASKET -> "Cesta de colheita"
+[2026-05-12T19:34:21.123Z] [ptBR] Will: UNLOCKED | Key: items.CROP_BASKET 
+[2026-05-12T19:34:21.126Z] [ptBR] Will: LOCKED | Key: items.SCALE_TREASURE 
+[2026-05-12T19:34:35.195Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.SCALE_TREASURE -> "Tesouro de escamas"
+[2026-05-12T19:34:35.199Z] [ptBR] Will: UNLOCKED | Key: items.SCALE_TREASURE 
+[2026-05-12T19:34:35.201Z] [ptBR] Will: LOCKED | Key: items.RED_SCALES 
+[2026-05-12T19:34:37.282Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.RED_SCALES -> "Escamas vermelhas"
+[2026-05-12T19:34:37.288Z] [ptBR] Will: UNLOCKED | Key: items.RED_SCALES 
+[2026-05-12T19:34:37.290Z] [ptBR] Will: LOCKED | Key: items.BLUE_SCALES 
+[2026-05-12T19:34:38.165Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.BLUE_SCALES -> "Escamas azuis"
+[2026-05-12T19:34:38.167Z] [ptBR] Will: UNLOCKED | Key: items.BLUE_SCALES 
+[2026-05-12T19:34:38.169Z] [ptBR] Will: LOCKED | Key: items.GREEN_SCALES 
+[2026-05-12T19:34:38.784Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.GREEN_SCALES -> "Escamas verdes"
+[2026-05-12T19:34:38.786Z] [ptBR] Will: UNLOCKED | Key: items.GREEN_SCALES 
+[2026-05-12T19:34:38.788Z] [ptBR] Will: LOCKED | Key: items.BLACK_SCALES 
+[2026-05-12T19:34:39.305Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.BLACK_SCALES -> "Escamas negras"
+[2026-05-12T19:34:39.308Z] [ptBR] Will: UNLOCKED | Key: items.BLACK_SCALES 
+[2026-05-12T19:34:39.310Z] [ptBR] Will: LOCKED | Key: items.LEATHER 
+[2026-05-12T19:34:40.375Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.LEATHER -> "Couro"
+[2026-05-12T19:34:40.378Z] [ptBR] Will: UNLOCKED | Key: items.LEATHER 
+[2026-05-12T19:34:40.379Z] [ptBR] Will: LOCKED | Key: items.COINS 
+[2026-05-12T19:34:41.292Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.COINS -> "Moedas"
+[2026-05-12T19:34:41.295Z] [ptBR] Will: UNLOCKED | Key: items.COINS 
+[2026-05-12T19:34:41.297Z] [ptBR] Will: LOCKED | Key: items.ROCK_FRAGMENT 
+[2026-05-12T19:34:47.890Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.ROCK_FRAGMENT -> "Fragmento de rocha"
+[2026-05-12T19:34:47.895Z] [ptBR] Will: UNLOCKED | Key: items.ROCK_FRAGMENT 
+[2026-05-12T19:34:47.897Z] [ptBR] Will: LOCKED | Key: items.BRONZE_ORE 
+[2026-05-12T19:34:48.705Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_ORE -> "Minério de bronze"
+[2026-05-12T19:34:48.708Z] [ptBR] Will: UNLOCKED | Key: items.BRONZE_ORE 
+[2026-05-12T19:34:48.710Z] [ptBR] Will: LOCKED | Key: items.SILVER_ORE 
+[2026-05-12T19:34:49.870Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.SILVER_ORE -> "Minério de prata"
+[2026-05-12T19:34:49.877Z] [ptBR] Will: UNLOCKED | Key: items.SILVER_ORE 
+[2026-05-12T19:34:49.879Z] [ptBR] Will: LOCKED | Key: items.JADE_ORE 
+[2026-05-12T19:34:50.563Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.JADE_ORE -> "Minério de jade"
+[2026-05-12T19:34:50.570Z] [ptBR] Will: UNLOCKED | Key: items.JADE_ORE 
+[2026-05-12T19:34:50.572Z] [ptBR] Will: LOCKED | Key: items.GOLD_ORE 
+[2026-05-12T19:34:51.163Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.GOLD_ORE -> "Minério de ouro"
+[2026-05-12T19:34:51.166Z] [ptBR] Will: UNLOCKED | Key: items.GOLD_ORE 
+[2026-05-12T19:34:51.168Z] [ptBR] Will: LOCKED | Key: items.PLATINUM_ORE 
+[2026-05-12T19:34:51.950Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_ORE -> "Minério de platina"
+[2026-05-12T19:34:51.954Z] [ptBR] Will: UNLOCKED | Key: items.PLATINUM_ORE 
+[2026-05-12T19:34:51.955Z] [ptBR] Will: LOCKED | Key: items.DIAMOND_ORE 
+[2026-05-12T19:34:52.713Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_ORE -> "Minério de diamante"
+[2026-05-12T19:34:52.719Z] [ptBR] Will: UNLOCKED | Key: items.DIAMOND_ORE 
+[2026-05-12T19:34:52.721Z] [ptBR] Will: LOCKED | Key: items.SUNSTONE_ORE 
+[2026-05-12T19:34:53.680Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: items.SUNSTONE_ORE -> "Minério de pedra solar"
+[2026-05-12T19:34:53.682Z] [ptBR] Will: UNLOCKED | Key: items.SUNSTONE_ORE 
+[2026-05-12T19:34:53.684Z] [ptBR] Will: LOCKED | Key: items.EMERALD 
+[2026-05-12T19:36:57.153Z] [ptBR] RockyIdle: LOCKED | Key: common.hp 
+[2026-05-12T19:36:59.155Z] [ptBR] RockyIdle: UNLOCKED | Key: common.hp 
+[2026-05-12T19:36:59.163Z] [ptBR] RockyIdle: LOCKED | Key: common.level 
+[2026-05-12T19:37:00.335Z] [ptBR] RockyIdle: UNLOCKED | Key: common.level 
+[2026-05-12T19:37:00.343Z] [ptBR] RockyIdle: LOCKED | Key: settings.header 
+[2026-05-12T19:37:46.750Z] [ptBR] Felipe: UNLOCKED | Key: items.BERNARD_PET 
+[2026-05-12T19:37:46.756Z] [ptBR] Felipe: LOCKED | Key: items.MAMMOTH_PET 
+[2026-05-12T19:37:47.285Z] [ptBR] Felipe: UNLOCKED | Key: items.MAMMOTH_PET 
+[2026-05-12T19:37:47.286Z] [ptBR] Felipe: LOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:37:50.031Z] [ptBR] Felipe: UNLOCKED | Key: items.TUSKAR_PET 
+[2026-05-12T19:37:50.039Z] [ptBR] Felipe: LOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:37:51.692Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ARCANERY_PET -> "Mascote de Arcano"
+[2026-05-12T19:37:51.873Z] [ptBR] Felipe: UNLOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:37:51.879Z] [ptBR] Felipe: LOCKED | Key: items.FISHING_PET 
+[2026-05-12T19:37:52.800Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:37:54.373Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T19:37:55.779Z] [ptBR] Felipe: UNLOCKED | Key: items.FISHING_PET 
+[2026-05-12T19:37:55.779Z] [ptBR] Felipe: LOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:38:01.153Z] [ptBR] Will: LOCKED | Key: settings.header 
+[2026-05-12T19:38:02.006Z] [ptBR] Felipe: UNLOCKED | Key: items.ARCANERY_PET 
+[2026-05-12T19:38:02.012Z] [ptBR] Felipe: LOCKED | Key: items.BRONZE_HELMET 
+[2026-05-12T19:38:03.619Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_HELMET -> "Elmo de bronze"
+[2026-05-12T19:38:03.789Z] [ptBR] Felipe: UNLOCKED | Key: items.BRONZE_HELMET 
+[2026-05-12T19:38:03.795Z] [ptBR] Felipe: LOCKED | Key: items.BRONZE_DAGGER 
+[2026-05-12T19:38:05.757Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_DAGGER -> "Adaga de bronze"
+[2026-05-12T19:38:05.920Z] [ptBR] Felipe: UNLOCKED | Key: items.BRONZE_DAGGER 
+[2026-05-12T19:38:05.927Z] [ptBR] Felipe: LOCKED | Key: items.BRONZE_SHIELD 
+[2026-05-12T19:38:06.832Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_SHIELD -> "Escudo de bronze"
+[2026-05-12T19:38:07.000Z] [ptBR] Felipe: UNLOCKED | Key: items.BRONZE_SHIELD 
+[2026-05-12T19:38:07.001Z] [ptBR] Felipe: LOCKED | Key: items.BRONZE_PLATE_LEGS 
+[2026-05-12T19:38:08.012Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_PLATE_LEGS -> "Perneiras de bronze"
+[2026-05-12T19:38:08.188Z] [ptBR] Felipe: UNLOCKED | Key: items.BRONZE_PLATE_LEGS 
+[2026-05-12T19:38:08.188Z] [ptBR] Felipe: LOCKED | Key: items.BRONZE_CHAIN_BODY 
+[2026-05-12T19:38:09.745Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_CHAIN_BODY -> "Cota de malha de bronze"
+[2026-05-12T19:38:09.910Z] [ptBR] Felipe: UNLOCKED | Key: items.BRONZE_CHAIN_BODY 
+[2026-05-12T19:38:09.916Z] [ptBR] Felipe: LOCKED | Key: items.BRONZE_SCIMITAR 
+[2026-05-12T19:38:11.348Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.BRONZE_SCIMITAR -> "Cimitarra de bronze"
+[2026-05-12T19:38:11.515Z] [ptBR] Felipe: UNLOCKED | Key: items.BRONZE_SCIMITAR 
+[2026-05-12T19:38:11.519Z] [ptBR] Felipe: LOCKED | Key: items.SILVER_HELMET 
+[2026-05-12T19:38:12.139Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SILVER_HELMET -> "Elmo de prata"
+[2026-05-12T19:38:12.308Z] [ptBR] Felipe: UNLOCKED | Key: items.SILVER_HELMET 
+[2026-05-12T19:38:12.309Z] [ptBR] Felipe: LOCKED | Key: items.SILVER_DAGGER 
+[2026-05-12T19:38:12.946Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SILVER_DAGGER -> "Adaga de prata"
+[2026-05-12T19:38:13.112Z] [ptBR] Felipe: UNLOCKED | Key: items.SILVER_DAGGER 
+[2026-05-12T19:38:13.118Z] [ptBR] Felipe: LOCKED | Key: items.SILVER_SHIELD 
+[2026-05-12T19:38:13.566Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SILVER_SHIELD -> "Escudo de prata"
+[2026-05-12T19:38:13.730Z] [ptBR] Felipe: UNLOCKED | Key: items.SILVER_SHIELD 
+[2026-05-12T19:38:13.736Z] [ptBR] Felipe: LOCKED | Key: items.SILVER_PLATE_LEGS 
+[2026-05-12T19:38:14.440Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SILVER_PLATE_LEGS -> "Perneiras de prata"
+[2026-05-12T19:38:14.605Z] [ptBR] Felipe: UNLOCKED | Key: items.SILVER_PLATE_LEGS 
+[2026-05-12T19:38:14.614Z] [ptBR] Felipe: LOCKED | Key: items.SILVER_CHAIN_BODY 
+[2026-05-12T19:38:15.544Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SILVER_CHAIN_BODY -> "Cota de malha de prata"
+[2026-05-12T19:38:15.711Z] [ptBR] Felipe: UNLOCKED | Key: items.SILVER_CHAIN_BODY 
+[2026-05-12T19:38:15.718Z] [ptBR] Felipe: LOCKED | Key: items.SILVER_SCIMITAR 
+[2026-05-12T19:38:16.231Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.SILVER_SCIMITAR -> "Cimitarra de prata"
+[2026-05-12T19:38:16.400Z] [ptBR] Felipe: UNLOCKED | Key: items.SILVER_SCIMITAR 
+[2026-05-12T19:38:16.401Z] [ptBR] Felipe: LOCKED | Key: items.JADE_HELMET 
+[2026-05-12T19:38:16.938Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JADE_HELMET -> "Elmo de jade"
+[2026-05-12T19:38:17.103Z] [ptBR] Felipe: UNLOCKED | Key: items.JADE_HELMET 
+[2026-05-12T19:38:17.109Z] [ptBR] Felipe: LOCKED | Key: items.JADE_DAGGER 
+[2026-05-12T19:38:17.582Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JADE_DAGGER -> "Adaga de jade"
+[2026-05-12T19:38:17.748Z] [ptBR] Felipe: UNLOCKED | Key: items.JADE_DAGGER 
+[2026-05-12T19:38:17.756Z] [ptBR] Felipe: LOCKED | Key: items.JADE_SHIELD 
+[2026-05-12T19:38:18.136Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JADE_SHIELD -> "Escudo de jade"
+[2026-05-12T19:38:18.230Z] [ptBR] Will: UNLOCKED | Key: settings.header 
+[2026-05-12T19:38:18.230Z] [ptBR] Will: LOCKED | Key: items.JADE_DAGGER 
+[2026-05-12T19:38:18.316Z] [ptBR] Felipe: UNLOCKED | Key: items.JADE_SHIELD 
+[2026-05-12T19:38:18.321Z] [ptBR] Felipe: LOCKED | Key: items.JADE_PLATE_LEGS 
+[2026-05-12T19:38:18.662Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JADE_PLATE_LEGS -> "Perneiras de jade"
+[2026-05-12T19:38:18.828Z] [ptBR] Felipe: UNLOCKED | Key: items.JADE_PLATE_LEGS 
+[2026-05-12T19:38:18.834Z] [ptBR] Felipe: LOCKED | Key: items.JADE_CHAIN_BODY 
+[2026-05-12T19:38:19.188Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JADE_CHAIN_BODY -> "Cota de malha de jade"
+[2026-05-12T19:38:19.358Z] [ptBR] Felipe: UNLOCKED | Key: items.JADE_CHAIN_BODY 
+[2026-05-12T19:38:19.365Z] [ptBR] Felipe: LOCKED | Key: items.JADE_SCIMITAR 
+[2026-05-12T19:38:21.051Z] [ptBR] Will: UNLOCKED | Key: items.JADE_DAGGER 
+[2026-05-12T19:38:24.958Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JADE_SCIMITAR -> "Cimitarra de jade"
+[2026-05-12T19:38:25.126Z] [ptBR] Felipe: UNLOCKED | Key: items.JADE_SCIMITAR 
+[2026-05-12T19:38:25.133Z] [ptBR] Felipe: LOCKED | Key: items.PLATINUM_HELMET 
+[2026-05-12T19:38:26.011Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_HELMET -> "Elmo de platina"
+[2026-05-12T19:38:26.176Z] [ptBR] Felipe: UNLOCKED | Key: items.PLATINUM_HELMET 
+[2026-05-12T19:38:26.183Z] [ptBR] Felipe: LOCKED | Key: items.PLATINUM_DAGGER 
+[2026-05-12T19:38:26.678Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_DAGGER -> "Adaga de platina"
+[2026-05-12T19:38:26.845Z] [ptBR] Felipe: UNLOCKED | Key: items.PLATINUM_DAGGER 
+[2026-05-12T19:38:26.852Z] [ptBR] Felipe: LOCKED | Key: items.PLATINUM_SHIELD 
+[2026-05-12T19:38:31.630Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_SHIELD -> "Escudo de platina"
+[2026-05-12T19:38:31.794Z] [ptBR] Felipe: UNLOCKED | Key: items.PLATINUM_SHIELD 
+[2026-05-12T19:38:31.801Z] [ptBR] Felipe: LOCKED | Key: items.PLATINUM_PLATE_LEGS 
+[2026-05-12T19:38:41.521Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_PLATE_LEGS -> "Perneiras de platina"
+[2026-05-12T19:38:41.691Z] [ptBR] Felipe: UNLOCKED | Key: items.PLATINUM_PLATE_LEGS 
+[2026-05-12T19:38:41.696Z] [ptBR] Felipe: LOCKED | Key: items.PLATINUM_CHAIN_BODY 
+[2026-05-12T19:38:42.132Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_CHAIN_BODY -> "Cota de malha de platina"
+[2026-05-12T19:38:42.323Z] [ptBR] Felipe: UNLOCKED | Key: items.PLATINUM_CHAIN_BODY 
+[2026-05-12T19:38:42.330Z] [ptBR] Felipe: LOCKED | Key: items.ROCKYS_APRON 
+[2026-05-12T19:38:44.724Z] [ptBR] Will: LOCKED | Key: xp_lamp.pick_skill_title 
+[2026-05-12T19:38:46.327Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ROCKYS_APRON -> "Avental de Rocky"
+[2026-05-12T19:38:46.494Z] [ptBR] Felipe: UNLOCKED | Key: items.ROCKYS_APRON 
+[2026-05-12T19:38:46.494Z] [ptBR] Felipe: LOCKED | Key: items.PLATINUM_SCIMITAR 
+[2026-05-12T19:38:47.432Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: xp_lamp.pick_skill_title -> "Escolha uma habilidade para ga..."
+[2026-05-12T19:38:47.436Z] [ptBR] Will: UNLOCKED | Key: xp_lamp.pick_skill_title 
+[2026-05-12T19:38:47.438Z] [ptBR] Will: LOCKED | Key: xp_lamp.pick_skill_hint 
+[2026-05-12T19:38:47.956Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.PLATINUM_SCIMITAR -> "Cimitarra de platina"
+[2026-05-12T19:38:48.120Z] [ptBR] Felipe: UNLOCKED | Key: items.PLATINUM_SCIMITAR 
+[2026-05-12T19:38:48.126Z] [ptBR] Felipe: LOCKED | Key: items.DIAMOND_HELMET 
+[2026-05-12T19:38:48.745Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: xp_lamp.pick_skill_hint -> "Escolha uma habilidade acima d..."
+[2026-05-12T19:38:48.750Z] [ptBR] Will: UNLOCKED | Key: xp_lamp.pick_skill_hint 
+[2026-05-12T19:38:48.751Z] [ptBR] Will: LOCKED | Key: xp_lamp.open_lamp 
+[2026-05-12T19:38:50.255Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: xp_lamp.open_lamp -> "Abrir Lâmpada"
+[2026-05-12T19:38:50.258Z] [ptBR] Will: UNLOCKED | Key: xp_lamp.open_lamp 
+[2026-05-12T19:38:50.259Z] [ptBR] Will: LOCKED | Key: prayer.reading_prefix 
+[2026-05-12T19:38:51.656Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: prayer.reading_prefix -> "Ler"
+[2026-05-12T19:38:51.658Z] [ptBR] Will: UNLOCKED | Key: prayer.reading_prefix 
+[2026-05-12T19:38:51.660Z] [ptBR] Will: LOCKED | Key: prayer.reading_middle 
+[2026-05-12T19:38:52.608Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: prayer.reading_middle -> "desbloqueará uma nova"
+[2026-05-12T19:38:52.611Z] [ptBR] Will: UNLOCKED | Key: prayer.reading_middle 
+[2026-05-12T19:38:52.612Z] [ptBR] Will: LOCKED | Key: prayer.prayer_label 
+[2026-05-12T19:38:54.844Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: prayer.prayer_label -> "Oração"
+[2026-05-12T19:38:54.848Z] [ptBR] Will: UNLOCKED | Key: prayer.prayer_label 
+[2026-05-12T19:38:54.850Z] [ptBR] Will: LOCKED | Key: prayer.read_the_book 
+[2026-05-12T19:38:56.632Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: prayer.read_the_book -> "Ler o {{bookName}}"
+[2026-05-12T19:38:56.635Z] [ptBR] Will: UNLOCKED | Key: prayer.read_the_book 
+[2026-05-12T19:38:56.637Z] [ptBR] Will: LOCKED | Key: login_page.sign_in 
+[2026-05-12T19:38:57.691Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: login_page.sign_in -> "Entrar"
+[2026-05-12T19:38:57.694Z] [ptBR] Will: UNLOCKED | Key: login_page.sign_in 
+[2026-05-12T19:38:57.696Z] [ptBR] Will: LOCKED | Key: login_page.login_failed 
+[2026-05-12T19:38:58.955Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: login_page.login_failed -> "Falha no Login, Tente Novament..."
+[2026-05-12T19:38:58.959Z] [ptBR] Will: UNLOCKED | Key: login_page.login_failed 
+[2026-05-12T19:38:58.960Z] [ptBR] Will: LOCKED | Key: navigation.go_to_landing_page 
+[2026-05-12T19:39:01.214Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.go_to_landing_page -> "Ir para página inicial"
+[2026-05-12T19:39:01.217Z] [ptBR] Will: UNLOCKED | Key: navigation.go_to_landing_page 
+[2026-05-12T19:39:01.219Z] [ptBR] Will: LOCKED | Key: navigation.join_discord 
+[2026-05-12T19:39:22.720Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_HELMET -> "Elmo de diamante"
+[2026-05-12T19:39:22.893Z] [ptBR] Felipe: UNLOCKED | Key: items.DIAMOND_HELMET 
+[2026-05-12T19:39:22.899Z] [ptBR] Felipe: LOCKED | Key: items.DIAMOND_DAGGER 
+[2026-05-12T19:39:46.483Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_DAGGER -> "Adaga de diamante"
+[2026-05-12T19:39:46.658Z] [ptBR] Felipe: UNLOCKED | Key: items.DIAMOND_DAGGER 
+[2026-05-12T19:39:46.659Z] [ptBR] Felipe: LOCKED | Key: items.DIAMOND_SHIELD 
+[2026-05-12T19:39:47.462Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_SHIELD -> "Escudo de diamante"
+[2026-05-12T19:39:47.624Z] [ptBR] Felipe: UNLOCKED | Key: items.DIAMOND_SHIELD 
+[2026-05-12T19:39:47.630Z] [ptBR] Felipe: LOCKED | Key: items.DIAMOND_PLATE_LEGS 
+[2026-05-12T19:40:03.020Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.join_discord -> "Entrar no Servidor do Discord"
+[2026-05-12T19:40:03.024Z] [ptBR] Will: UNLOCKED | Key: navigation.join_discord 
+[2026-05-12T19:40:03.026Z] [ptBR] Will: LOCKED | Key: navigation.send_email 
+[2026-05-12T19:40:03.893Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.send_email -> "Envie-me um e-mail em {{email}..."
+[2026-05-12T19:40:03.896Z] [ptBR] Will: UNLOCKED | Key: navigation.send_email 
+[2026-05-12T19:40:03.898Z] [ptBR] Will: LOCKED | Key: navigation.open_bank 
+[2026-05-12T19:40:04.511Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.open_bank -> "Abrir banco"
+[2026-05-12T19:40:04.514Z] [ptBR] Will: UNLOCKED | Key: navigation.open_bank 
+[2026-05-12T19:40:04.516Z] [ptBR] Will: LOCKED | Key: navigation.gear_stats 
+[2026-05-12T19:40:05.166Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.gear_stats -> "Estatísticas de equipamentos"
+[2026-05-12T19:40:05.169Z] [ptBR] Will: UNLOCKED | Key: navigation.gear_stats 
+[2026-05-12T19:40:05.171Z] [ptBR] Will: LOCKED | Key: navigation.gear 
+[2026-05-12T19:40:06.433Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.gear -> "Equipamento"
+[2026-05-12T19:40:06.435Z] [ptBR] Will: UNLOCKED | Key: navigation.gear 
+[2026-05-12T19:40:06.437Z] [ptBR] Will: LOCKED | Key: navigation.bank 
+[2026-05-12T19:40:07.286Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.bank -> "Banco"
+[2026-05-12T19:40:07.289Z] [ptBR] Will: UNLOCKED | Key: navigation.bank 
+[2026-05-12T19:40:07.290Z] [ptBR] Will: LOCKED | Key: navigation.monsters 
+[2026-05-12T19:40:07.954Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.monsters -> "Monstros"
+[2026-05-12T19:40:07.957Z] [ptBR] Will: UNLOCKED | Key: navigation.monsters 
+[2026-05-12T19:40:07.959Z] [ptBR] Will: LOCKED | Key: navigation.skilling 
+[2026-05-12T19:40:08.842Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.skilling -> "Treino"
+[2026-05-12T19:40:08.845Z] [ptBR] Will: UNLOCKED | Key: navigation.skilling 
+[2026-05-12T19:40:08.847Z] [ptBR] Will: LOCKED | Key: navigation.slayer 
+[2026-05-12T19:40:19.815Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.slayer -> "Extermínio"
+[2026-05-12T19:40:19.818Z] [ptBR] Will: UNLOCKED | Key: navigation.slayer 
+[2026-05-12T19:40:19.820Z] [ptBR] Will: LOCKED | Key: navigation.combat 
+[2026-05-12T19:40:20.622Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.combat -> "Combate"
+[2026-05-12T19:40:20.629Z] [ptBR] Will: UNLOCKED | Key: navigation.combat 
+[2026-05-12T19:40:20.631Z] [ptBR] Will: LOCKED | Key: navigation.quests 
+[2026-05-12T19:40:21.332Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.quests -> "Missões"
+[2026-05-12T19:40:21.337Z] [ptBR] Will: UNLOCKED | Key: navigation.quests 
+[2026-05-12T19:40:21.338Z] [ptBR] Will: LOCKED | Key: navigation.achievements 
+[2026-05-12T19:40:22.122Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.achievements -> "Conquistas"
+[2026-05-12T19:40:22.125Z] [ptBR] Will: UNLOCKED | Key: navigation.achievements 
+[2026-05-12T19:40:22.127Z] [ptBR] Will: LOCKED | Key: navigation.chests 
+[2026-05-12T19:40:23.102Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.chests -> "Baús"
+[2026-05-12T19:40:23.107Z] [ptBR] Will: UNLOCKED | Key: navigation.chests 
+[2026-05-12T19:40:23.108Z] [ptBR] Will: LOCKED | Key: navigation.collection_log 
+[2026-05-12T19:40:26.933Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.collection_log -> "Registro de Coleção"
+[2026-05-12T19:40:26.936Z] [ptBR] Will: UNLOCKED | Key: navigation.collection_log 
+[2026-05-12T19:40:26.937Z] [ptBR] Will: LOCKED | Key: navigation.shops 
+[2026-05-12T19:40:28.201Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.shops -> "Lojas"
+[2026-05-12T19:40:28.204Z] [ptBR] Will: UNLOCKED | Key: navigation.shops 
+[2026-05-12T19:40:28.205Z] [ptBR] Will: LOCKED | Key: navigation.boosts 
+[2026-05-12T19:40:29.270Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: navigation.boosts -> "Bônus"
+[2026-05-12T19:40:29.275Z] [ptBR] Will: UNLOCKED | Key: navigation.boosts 
+[2026-05-12T19:40:29.276Z] [ptBR] Will: LOCKED | Key: link_account_page.account_linked_title 
+[2026-05-12T19:40:40.419Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: link_account_page.account_linked_title -> "Conta Vinculada!"
+[2026-05-12T19:40:40.422Z] [ptBR] Will: UNLOCKED | Key: link_account_page.account_linked_title 
+[2026-05-12T19:40:40.423Z] [ptBR] Will: LOCKED | Key: link_account_page.link_your_account_title 
+[2026-05-12T19:40:41.076Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: link_account_page.link_your_account_title -> "Vincule Sua Conta"
+[2026-05-12T19:40:41.083Z] [ptBR] Will: UNLOCKED | Key: link_account_page.link_your_account_title 
+[2026-05-12T19:40:41.084Z] [ptBR] Will: LOCKED | Key: errors.invalid_compressed_data 
+[2026-05-12T19:40:41.863Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: errors.invalid_compressed_data -> "Dados comprimidos inválidos!"
+[2026-05-12T19:40:41.868Z] [ptBR] Will: UNLOCKED | Key: errors.invalid_compressed_data 
+[2026-05-12T19:40:41.869Z] [ptBR] Will: LOCKED | Key: errors.invalid_game_data 
+[2026-05-12T19:40:42.973Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: errors.invalid_game_data -> "Dados de jogo inválidos, deve ..."
+[2026-05-12T19:40:42.976Z] [ptBR] Will: UNLOCKED | Key: errors.invalid_game_data 
+[2026-05-12T19:40:42.978Z] [ptBR] Will: LOCKED | Key: errors.no_slot_data 
+[2026-05-12T19:40:43.990Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: errors.no_slot_data -> "Nenhum dado encontrado para es..."
+[2026-05-12T19:40:43.993Z] [ptBR] Will: UNLOCKED | Key: errors.no_slot_data 
+[2026-05-12T19:40:43.995Z] [ptBR] Will: LOCKED | Key: errors.failed_load_user_data 
+[2026-05-12T19:40:45.382Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: errors.failed_load_user_data -> "Falha ao encontrar dados de us..."
+[2026-05-12T19:40:45.386Z] [ptBR] Will: UNLOCKED | Key: errors.failed_load_user_data 
+[2026-05-12T19:40:45.387Z] [ptBR] Will: LOCKED | Key: errors.token_expired 
+[2026-05-12T19:40:49.987Z] [ptBR] Will: UNLOCKED | Key: errors.token_expired 
+[2026-05-12T19:40:49.987Z] [ptBR] Will: LOCKED | Key: errors.failed_load_user_data 
+[2026-05-12T19:40:50.568Z] [ptBR] Will: UNLOCKED | Key: errors.failed_load_user_data 
+[2026-05-12T19:40:50.569Z] [ptBR] Will: LOCKED | Key: errors.token_expired 
+[2026-05-12T19:41:43.293Z] [esES] Will: LOCKED | Key: account_overview.cloud_save_up_to_date 
+[2026-05-12T19:41:50.018Z] [esES] Will: SAVED TRANSLATION & VALIDATED | Key: account_overview.cloud_save_up_to_date -> "Guardado en la nube actualizad..."
+[2026-05-12T19:41:50.022Z] [esES] Will: UNLOCKED | Key: account_overview.cloud_save_up_to_date 
+[2026-05-12T19:41:50.024Z] [esES] Will: LOCKED | Key: account_overview.add_new_character 
+[2026-05-12T19:41:57.351Z] [esES] Will: LOCKED | Key: account_overview.delete_cloud_warning 
+[2026-05-12T19:41:57.979Z] [esES] Will: UNLOCKED | Key: account_overview.delete_cloud_warning 
+[2026-05-12T19:41:57.980Z] [esES] Will: LOCKED | Key: account_overview.delete_cloud_warning 
+[2026-05-12T19:42:01.056Z] [esES] Will: UNLOCKED | Key: account_overview.delete_cloud_warning 
+[2026-05-12T19:42:01.057Z] [esES] Will: LOCKED | Key: steam_page.short_description 
+[2026-05-12T19:42:55.749Z] [esES] Will: SAVED TRANSLATION & VALIDATED | Key: steam_page.short_description -> "Rocky Idle es un juego idle/in..."
+[2026-05-12T19:42:55.753Z] [esES] Will: UNLOCKED | Key: steam_page.short_description 
+[2026-05-12T19:42:55.755Z] [esES] Will: LOCKED | Key: steam_page.long_description_1 
+[2026-05-12T19:43:02.686Z] [esES] Will: LOCKED | Key: steam_page.short_description 
+[2026-05-12T19:45:32.540Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_PLATE_LEGS -> "Perneiras de diamante"
+[2026-05-12T19:45:32.715Z] [ptBR] Felipe: UNLOCKED | Key: items.DIAMOND_PLATE_LEGS 
+[2026-05-12T19:45:32.721Z] [ptBR] Felipe: LOCKED | Key: items.DIAMOND_CHAIN_BODY 
+[2026-05-12T19:45:34.315Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_CHAIN_BODY -> "Cota de malha de diamante"
+[2026-05-12T19:45:34.494Z] [ptBR] Felipe: UNLOCKED | Key: items.DIAMOND_CHAIN_BODY 
+[2026-05-12T19:45:34.494Z] [ptBR] Felipe: LOCKED | Key: items.DIAMOND_SCIMITAR 
+[2026-05-12T19:45:34.914Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.DIAMOND_SCIMITAR -> "Cimitarra de diamante"
+[2026-05-12T19:45:35.089Z] [ptBR] Felipe: UNLOCKED | Key: items.DIAMOND_SCIMITAR 
+[2026-05-12T19:45:35.096Z] [ptBR] Felipe: LOCKED | Key: items.ROOT_HELMET 
+[2026-05-12T19:45:35.438Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ROOT_HELMET -> "Elmo de raiz"
+[2026-05-12T19:45:35.612Z] [ptBR] Felipe: UNLOCKED | Key: items.ROOT_HELMET 
+[2026-05-12T19:45:35.613Z] [ptBR] Felipe: LOCKED | Key: items.ROOT_SHIELD 
+[2026-05-12T19:45:36.550Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ROOT_SHIELD -> "Escudo de raiz"
+[2026-05-12T19:45:36.715Z] [ptBR] Felipe: UNLOCKED | Key: items.ROOT_SHIELD 
+[2026-05-12T19:45:36.720Z] [ptBR] Felipe: LOCKED | Key: items.ROOT_LEGS 
+[2026-05-12T19:45:37.178Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ROOT_LEGS -> "Perneiras de raiz"
+[2026-05-12T19:45:37.352Z] [ptBR] Felipe: UNLOCKED | Key: items.ROOT_LEGS 
+[2026-05-12T19:45:37.352Z] [ptBR] Felipe: LOCKED | Key: items.ROOT_PLATE_BODY 
+[2026-05-12T19:45:37.748Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ROOT_PLATE_BODY -> "Peitoral de raiz"
+[2026-05-12T19:45:37.917Z] [ptBR] Felipe: UNLOCKED | Key: items.ROOT_PLATE_BODY 
+[2026-05-12T19:45:37.923Z] [ptBR] Felipe: LOCKED | Key: items.LIZARD_BLADE 
+[2026-05-12T19:45:38.245Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.LIZARD_BLADE -> "Lâmina de lagarto"
+[2026-05-12T19:45:38.411Z] [ptBR] Felipe: UNLOCKED | Key: items.LIZARD_BLADE 
+[2026-05-12T19:45:38.437Z] [ptBR] Felipe: LOCKED | Key: items.LIZARD_RING 
+[2026-05-12T19:45:39.064Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.LIZARD_RING -> "Anel de lagarto"
+[2026-05-12T19:45:39.231Z] [ptBR] Felipe: UNLOCKED | Key: items.LIZARD_RING 
+[2026-05-12T19:45:39.239Z] [ptBR] Felipe: LOCKED | Key: items.LIZARD_NECKLACE 
+[2026-05-12T19:45:39.798Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.LIZARD_NECKLACE -> "Collar de lagarto"
+[2026-05-12T19:45:39.962Z] [ptBR] Felipe: UNLOCKED | Key: items.LIZARD_NECKLACE 
+[2026-05-12T19:45:39.968Z] [ptBR] Felipe: LOCKED | Key: items.JIGGYS_CLAWS 
+[2026-05-12T19:45:41.564Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.JIGGYS_CLAWS -> "Garras de Jiggy"
+[2026-05-12T19:45:41.729Z] [ptBR] Felipe: UNLOCKED | Key: items.JIGGYS_CLAWS 
+[2026-05-12T19:45:41.735Z] [ptBR] Felipe: LOCKED | Key: items.ROCKYS_PICKAXE 
+[2026-05-12T19:45:43.076Z] [ptBR] Felipe: SAVED TRANSLATION & VALIDATED | Key: items.ROCKYS_PICKAXE -> "Picareta de Rocky"
+[2026-05-12T19:45:43.243Z] [ptBR] Felipe: UNLOCKED | Key: items.ROCKYS_PICKAXE 
+[2026-05-12T19:45:43.248Z] [ptBR] Felipe: LOCKED | Key: items.BARK_HAT 
