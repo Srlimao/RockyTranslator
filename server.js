@@ -2,8 +2,17 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
+const http = require('http');
+const { Server } = require('socket.io');
 
 const app = express();
+const server = http.createServer(app);
+const io = new Server(server, {
+  cors: {
+    origin: "*",
+    methods: ["GET", "POST"]
+  }
+});
 const port = process.env.PORT || 3000;
 
 app.use(cors());
@@ -26,6 +35,77 @@ if (!fs.existsSync(path.join(languagesDir, 'source'))) {
 if (!fs.existsSync(sourcePath)) {
   fs.writeFileSync(sourcePath, JSON.stringify({ "Example": "Source Text" }, null, 2));
 }
+
+// Socket.io State
+const activeEdits = {}; // { "langCode": { "key": { username, socketId } } }
+
+io.on('connection', (socket) => {
+  let currentLang = null;
+  let username = null;
+  let lockedKeys = []; // Array of keys this socket currently locks
+
+  socket.on('join', (data) => {
+    // data: { langCode, username }
+    if (currentLang) {
+      socket.leave(currentLang);
+      // unlock any keys this user was holding
+      lockedKeys.forEach(key => {
+        if (activeEdits[currentLang] && activeEdits[currentLang][key]?.socketId === socket.id) {
+          delete activeEdits[currentLang][key];
+          io.to(currentLang).emit('key-unlocked', { key });
+        }
+      });
+      lockedKeys = [];
+    }
+
+    currentLang = data.langCode;
+    username = data.username;
+    socket.join(currentLang);
+
+    if (!activeEdits[currentLang]) {
+      activeEdits[currentLang] = {};
+    }
+
+    // Send the current locked keys for this language to the new user
+    socket.emit('active-locks', activeEdits[currentLang]);
+  });
+
+  socket.on('lock-key', (data) => {
+    // data: { key }
+    if (!currentLang || !username) return;
+    
+    const key = data.key;
+    
+    if (!activeEdits[currentLang][key]) {
+      activeEdits[currentLang][key] = { username, socketId: socket.id };
+      lockedKeys.push(key);
+      // Broadcast to everyone else
+      socket.to(currentLang).emit('key-locked', { key, username });
+    }
+  });
+
+  socket.on('unlock-key', (data) => {
+    // data: { key }
+    if (!currentLang) return;
+    const key = data.key;
+    if (activeEdits[currentLang][key]?.socketId === socket.id) {
+      delete activeEdits[currentLang][key];
+      lockedKeys = lockedKeys.filter(k => k !== key);
+      io.to(currentLang).emit('key-unlocked', { key });
+    }
+  });
+
+  socket.on('disconnect', () => {
+    if (currentLang && username) {
+      lockedKeys.forEach(key => {
+        if (activeEdits[currentLang] && activeEdits[currentLang][key]?.socketId === socket.id) {
+          delete activeEdits[currentLang][key];
+          io.to(currentLang).emit('key-unlocked', { key });
+        }
+      });
+    }
+  });
+});
 
 // API Endpoints
 
@@ -95,6 +175,28 @@ app.post('/api/languages', (req, res) => {
   }
 });
 
+// updateSource
+app.post('/api/source', (req, res) => {
+  try {
+    const newSourceData = req.body;
+    
+    // Backup existing
+    if (fs.existsSync(sourcePath)) {
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const backupPath = path.join(languagesDir, 'source', `translation_backup_${timestamp}.json`);
+      fs.copyFileSync(sourcePath, backupPath);
+    }
+
+    // Save new source
+    fs.writeFileSync(sourcePath, JSON.stringify(newSourceData, null, 2));
+
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Error updating source:', error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
 // loadTranslation
 app.get('/api/translation/:langCode', (req, res) => {
   try {
@@ -151,6 +253,59 @@ app.post('/api/translation/:langCode', (req, res) => {
   }
 });
 
-app.listen(port, '0.0.0.0', () => {
+// updateKey
+app.post('/api/translation/:langCode/update-key', (req, res) => {
+  try {
+    const langCode = req.params.langCode;
+    const { key, translation, progress } = req.body;
+    
+    const langPath = path.join(languagesDir, langCode);
+    if (!fs.existsSync(langPath)) {
+      fs.mkdirSync(langPath);
+    }
+
+    const transPath = path.join(langPath, 'translation.json');
+    const progressPath = path.join(langPath, 'progress.json');
+
+    let translationData = {};
+    let progressData = {};
+
+    if (fs.existsSync(transPath)) {
+      translationData = JSON.parse(fs.readFileSync(transPath, 'utf8'));
+    }
+    if (fs.existsSync(progressPath)) {
+      progressData = JSON.parse(fs.readFileSync(progressPath, 'utf8'));
+    }
+
+    // Update specific key
+    const keys = key.split('.');
+    let current = translationData;
+    for (let i = 0; i < keys.length - 1; i++) {
+      const k = keys[i];
+      if (!(k in current)) current[k] = {};
+      current = current[k];
+    }
+    current[keys[keys.length - 1]] = translation;
+    
+    progressData[key] = progress;
+
+    fs.writeFileSync(transPath, JSON.stringify(translationData, null, 2));
+    fs.writeFileSync(progressPath, JSON.stringify(progressData, null, 2));
+
+    // Broadcast the update via socket to all clients in the language room
+    io.to(langCode).emit('key-updated', {
+      key: key,
+      translation: translation,
+      progress: progress
+    });
+
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Error updating key:', error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+server.listen(port, '0.0.0.0', () => {
   console.log(`Rocky Translator server listening at http://localhost:${port}`);
 });

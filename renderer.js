@@ -43,6 +43,9 @@ let appState = {
   translationFlat: {},
   progressData: {}, // { "key": { translated: bool, validated: bool } }
   currentKey: null,
+  username: null,
+  socket: null,
+  activeLocks: {},
   config: {
     apiUrl: 'http://localhost:1234/v1',
     modelName: 'local-model',
@@ -72,6 +75,9 @@ const btnValidateNext = document.getElementById('btn-validate-next');
 const btnAutoTranslate = document.getElementById('btn-auto-translate');
 const btnAiTranslate = document.getElementById('btn-ai-translate');
 const aiLoading = document.getElementById('ai-loading');
+const btnUpdateSource = document.getElementById('btn-update-source');
+const fileUpdateSource = document.getElementById('file-update-source');
+const btnDownloadTranslation = document.getElementById('btn-download-translation');
 
 const progressBarTranslated = document.getElementById('progress-bar-translated');
 const progressBarValidated = document.getElementById('progress-bar-validated');
@@ -100,6 +106,39 @@ const btnAddGlossary = document.getElementById('btn-add-glossary');
 const glossaryList = document.getElementById('glossary-list');
 const btnCloseGlossary = document.getElementById('btn-close-glossary');
 
+const usernameDisplay = document.getElementById('username-display');
+const headerUsername = document.getElementById('header-username');
+const usernameModal = document.getElementById('username-modal');
+const inputUsername = document.getElementById('input-username');
+const btnSaveUsername = document.getElementById('btn-save-username');
+const lockedBanner = document.getElementById('locked-banner');
+const lockedByUser = document.getElementById('locked-by-user');
+
+function loadUsername() {
+  const saved = localStorage.getItem('rt-username');
+  if (saved) {
+    appState.username = saved;
+    headerUsername.textContent = saved;
+  } else {
+    usernameModal.classList.add('show');
+  }
+}
+
+function saveUsername() {
+  const val = inputUsername.value.trim();
+  if (val) {
+    appState.username = val;
+    localStorage.setItem('rt-username', val);
+    headerUsername.textContent = val;
+    usernameModal.classList.remove('show');
+    
+    // Rejoin socket if already connected
+    if (appState.socket && appState.currentLanguage) {
+      appState.socket.emit('join', { langCode: appState.currentLanguage, username: appState.username });
+    }
+  }
+}
+
 // Initialize
 async function init() {
   if (btnToggleSidebar) {
@@ -111,6 +150,58 @@ async function init() {
   await loadConfig();
   await refreshLanguages();
 
+  loadUsername();
+
+  usernameDisplay.addEventListener('click', () => {
+    inputUsername.value = appState.username || '';
+    usernameModal.classList.add('show');
+  });
+
+  btnSaveUsername.addEventListener('click', saveUsername);
+  inputUsername.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') saveUsername();
+  });
+
+  // Init socket
+  if (typeof io !== 'undefined') {
+    appState.socket = io();
+
+    appState.socket.on('active-locks', (locks) => {
+      appState.activeLocks = {};
+      for (const key in locks) {
+        appState.activeLocks[key] = locks[key].username;
+      }
+      renderKeyList();
+      checkCurrentKeyLock();
+    });
+
+    appState.socket.on('key-locked', (data) => {
+      appState.activeLocks[data.key] = data.username;
+      updateKeyLockUI(data.key);
+      if (appState.currentKey === data.key) checkCurrentKeyLock();
+    });
+
+    appState.socket.on('key-unlocked', (data) => {
+      delete appState.activeLocks[data.key];
+      updateKeyLockUI(data.key);
+      if (appState.currentKey === data.key) checkCurrentKeyLock();
+    });
+
+    appState.socket.on('key-updated', (data) => {
+      appState.translationFlat[data.key] = data.translation;
+      appState.progressData[data.key] = data.progress;
+      updateProgress();
+      updateKeyStatusUI(data.key);
+
+      // Update editor if currently viewing
+      if (appState.currentKey === data.key && appState.activeLocks[data.key] !== appState.username) {
+        translationText.value = data.translation;
+        cbTranslated.checked = data.progress.translated;
+        cbValidated.checked = data.progress.validated;
+      }
+    });
+  }
+
   languageSelect.addEventListener('change', (e) => loadLanguage(e.target.value));
   searchInput.addEventListener('input', renderKeyList);
   filterUntranslated.addEventListener('change', renderKeyList);
@@ -120,6 +211,56 @@ async function init() {
   btnValidateNext.addEventListener('click', validateSaveAndNext);
   btnAutoTranslate.addEventListener('click', autoTranslateAll);
   btnAiTranslate.addEventListener('click', translateWithAi);
+
+  if (btnUpdateSource && fileUpdateSource) {
+    btnUpdateSource.addEventListener('click', () => {
+      fileUpdateSource.click();
+    });
+
+    if (btnDownloadTranslation) {
+      btnDownloadTranslation.addEventListener('click', downloadCurrentTranslation);
+    }
+
+    fileUpdateSource.addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = async (event) => {
+        try {
+          const newSourceData = JSON.parse(event.target.result);
+          
+          btnUpdateSource.textContent = 'Updating...';
+          btnUpdateSource.disabled = true;
+
+          const response = await fetch('/api/source', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(newSourceData)
+          });
+          
+          const result = await response.json();
+          if (result.success) {
+            alert('Source updated and backed up successfully!');
+            // Reload current language if one is selected
+            if (appState.currentLanguage) {
+              await loadLanguage(appState.currentLanguage);
+            }
+          } else {
+            alert('Failed to update source: ' + result.error);
+          }
+        } catch (err) {
+          alert('Invalid JSON file.');
+          console.error(err);
+        } finally {
+          btnUpdateSource.textContent = '🔄 Update Source';
+          btnUpdateSource.disabled = false;
+          fileUpdateSource.value = ''; // Reset file input
+        }
+      };
+      reader.readAsText(file);
+    });
+  }
 
   // Modals
   btnSettings.addEventListener('click', () => {
@@ -271,6 +412,10 @@ async function loadLanguage(langCode) {
   appState.translationFlat = flattenObject(data.translation);
   appState.progressData = data.progress || {};
 
+  if (appState.socket && appState.username) {
+    appState.socket.emit('join', { langCode: langCode, username: appState.username });
+  }
+
   appState.currentKey = null;
   editorArea.style.display = 'none';
   currentKeyDisplay.textContent = 'Select a key to translate';
@@ -301,6 +446,9 @@ function renderKeyList() {
     if (showUntranslated && isTranslated) continue;
     if (showUnvalidated && isValidated) continue;
 
+    const lockedBy = appState.activeLocks[key];
+    const isLocked = lockedBy && lockedBy !== appState.username;
+
     const li = document.createElement('li');
     li.className = 'key-item';
     if (key === appState.currentKey) li.classList.add('active');
@@ -308,6 +456,7 @@ function renderKeyList() {
     li.innerHTML = `
       <span class="key-name">${key}</span>
       <div class="key-status">
+        ${isLocked ? `<span class="lock-indicator" title="Locked by ${lockedBy}">🔒</span>` : ''}
         <div class="status-dot ${isTranslated ? 'translated' : ''}" title="Translated"></div>
         <div class="status-dot ${isValidated ? 'validated' : ''}" title="Validated"></div>
       </div>
@@ -321,10 +470,11 @@ function renderKeyList() {
 }
 
 function selectKey(key, liElement) {
-  appState.currentKey = key;
+  if (appState.currentKey && appState.socket) {
+    appState.socket.emit('unlock-key', { key: appState.currentKey });
+  }
 
-  // Hide the sidebar when a key is selected
-  sidebar.classList.remove('show');
+  appState.currentKey = key;
 
   // Update UI active state
   document.querySelectorAll('.key-item').forEach(el => el.classList.remove('active'));
@@ -339,6 +489,63 @@ function selectKey(key, liElement) {
   const progress = appState.progressData[key] || { translated: false, validated: false };
   cbTranslated.checked = progress.translated;
   cbValidated.checked = progress.validated;
+
+  if (appState.socket && appState.username) {
+    appState.socket.emit('lock-key', { key: key });
+  }
+
+  checkCurrentKeyLock();
+}
+
+function checkCurrentKeyLock() {
+  if (!appState.currentKey) return;
+
+  const lockedBy = appState.activeLocks[appState.currentKey];
+  const isLocked = lockedBy && lockedBy !== appState.username;
+
+  if (isLocked) {
+    lockedBanner.style.display = 'flex';
+    lockedByUser.textContent = lockedBy;
+    translationText.disabled = true;
+    cbTranslated.disabled = true;
+    cbValidated.disabled = true;
+    btnSave.disabled = true;
+    btnValidateNext.disabled = true;
+    btnAiTranslate.disabled = true;
+  } else {
+    lockedBanner.style.display = 'none';
+    translationText.disabled = false;
+    cbTranslated.disabled = false;
+    cbValidated.disabled = false;
+    btnSave.disabled = false;
+    btnValidateNext.disabled = false;
+    btnAiTranslate.disabled = false;
+  }
+}
+
+function updateKeyLockUI(key) {
+  const liElements = document.querySelectorAll('.key-item');
+  for (const li of liElements) {
+    const keyNameSpan = li.querySelector('.key-name');
+    if (keyNameSpan && keyNameSpan.textContent === key) {
+      const lockedBy = appState.activeLocks[key];
+      const isLocked = lockedBy && lockedBy !== appState.username;
+      
+      let lockIndicator = li.querySelector('.lock-indicator');
+      if (isLocked) {
+        if (!lockIndicator) {
+          lockIndicator = document.createElement('span');
+          lockIndicator.className = 'lock-indicator';
+          li.querySelector('.key-status').prepend(lockIndicator);
+        }
+        lockIndicator.textContent = '🔒';
+        lockIndicator.title = `Locked by ${lockedBy}`;
+      } else if (lockIndicator) {
+        lockIndicator.remove();
+      }
+      break;
+    }
+  }
 }
 
 function updateKeyStatusUI(key) {
@@ -373,19 +580,17 @@ async function saveCurrentKey() {
   appState.progressData[key].translated = cbTranslated.checked;
   appState.progressData[key].validated = cbValidated.checked;
 
-  // Prepare full objects for saving
-  const fullTranslation = unflattenObject(appState.translationFlat);
-
   // Save to disk
   btnSave.textContent = 'Saving...';
   btnSave.disabled = true;
 
-  const response = await fetch(`/api/translation/${appState.currentLanguage}`, {
+  const response = await fetch(`/api/translation/${appState.currentLanguage}/update-key`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      translationData: fullTranslation,
-      progressData: appState.progressData
+      key: key,
+      translation: translationText.value,
+      progress: appState.progressData[key]
     })
   });
   const result = await response.json();
@@ -586,13 +791,13 @@ async function translateKeyBackground(key) {
     appState.progressData[key].translated = true;
 
     // Save to Disk
-    const fullTranslation = unflattenObject(appState.translationFlat);
-    await fetch(`/api/translation/${appState.currentLanguage}`, {
+    await fetch(`/api/translation/${appState.currentLanguage}/update-key`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        translationData: fullTranslation,
-        progressData: appState.progressData
+        key: key,
+        translation: translatedText,
+        progress: appState.progressData[key]
       })
     });
 
@@ -692,6 +897,23 @@ async function validateSaveAndNext() {
   } else {
     alert("All keys validated! Great job!");
   }
+}
+
+function downloadCurrentTranslation() {
+  if (!appState.currentLanguage) {
+    alert("Please select a language first.");
+    return;
+  }
+
+  const fullTranslation = unflattenObject(appState.translationFlat);
+  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(fullTranslation, null, 2));
+  
+  const downloadAnchorNode = document.createElement('a');
+  downloadAnchorNode.setAttribute("href", dataStr);
+  downloadAnchorNode.setAttribute("download", `translation_${appState.currentLanguage}.json`);
+  document.body.appendChild(downloadAnchorNode); // required for firefox
+  downloadAnchorNode.click();
+  downloadAnchorNode.remove();
 }
 
 // Start

@@ -210,13 +210,16 @@ select:focus {
   background-color: var(--border-color);
   border-radius: 3px;
   margin-bottom: 10px;
-  display: flex;
+  position: relative;
   overflow: hidden;
 }
 
 .progress-bar {
   height: 100%;
   transition: width 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .progress-bar.translated {

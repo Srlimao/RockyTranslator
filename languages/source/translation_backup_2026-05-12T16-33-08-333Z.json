@@ -1,32 +1,11 @@
 {
-  "_context_NOT_TO_BE_TRANSLATED": {
+  "_context_NOT_TO_BE_TrANSLATED": {
     "_about": "Rocky Idle — an idle/clicker browser and desktop game. Translate naturally; don't transliterate game terms unless a good equivalent exists in your language.",
     "_variables": "Placeholders like {{count}}, {{time}}, {{percentage}} are filled in at runtime — copy them verbatim into your translation. Do not translate or remove them."
   },
   "steam_page": {
     "short_description": "Rocky Idle is a single-player idle/incremental game. Level up your skills, gather resources, and complete your collection log.",
-    "long_description_1": "Rocky Idle is the first game I’ve developed, and it’s been under development for 2,5 years, hope you enjoy it!.",
-    "long_description_2": "It’s a single-player idle/incremental game.",
-    "long_description_3": "You level up 18 different skills simply by clicking a tree or a rock.",
-    "long_description_4": "You collect items that can be used to advance your character or level up other skills.",
-    "long_description_5": "You also have an active boost that can be activated once every 10 minutes; the boost becomes stronger and stronger as you progress.",
-    "long_description_6": "Skilling: There are skills like Mining, Woodcutting, Crafting, and more.",
-    "long_description_7": "Each skill serves its own purpose, use the rocks mined to smith stronger gear, and increase your max hit.",
-    "long_description_8": "The more you use a resource, the stronger and more efficient it becomes, improving speed, batch size, and active boosts.",
-    "long_description_9": "Background Farming & Passive Activities.",
-    "long_description_10": "Farming, and questing all run passively in the background once started.",
-    "long_description_11": "Plant and harvest crops to craft potions.",
-    "long_description_12": "The more you harvest, the more efficient your crops become, growing faster and yielding higher rewards over time.",
-    "long_description_13": "Contracts: Contracts are rare drops from skilling and combat.",
-    "long_description_14": "Complete specific tasks to receive keys.",
-    "long_description_15": "Offline progress: Keep progressing even while you’re offline.",
-    "long_description_16": "When you return, get a detailed summary of all the resources gathered and experience gained.",
-    "long_description_17": "Automated Combat & Collection: Use your crafted gear, food and potions in automated battles.",
-    "long_description_18": "The more you fight, the stronger your gear and boosts become.",
-    "long_description_19": "Defeat monsters to fill your collection log and unlock upgrades.",
-    "long_description_20": "Good luck getting little Rocky’s Apron drop, it’s quite rare.",
-    "long_description_21": "Purchase on Steam (Windows) and link your Google account to continue your progress on the WEB version!",
-    "long_description_22": "Note: A Wi-Fi connection is required to play this game. This ensures your data is saved to the cloud and allows you to share progress across different devices."
+    "long_description": "Rocky Idle is the first game I’ve developed, and it's been under development for 2,5 years, hope you enjoy it!. It's a single-player idle/incremental game. You level up 18 different skills simply by clicking a tree or a rock. You collect items that can be used to advance your character or level up other skills. You also have an active boost that can be activated once every 10 minutes; the boost becomes stronger and stronger as you progress. Skilling There are skills like Mining, Woodcutting, Crafting, and more. Each skill serves its own purpose, use the rocks mined to smith stronger gear, and increase your max hit. The more you use a resource, the stronger and more efficient it becomes, improving speed, batch size, and active boosts. Background Farming & Passive Activities. Farming, and questing all run passively in the background once started. Plant and harvest crops to craft potions. The more you harvest, the more efficient your crops become, growing faster and yielding higher rewards over time. Contracts.   Contracts are rare drops from skilling and combat. Complete specific tasks to receive keys.Offline progress. Keep progressing even while you’re offline. When you return, get a detailed summary of all the resources gathered and experience gained. Automated Combat & Collection. Use your crafted gear, food and potions in automated battles. The more you fight, the stronger your gear and boosts become. Defeat monsters to fill your collection log and unlock upgrades. Good luck getting little Rocky's Apron drop, it's quite rare. Purchase on Steam (Windows) and link your Google account to continue your progress on the WEB version! Note: A Wi-Fi connection is required to play this game. This ensures your data is saved to the cloud and allows you to share progress across different devices."
   },
   "common": {
     "save": "Save",
@@ -151,7 +130,6 @@
     "block_chance": "Block chance",
     "hit_chance": "Hit chance",
     "max_hit": "Max hit",
-    "max_hit_range": "Hit from {{min}} → {{max}} damage",
     "attack_speed_bonus": "Attack speed {{percentage}}%",
     "cant_afk_warning": "You cannot kill this monster offline, since you have less hitpoints than 2x their max hit.",
     "auto_interval": "Auto interval: {{eatAt}}",
@@ -1135,13 +1113,7 @@
     "clue_suffix": "Clue",
     "total_completed": "Total Completed: {{count}}",
     "reward_label": "Reward:",
-    "diaries_completed": "Diaries Completed!",
-    "invalid_slot_id": "Invalid slot ID!",
-    "invalid_compressed_data": "Invalid compressed data!",
-    "invalid_game_data": "Invalid game data, should be a long string starting with ey!",
-    "no_data_for_slot": "No data found for this slot",
-    "save_success": "Game saved successfully to slot {{slot}}!",
-    "failed_to_find_user_data": "Failed to find user data in local storage"
+    "diaries_completed": "Diaries Completed!"
   },
   "diary": {
     "FOREST": "Forest",
@@ -1566,11 +1538,7 @@
     "EASY_CONTRACT": "Easy contract",
     "MEDIUM_CONTRACT": "Medium contract",
     "HARD_CONTRACT": "Hard contract",
-    "EXPERT_CONTRACT": "Expert contract",
-    "EASY_CONTRACT_MAX_3_LETTERS": "Eas",
-    "MEDIUM_CONTRACT_MAX_3_LETTERS": "Med",
-    "HARD_CONTRACT_MAX_3_LETTERS": "Hrd",
-    "EXPERT_CONTRACT_MAX_3_LETTERS": "Exp"
+    "EXPERT_CONTRACT": "Expert contract"
   },
   "item_db": {
     "search_placeholder": "Search Items...",
@@ -1812,22 +1780,7 @@
     "invalid_compressed_data": "Invalid compressed data!",
     "invalid_game_data": "Invalid game data, should be a long string starting with ey!",
     "no_slot_data": "No data found for this slot",
-    "failed_load_user_data": "Failed to find user data in local storage",
-    "token_expired": "Your session has expired, please log in again",
-    "invalid_token": "Invalid authentication token",
-    "google_not_linked": "This Google account is not linked to a Steam account. Please link it inside the Steam version of the game first.",
-    "steam_not_linked": "Steam account not linked",
-    "no_game_ownership": "You do not own this game",
-    "need_full_game": "Full game required to continue session",
-    "invalid_refresh_token": "Invalid or expired session, please log in again",
-    "missing_steam_ticket": "Missing Steam ticket",
-    "invalid_steam_ticket": "Invalid Steam ticket",
-    "steam_required": "This action requires a linked Steam account",
-    "google_already_linked": "This Google account is already linked to another Steam account",
-    "link_code_expired": "Link code invalid or expired",
-    "user_not_found": "User not found",
-    "save_failed": "Failed to save data",
-    "slot_not_found": "Save slot not found"
+    "failed_load_user_data": "Failed to find user data in local storage"
   },
   "welcome_back": {
     "header": "Since you were gone",

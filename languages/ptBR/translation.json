@@ -1,7 +1,10 @@
 {
   "steam_page": {
     "short_description": "Rocky Idle é um jogo idle/incremental para jogador único. Suba de nível suas habilidades, colete recursos e complete seu registro de coleções.",
-    "long_description": "Rocky Idle é o primeiro jogo que desenvolvi e está em desenvolvimento há 2,5 anos. Espero que você goste! É um jogo idle/incremental para um jogador. Você sobe de nível em 18 habilidades diferentes simplesmente clicando em uma árvore ou em uma rocha. Você coleta itens que podem ser usados para avançar seu personagem ou subir outros níveis de habilidade. Você também tem um bônus ativo que pode ser ativado a cada 10 minutos; o bônus fica cada vez mais forte conforme você avança. Habilidades Existem habilidades como Mineração, Corte de Madeira, Artesanato e outras. Cada habilidade serve a um propósito específico: use as rochas mineradas para forjar equipamentos mais fortes e aumentar seu dano máximo. Quanto mais você usar um recurso, mais forte e eficiente ele se torna, melhorando velocidade, tamanho do lote e bônus ativos. Agricultura e Atividades Passivas\nA agricultura e as missões funcionam passivamente em segundo plano assim que são iniciadas. Plante e colha culturas para criar poções. Quanto mais você colher, mais eficientes suas culturas se tornam, crescendo mais rápido e rendendo recompensas maiores com o tempo. Contratos Os contratos são itens raros obtidos através de habilidades e combate. Complete tarefas específicas para receber chaves. Progresso Offline Continue progredindo mesmo enquanto estiver offline. Ao retornar, você receberá um resumo detalhado de todos os recursos coletados e experiência ganha. Combate e Coleta Automatizados Use seu equipamento forjado, comida e poções em batalhas automatizadas. Quanto mais você lutar, mais fortes se tornam seu equipamento e bônus. Derrote monstros para preencher seu registro de colecionáveis e desbloquear melhorias. Boa sorte para conseguir o item Avental do Pequeno Rocky, ele é bem raro.\nCompre no Steam (Windows) e vincule sua conta Google para continuar seu progresso na versão WEB!\nNota: É necessária uma conexão Wi-Fi para jogar este jogo. Isso garante que seus dados sejam salvos na nuvem e permite que você compartilhe o progresso em diferentes dispositivos."
+    "long_description": "Rocky Idle é o primeiro jogo que desenvolvi e está em desenvolvimento há 2,5 anos. Espero que você goste! É um jogo idle/incremental para um jogador. Você sobe de nível em 18 habilidades diferentes simplesmente clicando em uma árvore ou em uma rocha. Você coleta itens que podem ser usados para avançar seu personagem ou subir outros níveis de habilidade. Você também tem um bônus ativo que pode ser ativado a cada 10 minutos; o bônus fica cada vez mais forte conforme você avança. Habilidades Existem habilidades como Mineração, Corte de Madeira, Artesanato e outras. Cada habilidade serve a um propósito específico: use as rochas mineradas para forjar equipamentos mais fortes e aumentar seu dano máximo. Quanto mais você usar um recurso, mais forte e eficiente ele se torna, melhorando velocidade, tamanho do lote e bônus ativos. Agricultura e Atividades Passivas\nA agricultura e as missões funcionam passivamente em segundo plano assim que são iniciadas. Plante e colha culturas para criar poções. Quanto mais você colher, mais eficientes suas culturas se tornam, crescendo mais rápido e rendendo recompensas maiores com o tempo. Contratos Os contratos são itens raros obtidos através de habilidades e combate. Complete tarefas específicas para receber chaves. Progresso Offline Continue progredindo mesmo enquanto estiver offline. Ao retornar, você receberá um resumo detalhado de todos os recursos coletados e experiência ganha. Combate e Coleta Automatizados Use seu equipamento forjado, comida e poções em batalhas automatizadas. Quanto mais você lutar, mais fortes se tornam seu equipamento e bônus. Derrote monstros para preencher seu registro de colecionáveis e desbloquear melhorias. Boa sorte para conseguir o item Avental do Pequeno Rocky, ele é bem raro.\nCompre no Steam (Windows) e vincule sua conta Google para continuar seu progresso na versão WEB!\nNota: É necessária uma conexão Wi-Fi para jogar este jogo. Isso garante que seus dados sejam salvos na nuvem e permite que você compartilhe o progresso em diferentes dispositivos.",
+    "long_description_15": "Progressão Offline: Continue progredindo mesmo quando estiver offline.",
+    "long_description_17": "",
+    "long_description_13": "Hello there"
   },
   "common": {
     "save": "Salvar",
@@ -163,7 +166,8 @@
     "run_away": "Fugir",
     "attack_speed_abbr": "VA",
     "drop_table_header": "Tabela {{name}}",
-    "drop_table_tooltip": "Tabela de drops de {{name}}"
+    "drop_table_tooltip": "Tabela de drops de {{name}}",
+    "max_hit_range": "Dano de {{min}} → {{max}}"
   },
   "time": {
     "h": "{{count}}h",
@@ -769,12 +773,12 @@
       "countryside": {
         "badge": "Campo",
         "label": "Modo Campo",
-        "description": "Jogadores precisam obter todos os itens sozinhos"
+        "description": "No modo Campos jogadores precisam obter todos os itens sozinhos"
       },
       "wilderness": {
-        "badge": "Yermo",
-        "label": "Modo Yermo",
-        "description": "Sem banco para itens e precisa obter tudo sozinho"
+        "badge": "Ermos",
+        "label": "Modo Ermos",
+        "description": "No modo Ermos não tem banco para itens e precisa obter tudo sozinho"
       },
       "city": {
         "badge": "Cidade",
@@ -784,9 +788,9 @@
     }
   },
   "account_settings": {
-    "remove_status_warning": "Isso removerá o status {{accountType}} para sempre.",
+    "remove_status_warning": "Isso removerá o status {{accountType}} para sempre. ISTO NÃO PODE SER DESFEITO",
     "ruin_account": "Arruinar conta",
-    "downgrade_warning": "Isso rebaixará sua conta para {{accountType}}.",
+    "downgrade_warning": "Isso rebaixará sua conta para {{accountType}}. ISTO NÃO PODE SER DESFEITO. ",
     "downgrade": "Rebaixar",
     "downgrade_to": "Rebaixar para {{accountType}}"
   },
@@ -802,12 +806,12 @@
   "slayer": {
     "cancel_task_warning": "Cancelar esta tarefa custará {{cost}} pontos de Slayer e removerá sua tarefa atual. Sua sequência NÃO será redefinida.",
     "cancel_task_anyway": "Cancelar tarefa mesmo assim",
-    "reset_streak_warning": "Isso redefinirá sua sequência de slayer para 0 e removerá sua tarefa de slayer atual.",
+    "reset_streak_warning": "Isso redefinirá sua sequência de Extermínio para 0 e removerá sua tarefa de Extermínio atual.",
     "reset_anyway": "Redefinir mesmo assim",
-    "rewards_title": "Recompensas de Slayer",
-    "points_label": "Pontos de Slayer:",
+    "rewards_title": "Recompensas de Extermínio",
+    "points_label": "Pontos de Extermínio:",
     "points": "pontos",
-    "difficulties_title": "Dificuldades de Slayer",
+    "difficulties_title": "Dificuldades de Extermínio",
     "locked_alt": "bloqueado",
     "tab": {
       "tasks": "Tarefas",
@@ -822,7 +826,7 @@
       "extended_badge": "ESTENDIDA"
     },
     "extend": {
-      "description": "Estenda sua tarefa de slayer de uma categoria específica de monstros para obter mais monstros por tarefa. Isso é útil para ganhar mais XP de slayer de forma mais passiva; não dará mais pontos de slayer. Veja a quantidade estendida na aba \"tarefas\".",
+      "description": "Estenda sua tarefa de extermínio de uma categoria específica de monstros para obter mais monstros por tarefa. Isso é útil para ganhar mais XP de slayer de forma mais passiva; não dará mais pontos de extermínio. Veja a quantidade estendida na aba \"tarefas\".",
       "SNAKE": {
         "name": "Sssss",
         "note": "O número de Cobras atribuídas a você é aumentado."
@@ -875,7 +879,7 @@
       }
     },
     "block": {
-      "description": "Se você bloquear uma tarefa, não receberá nenhuma tarefa desse monstro até desbloqueá-la. Desbloquear não devolverá seus pontos de slayer, e você precisará pagar novamente para bloquear um monstro.",
+      "description": "Se você bloquear uma tarefa, não receberá nenhuma tarefa desse monstro até desbloqueá-la. Desbloquear não devolverá seus pontos de exterminio, e você precisará pagar novamente para bloquear um monstro.",
       "unblock_button": "Desbloquear",
       "slot_qp": "Desbloqueie o espaço de Bloqueio com {{qp}} Pontos de Missão",
       "slot_diary": "Complete a 'Conquista de Fortaleza Especialista' para usar este espaço"
@@ -886,7 +890,7 @@
       "ability_description": "Habilidade de matar {{name}} enquanto estiver offline"
     },
     "master": {
-      "streak_label": "Sequência de Slayer: {{streak}}",
+      "streak_label": "Sequência de Extermínio: {{streak}}",
       "get_task_button": "Obter Tarefa",
       "Easy": "Fácil",
       "Medium": "Médio",
@@ -895,7 +899,7 @@
     },
     "current_task": {
       "heading": "Tarefa atual:",
-      "category_alt": "Categoria de Slayer",
+      "category_alt": "Categoria de Extermínio",
       "block_button": "Bloquear({{cost}})",
       "cancel_button": "Cancelar({{cost}})"
     },
@@ -920,16 +924,16 @@
         "description": "Permite plantar todas as sementes com um único clique."
       },
       "SLAYER_SANDALS": {
-        "name": "Sandálias de Slayer",
-        "description": "Fornece bônus de dano a todos os monstros em uma tarefa de Slayer."
+        "name": "Sandálias de Extermínio",
+        "description": "Fornece bônus de dano a todos os monstros em uma tarefa de Extermínio."
       },
       "SLAYER_SHOES": {
-        "name": "Sapatos de Slayer",
-        "description": "Fornece bônus de dano a todos os monstros em uma tarefa de Slayer e a todos os monstros da área."
+        "name": "Sapatos de Extermínio",
+        "description": "Fornece bônus de dano a todos os monstros em uma tarefa de Extermínio e a todos os monstros da área."
       },
       "SLAYER_BOOTS": {
-        "name": "Botas de Slayer",
-        "description": "Fornece bônus de dano a todos os monstros em uma tarefa de Slayer e a todos os monstros da área."
+        "name": "Botas de Extermínio",
+        "description": "Fornece bônus de dano a todos os monstros em uma tarefa de Extermínio e a todos os monstros da área."
       },
       "OPEN_10_EASY_CONTRACT": {
         "name": "Abrir 10x Contratos Fáceis",
@@ -1716,7 +1720,7 @@
   "login_page": {
     "sign_in": "Entrar",
     "login_failed": "Falha no Login, Tente Novamente",
-    "no_steam_title": "O jogo não consegue encontrar o Steam. Você o iniciou pelo cliente Steam?",
+    "no_steam_title": "O jogo não parece encontrar o Steam. Você abriu através do cliente Steam?",
     "no_steam_contact": "Por favor, entre em contato comigo no Discord se estiver tendo problemas para logar.",
     "connect_steam": "Conectar com conta Steam",
     "buy_steam_info": "Compre no Steam e vincule sua conta Google pelo cliente para habilitar acesso permanente via web."

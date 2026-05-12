@@ -2306,5 +2306,585 @@
   "account.mode.countryside.label": {
     "translated": true,
     "validated": true
+  },
+  "account.mode.countryside.description": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.wilderness.badge": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.wilderness.label": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.wilderness.description": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.city.badge": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.city.label": {
+    "translated": true,
+    "validated": true
+  },
+  "account.mode.city.description": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.remove_status_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.ruin_account": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.downgrade_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.downgrade": {
+    "translated": true,
+    "validated": true
+  },
+  "account_settings.downgrade_to": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.stop_run_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.stop_run": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.claim": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.bushes": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.trees": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.nothing_to_claim": {
+    "translated": true,
+    "validated": true
+  },
+  "runs.claim_all": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.cancel_task_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.cancel_task_anyway": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.reset_streak_warning": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.reset_anyway": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards_title": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.points_label": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.points": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.difficulties_title": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.locked_alt": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.tasks": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.extend": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.buy": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.offline": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tab.block": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tasks.name_header": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tasks.weight_header": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.tasks.extended_badge": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.SEA.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.FIELD.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.FIELD.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.MARKET.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.MARKET.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.TEMPLE.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.TEMPLE.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.block.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.block.unblock_button": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.SNAKE.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.SNAKE.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.BIRDS.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.BOSS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.BOSS.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.GIANTS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.GIANTS.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.MINIONS.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.UNDEAD.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.UNDEAD.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.PEST.name": {
+    "translated": true,
+    "validated": true
+  },
+  "login_page.no_steam_title": {
+    "translated": true,
+    "validated": true
+  },
+  "login_page.no_steam_contact": {
+    "translated": true,
+    "validated": true
+  },
+  "login_page.connect_steam": {
+    "translated": true,
+    "validated": true
+  },
+  "login_page.buy_steam_info": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.is_demo": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.full_version": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.buy_on_steam": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.note_label": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.transfer_info": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.try_demo_info": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.demo_label": {
+    "translated": true,
+    "validated": true
+  },
+  "demo_text.demo_version_badge": {
+    "translated": true,
+    "validated": true
+  },
+  "landing.buy_on": {
+    "translated": true,
+    "validated": true
+  },
+  "landing.join_us_on": {
+    "translated": true,
+    "validated": true
+  },
+  "navigation.go_to_character_overview": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.sign_in_description": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.success_description": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.play_on_web": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.close_browser_note": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.google_login_failed": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.link_failed": {
+    "translated": true,
+    "validated": true
+  },
+  "link_account_page.linking_account": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.something_went_wrong": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.unauthorized": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.forbidden": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.internal_server_error": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.no_response": {
+    "translated": true,
+    "validated": true
+  },
+  "errors.invalid_slot_id": {
+    "translated": true,
+    "validated": true
+  },
+  "combat.max_hit_range": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.PEST.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.FOREST.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.FOREST.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.MINE.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.MINE.note": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.extend.SEA.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.block.slot_qp": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.block.slot_diary": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.offline.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.offline.show_unlocked": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.offline.ability_description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.master.streak_label": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.master.get_task_button": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.master.Easy": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.master.Medium": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.master.Hard": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.master.Expert": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.current_task.heading": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.current_task.category_alt": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.current_task.block_button": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.current_task.cancel_button": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.already_unlocked": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.unlock": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.buy": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.AUTO_EAT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.AUTO_EAT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.AUTO_POTION_BOOST.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.AUTO_POTION_BOOST.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.ONE_CLICK_HARVEST.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.ONE_CLICK_HARVEST.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.ONE_CLICK_PLANT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.ONE_CLICK_PLANT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.SLAYER_SANDALS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.SLAYER_SANDALS.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.SLAYER_SHOES.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.SLAYER_SHOES.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.SLAYER_BOOTS.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.SLAYER_BOOTS.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_EASY_CONTRACT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_EASY_CONTRACT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_MEDIUM_CONTRACT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_MEDIUM_CONTRACT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_HARD_CONTRACT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_HARD_CONTRACT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_EXPERT_CONTRACT.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPEN_10_EXPERT_CONTRACT.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPENABLE_10.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPENABLE_10.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPENABLE_100.name": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.buy.OPENABLE_100.description": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards.every_task": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards.every_10th": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards.every_50th": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards.every_100th": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards.every_250th": {
+    "translated": true,
+    "validated": true
+  },
+  "slayer.rewards.every_1000th": {
+    "translated": true,
+    "validated": true
+  },
+  "steam_page.long_description_15": {
+    "translated": true,
+    "validated": true
+  },
+  "steam_page.long_description_17": {
+    "translated": false,
+    "validated": false
+  },
+  "steam_page.long_description_13": {
+    "translated": true,
+    "validated": true
   }
 }

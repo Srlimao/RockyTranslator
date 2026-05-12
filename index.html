@@ -48,13 +48,20 @@
           <h3 id="current-key-display">Select a key to translate</h3>
         </div>
         <div class="header-actions" style="display: flex; gap: 10px;">
+          <input type="file" id="file-update-source" accept=".json" style="display: none;">
+          <button id="btn-update-source" class="btn-secondary" title="Update and backup source JSON">🔄 Update Source</button>
+          <button id="btn-download-translation" class="btn-secondary" title="Download current translation JSON">📥 Download</button>
           <button id="btn-auto-translate" class="btn-primary" style="background: linear-gradient(135deg, #8b5cf6, #3b82f6);">🤖 Auto Translate All</button>
           <button id="btn-glossary" class="btn-secondary">📖 Glossary</button>
           <button id="btn-settings" class="btn-secondary">⚙️ AI Settings</button>
+          <div id="username-display" style="cursor: pointer; padding: 8px 15px; background: rgba(255,255,255,0.1); border-radius: 6px; font-weight: 500; display: flex; align-items: center; gap: 5px;" title="Change Username">👤 <span id="header-username">Guest</span></div>
         </div>
       </header>
 
       <div class="editor-area" id="editor-area" style="display: none;">
+        <div id="locked-banner" style="display: none; background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #fca5a5; padding: 12px 15px; border-radius: 8px; font-weight: 500; align-items: center; gap: 10px;">
+          🔒 This key is locked by <strong id="locked-by-user" style="color: white;">Someone</strong>. You cannot save changes.
+        </div>
         <div class="panel source-panel">
           <h4>Source (English)</h4>
           <textarea id="source-text" readonly></textarea>
@@ -150,8 +157,21 @@
         <button id="btn-close-glossary" class="btn-secondary">Close</button>
       </div>
     </div>
+  <!-- Username Modal -->
+  <div id="username-modal" class="modal">
+    <div class="modal-content glassmorphism">
+      <h3>Enter Your Username</h3>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 15px;">Please identify yourself so others can see who is editing.</p>
+      <div class="form-group">
+        <input type="text" id="input-username" placeholder="E.g., Alice" autocomplete="off">
+      </div>
+      <div class="modal-actions">
+        <button id="btn-save-username" class="btn-primary">Save & Continue</button>
+      </div>
+    </div>
   </div>
 
-  <script src="renderer.js?v=2"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="renderer.js?v=3"></script>
 </body>
 </html>
