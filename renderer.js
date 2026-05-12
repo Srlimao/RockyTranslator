@@ -590,7 +590,8 @@ async function saveCurrentKey() {
     body: JSON.stringify({
       key: key,
       translation: translationText.value,
-      progress: appState.progressData[key]
+      progress: appState.progressData[key],
+      username: appState.username
     })
   });
   const result = await response.json();
@@ -797,7 +798,8 @@ async function translateKeyBackground(key) {
       body: JSON.stringify({
         key: key,
         translation: translatedText,
-        progress: appState.progressData[key]
+        progress: appState.progressData[key],
+        username: appState.username
       })
     });
 

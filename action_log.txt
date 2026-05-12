@@ -1,0 +1,24 @@
+[2026-05-12T17:29:10.350Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_1 
+[2026-05-12T17:30:26.457Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_1 
+[2026-05-12T17:30:26.464Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:31:10.829Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_1 
+[2026-05-12T17:31:25.187Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:31:57.957Z] [ptBR] WillCelular: SAVED TRANSLATION & VALIDATED | Key: steam_page.long_description_1 -> "Rocky Idle é o primeiro jogo q..."
+[2026-05-12T17:31:57.972Z] [ptBR] WillCelular: UNLOCKED | Key: steam_page.long_description_1 
+[2026-05-12T17:31:57.976Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:32:05.679Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T17:32:47.042Z] [ptBR] WillCelular: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:32:47.043Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_1 
+[2026-05-12T17:32:47.877Z] [ptBR] WillCelular: UNLOCKED | Key: steam_page.long_description_1 
+[2026-05-12T17:32:47.877Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:33:20.621Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_3 
+[2026-05-12T17:33:23.502Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T17:33:40.656Z] [ptBR] WillCelular: SAVED TRANSLATION & VALIDATED | Key: steam_page.long_description_2 -> "Hi"
+[2026-05-12T17:33:40.670Z] [ptBR] WillCelular: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:33:44.853Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_3 
+[2026-05-12T17:33:44.854Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:33:49.513Z] [ptBR] Will: SAVED TRANSLATION | Key: steam_page.long_description_2 -> ""
+[2026-05-12T17:34:19.617Z] [ptBR] Will: SAVED TRANSLATION & VALIDATED | Key: steam_page.long_description_2 -> "É um jogo incremental/idle par..."
+[2026-05-12T17:34:19.621Z] [ptBR] Will: UNLOCKED | Key: steam_page.long_description_2 
+[2026-05-12T17:34:19.623Z] [ptBR] Will: LOCKED | Key: steam_page.long_description_3 
+[2026-05-12T17:35:00.425Z] [ptBR] WillCelular: LOCKED | Key: steam_page.long_description_4 

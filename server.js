@@ -36,6 +36,15 @@ if (!fs.existsSync(sourcePath)) {
   fs.writeFileSync(sourcePath, JSON.stringify({ "Example": "Source Text" }, null, 2));
 }
 
+// Logging Helper
+function logAction(action, username, langCode, key, extraInfo = '') {
+  const timestamp = new Date().toISOString();
+  const safeUsername = username || 'Unknown User';
+  const logLine = `[${timestamp}] [${langCode}] ${safeUsername}: ${action} | Key: ${key} ${extraInfo}\n`;
+  const logPath = path.join(__dirname, 'action_log.txt');
+  fs.appendFileSync(logPath, logLine);
+}
+
 // Socket.io State
 const activeEdits = {}; // { "langCode": { "key": { username, socketId } } }
 
@@ -79,6 +88,7 @@ io.on('connection', (socket) => {
     if (!activeEdits[currentLang][key]) {
       activeEdits[currentLang][key] = { username, socketId: socket.id };
       lockedKeys.push(key);
+      logAction('LOCKED', username, currentLang, key);
       // Broadcast to everyone else
       socket.to(currentLang).emit('key-locked', { key, username });
     }
@@ -91,6 +101,7 @@ io.on('connection', (socket) => {
     if (activeEdits[currentLang][key]?.socketId === socket.id) {
       delete activeEdits[currentLang][key];
       lockedKeys = lockedKeys.filter(k => k !== key);
+      logAction('UNLOCKED', username, currentLang, key);
       io.to(currentLang).emit('key-unlocked', { key });
     }
   });
@@ -257,7 +268,7 @@ app.post('/api/translation/:langCode', (req, res) => {
 app.post('/api/translation/:langCode/update-key', (req, res) => {
   try {
     const langCode = req.params.langCode;
-    const { key, translation, progress } = req.body;
+    const { key, translation, progress, username } = req.body;
     
     const langPath = path.join(languagesDir, langCode);
     if (!fs.existsSync(langPath)) {
@@ -291,6 +302,10 @@ app.post('/api/translation/:langCode/update-key', (req, res) => {
 
     fs.writeFileSync(transPath, JSON.stringify(translationData, null, 2));
     fs.writeFileSync(progressPath, JSON.stringify(progressData, null, 2));
+
+    let actionStr = 'SAVED TRANSLATION';
+    if (progress.validated) actionStr += ' & VALIDATED';
+    logAction(actionStr, username, langCode, key, `-> "${translation.substring(0, 30)}${translation.length > 30 ? '...' : ''}"`);
 
     // Broadcast the update via socket to all clients in the language room
     io.to(langCode).emit('key-updated', {
