@@ -80,10 +80,6 @@
       "other": "Other",
       "steam": "Steam"
     },
-    "credits": {
-      "tool_credit": "Thanks to {{name}} for making the translation tool",
-      "translator_credit": "and thanks to {{names}} for the {{language}} translation"
-    },
     "labels": {
       "show_sell_price": "Show sell price on item tooltips",
       "show_sell_all_price": "Show sell all price on item tooltips",
@@ -1842,9 +1838,7 @@
     "run_done": "Done",
     "skilling_completed": "Skilling Completed",
     "combat_completed": "Combat Completed",
-    "stopped_after": ", stopped after {{time}}",
-    "combat_points": "Combat Points",
-    "skilling_points": "Skilling Points"
+    "stopped_after": ", stopped after {{time}}"
   },
   "toasts": {
     "demo_restricted": "Can't be opened in Demo version!",
@@ -2549,19 +2543,6 @@
     "no_spell_selected": "No spell selected to cast",
     "magic_level_too_low": "Magic level too low to cast the spell",
     "unknown_reason": "Unknown reason"
-  },
-  "process_stop": {
-    "out_of_time": "Out of time",
-    "no_processes_performed": "No processes could be performed",
-    "reached_next_speed_tier": "Reached next speed tier",
-    "reached_next_multiplier_threshold": "Reached next multiplier threshold",
-    "ran_out_of_items": "Ran out of items",
-    "unknown": "Unknown"
-  },
-  "localization_announcement": {
-    "title": "Rocky Idle is now available in {{language}}!",
-    "body": "Welcome! Rocky Idle is now fully playable in {{language}}. With the help of kind members of the community, the game has been translated to bring it to you. I am so happy to finally welcome you to the community!",
-    "english_note": "A quick note on future updates: while the game itself is now localized. Future Steam announcements, and patch notes will stay in English. Thank you so much for understanding!"
   },
   "attack_type": {
     "Melee": "Melee",

@@ -139,6 +139,21 @@ function saveUsername() {
   }
 }
 
+async function restoreUIState() {
+  // Restore filter checkboxes
+  const savedUntranslated = localStorage.getItem('rt-filter-untranslated');
+  const savedUnvalidated = localStorage.getItem('rt-filter-unvalidated');
+  if (savedUntranslated !== null) filterUntranslated.checked = savedUntranslated === 'true';
+  if (savedUnvalidated !== null) filterUnvalidated.checked = savedUnvalidated === 'true';
+
+  // Restore and auto-load the saved language
+  const savedLang = localStorage.getItem('rt-language');
+  if (savedLang && appState.languages.includes(savedLang)) {
+    languageSelect.value = savedLang;
+    await loadLanguage(savedLang);
+  }
+}
+
 // Initialize
 async function init() {
   if (btnToggleSidebar) {
@@ -151,6 +166,7 @@ async function init() {
   await refreshLanguages();
 
   loadUsername();
+  restoreUIState();
 
   usernameDisplay.addEventListener('click', () => {
     inputUsername.value = appState.username || '';
@@ -202,10 +218,19 @@ async function init() {
     });
   }
 
-  languageSelect.addEventListener('change', (e) => loadLanguage(e.target.value));
+  languageSelect.addEventListener('change', (e) => {
+    localStorage.setItem('rt-language', e.target.value);
+    loadLanguage(e.target.value);
+  });
   searchInput.addEventListener('input', renderKeyList);
-  filterUntranslated.addEventListener('change', renderKeyList);
-  filterUnvalidated.addEventListener('change', renderKeyList);
+  filterUntranslated.addEventListener('change', () => {
+    localStorage.setItem('rt-filter-untranslated', filterUntranslated.checked);
+    renderKeyList();
+  });
+  filterUnvalidated.addEventListener('change', () => {
+    localStorage.setItem('rt-filter-unvalidated', filterUnvalidated.checked);
+    renderKeyList();
+  });
 
   btnSave.addEventListener('click', saveCurrentKey);
   btnValidateNext.addEventListener('click', validateSaveAndNext);
@@ -293,14 +318,28 @@ async function init() {
 }
 
 async function loadConfig() {
-  const data = localStorage.getItem('rt-config');
-  if (data) {
+  // Load AI settings (per-user) from localStorage
+  const localData = localStorage.getItem('rt-config');
+  if (localData) {
     try {
-      const parsed = JSON.parse(data);
-      appState.config = { ...appState.config, ...parsed };
+      const parsed = JSON.parse(localData);
+      // Only apply non-glossary settings from local storage
+      const { glossary: _ignored, ...localSettings } = parsed;
+      appState.config = { ...appState.config, ...localSettings };
     } catch (e) {
       console.error('Failed to parse config from local storage');
     }
+  }
+
+  // Load glossary (global/shared) from server
+  try {
+    const response = await fetch('/api/config');
+    const serverData = await response.json();
+    if (serverData && Array.isArray(serverData.glossary)) {
+      appState.config.glossary = serverData.glossary;
+    }
+  } catch (e) {
+    console.error('Failed to load glossary from server:', e);
   }
 }
 
@@ -308,8 +347,9 @@ async function saveConfig() {
   appState.config.apiUrl = inputAiUrl.value;
   appState.config.modelName = inputAiModel.value;
   appState.config.enableThinking = inputAiThinking.checked;
-  // Glossary is saved independently or together
-  localStorage.setItem('rt-config', JSON.stringify(appState.config));
+  // Save only AI settings (not glossary) to localStorage
+  const { glossary: _ignored, ...aiSettings } = appState.config;
+  localStorage.setItem('rt-config', JSON.stringify(aiSettings));
   settingsModal.classList.remove('show');
 }
 
@@ -346,14 +386,26 @@ async function addGlossaryWord() {
     inputGlossaryTerm.value = '';
     inputGlossaryTranslation.value = '';
     renderGlossary();
-    localStorage.setItem('rt-config', JSON.stringify(appState.config));
+    await saveGlossaryToServer();
   }
 }
 
 async function removeGlossaryWord(index) {
   appState.config.glossary.splice(index, 1);
   renderGlossary();
-  localStorage.setItem('rt-config', JSON.stringify(appState.config));
+  await saveGlossaryToServer();
+}
+
+async function saveGlossaryToServer() {
+  try {
+    await fetch('/api/config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ glossary: appState.config.glossary })
+    });
+  } catch (e) {
+    console.error('Failed to save glossary to server:', e);
+  }
 }
 
 async function refreshLanguages() {
@@ -416,49 +468,137 @@ async function loadLanguage(langCode) {
   updateProgress();
 }
 
+// Build a nested tree from flat dot-notation keys
+function buildTree(keys) {
+  const tree = {};
+  for (const key of keys) {
+    const parts = key.split('.');
+    let node = tree;
+    for (let i = 0; i < parts.length - 1; i++) {
+      if (!node[parts[i]]) node[parts[i]] = { __children: {} };
+      node = node[parts[i]].__children;
+    }
+    const leaf = parts[parts.length - 1];
+    node[leaf] = { __isLeaf: true, __fullKey: key };
+  }
+  return tree;
+}
+
+// Recursively count total/translated/validated leaf keys under a tree node
+function getFolderStats(treeNode) {
+  let total = 0, translated = 0, validated = 0;
+  for (const nodeName of Object.keys(treeNode)) {
+    const node = treeNode[nodeName];
+    if (node.__isLeaf) {
+      total++;
+      if (appState.progressData[node.__fullKey]?.translated) translated++;
+      if (appState.progressData[node.__fullKey]?.validated) validated++;
+    } else {
+      const sub = getFolderStats(node.__children);
+      total += sub.total;
+      translated += sub.translated;
+      validated += sub.validated;
+    }
+  }
+  return { total, translated, validated };
+}
+
+// Recursively render tree nodes into a <ul>
+function renderTreeNodes(treeNode, parentUl, searchTerm, showUntranslated, showUnvalidated, forceOpen) {
+  let hasVisibleChildren = false;
+
+  for (const nodeName of Object.keys(treeNode)) {
+    const node = treeNode[nodeName];
+
+    if (node.__isLeaf) {
+      const key = node.__fullKey;
+      const isTranslated = appState.progressData[key]?.translated || false;
+      const isValidated = appState.progressData[key]?.validated || false;
+
+      // Apply filters
+      if (searchTerm && !key.toLowerCase().includes(searchTerm) && !String(appState.sourceFlat[key]).toLowerCase().includes(searchTerm)) continue;
+      if (showUntranslated && isTranslated) continue;
+      if (showUnvalidated && isValidated) continue;
+
+      const lockedBy = appState.activeLocks[key];
+      const isLocked = lockedBy && lockedBy !== appState.username;
+
+      const li = document.createElement('li');
+      li.className = 'key-item';
+      li.dataset.key = key;
+      if (key === appState.currentKey) li.classList.add('active');
+
+      li.innerHTML = `
+        <span class="key-name">${nodeName}</span>
+        <div class="key-status">
+          ${isLocked ? `<span class="lock-indicator" title="Locked by ${lockedBy}">🔒</span>` : ''}
+          <div class="status-dot ${isTranslated ? 'translated' : ''}" title="Translated"></div>
+          <div class="status-dot ${isValidated ? 'validated' : ''}" title="Validated"></div>
+        </div>
+      `;
+      li.addEventListener('click', () => selectKey(key, li));
+      parentUl.appendChild(li);
+      hasVisibleChildren = true;
+
+    } else {
+      // It's a folder node
+      const children = node.__children;
+
+      // Calculate folder progress stats
+      const stats = getFolderStats(children);
+      const tPerc = stats.total > 0 ? Math.round((stats.translated / stats.total) * 100) : 0;
+      const vPerc = stats.total > 0 ? Math.round((stats.validated / stats.total) * 100) : 0;
+      const tClass = tPerc === 100 ? 'folder-perc--done' : tPerc > 0 ? 'folder-perc--partial' : 'folder-perc--none';
+      const vClass = vPerc === 100 ? 'folder-perc--done' : vPerc > 0 ? 'folder-perc--partial' : 'folder-perc--none';
+
+      const details = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.className = 'tree-folder';
+      summary.innerHTML = `
+        <span class="folder-icon">📁</span>
+        <span class="folder-name">${nodeName}</span>
+        <span class="folder-stats">
+          <span class="folder-perc ${tClass}" title="Translated">${tPerc}%</span>
+          <span class="folder-perc ${vClass}" title="Validated">${vPerc}% ✓</span>
+        </span>
+      `;
+      details.appendChild(summary);
+
+      const childUl = document.createElement('ul');
+      childUl.className = 'tree-children';
+      details.appendChild(childUl);
+
+      const childVisible = renderTreeNodes(children, childUl, searchTerm, showUntranslated, showUnvalidated, forceOpen);
+
+      if (!childVisible) continue; // prune empty branches when filtering
+
+      // Auto-expand if searching/filtering, or if a child is active
+      if (forceOpen || childUl.querySelector('.key-item.active')) {
+        details.open = true;
+      }
+
+      parentUl.appendChild(details);
+      hasVisibleChildren = true;
+    }
+  }
+
+  return hasVisibleChildren;
+}
+
 function renderKeyList() {
   if (!appState.currentLanguage) return;
 
   const searchTerm = searchInput.value.toLowerCase();
   const showUntranslated = filterUntranslated.checked;
   const showUnvalidated = filterUnvalidated.checked;
+  const isFiltering = searchTerm || showUntranslated || showUnvalidated;
 
   keyList.innerHTML = '';
 
   const keys = Object.keys(appState.sourceFlat);
+  const tree = buildTree(keys);
 
-  const fragment = document.createDocumentFragment();
-
-  for (const key of keys) {
-    const isTranslated = appState.progressData[key]?.translated || false;
-    const isValidated = appState.progressData[key]?.validated || false;
-
-    // Filters
-    if (searchTerm && !key.toLowerCase().includes(searchTerm) && !String(appState.sourceFlat[key]).toLowerCase().includes(searchTerm)) continue;
-    if (showUntranslated && isTranslated) continue;
-    if (showUnvalidated && isValidated) continue;
-
-    const lockedBy = appState.activeLocks[key];
-    const isLocked = lockedBy && lockedBy !== appState.username;
-
-    const li = document.createElement('li');
-    li.className = 'key-item';
-    if (key === appState.currentKey) li.classList.add('active');
-
-    li.innerHTML = `
-      <span class="key-name">${key}</span>
-      <div class="key-status">
-        ${isLocked ? `<span class="lock-indicator" title="Locked by ${lockedBy}">🔒</span>` : ''}
-        <div class="status-dot ${isTranslated ? 'translated' : ''}" title="Translated"></div>
-        <div class="status-dot ${isValidated ? 'validated' : ''}" title="Validated"></div>
-      </div>
-    `;
-
-    li.addEventListener('click', () => selectKey(key, li));
-    fragment.appendChild(li);
-  }
-
-  keyList.appendChild(fragment);
+  renderTreeNodes(tree, keyList, searchTerm, showUntranslated, showUnvalidated, !!isFiltering);
 }
 
 function selectKey(key, liElement) {
@@ -516,44 +656,76 @@ function checkCurrentKeyLock() {
 }
 
 function updateKeyLockUI(key) {
-  const liElements = document.querySelectorAll('.key-item');
-  for (const li of liElements) {
-    const keyNameSpan = li.querySelector('.key-name');
-    if (keyNameSpan && keyNameSpan.textContent === key) {
-      const lockedBy = appState.activeLocks[key];
-      const isLocked = lockedBy && lockedBy !== appState.username;
-      
-      let lockIndicator = li.querySelector('.lock-indicator');
-      if (isLocked) {
-        if (!lockIndicator) {
-          lockIndicator = document.createElement('span');
-          lockIndicator.className = 'lock-indicator';
-          li.querySelector('.key-status').prepend(lockIndicator);
-        }
-        lockIndicator.textContent = '🔒';
-        lockIndicator.title = `Locked by ${lockedBy}`;
-      } else if (lockIndicator) {
-        lockIndicator.remove();
-      }
-      break;
+  const li = keyList.querySelector(`.key-item[data-key="${CSS.escape(key)}"]`);
+  if (!li) return;
+
+  const lockedBy = appState.activeLocks[key];
+  const isLocked = lockedBy && lockedBy !== appState.username;
+
+  let lockIndicator = li.querySelector('.lock-indicator');
+  if (isLocked) {
+    if (!lockIndicator) {
+      lockIndicator = document.createElement('span');
+      lockIndicator.className = 'lock-indicator';
+      li.querySelector('.key-status').prepend(lockIndicator);
     }
+    lockIndicator.textContent = '🔒';
+    lockIndicator.title = `Locked by ${lockedBy}`;
+  } else if (lockIndicator) {
+    lockIndicator.remove();
   }
 }
 
 function updateKeyStatusUI(key) {
-  const liElements = document.querySelectorAll('.key-item');
-  for (const li of liElements) {
-    const keyNameSpan = li.querySelector('.key-name');
-    if (keyNameSpan && keyNameSpan.textContent === key) {
-      const isTranslated = appState.progressData[key]?.translated;
-      const isValidated = appState.progressData[key]?.validated;
-      const dots = li.querySelectorAll('.status-dot');
-      if (dots.length >= 2) {
-        dots[0].className = `status-dot ${isTranslated ? 'translated' : ''}`;
-        dots[1].className = `status-dot ${isValidated ? 'validated' : ''}`;
+  const li = keyList.querySelector(`.key-item[data-key="${CSS.escape(key)}"]`);
+  if (!li) return;
+
+  const isTranslated = appState.progressData[key]?.translated;
+  const isValidated = appState.progressData[key]?.validated;
+  const dots = li.querySelectorAll('.status-dot');
+  if (dots.length >= 2) {
+    dots[0].className = `status-dot ${isTranslated ? 'translated' : ''}`;
+    dots[1].className = `status-dot ${isValidated ? 'validated' : ''}`;
+  }
+
+  updateFolderStats(key);
+}
+
+// Walk up the tree from a key's <li> and refresh each ancestor folder's percentage badges
+function updateFolderStats(key) {
+  const li = keyList.querySelector(`.key-item[data-key="${CSS.escape(key)}"]`);
+  if (!li) return;
+
+  let el = li.parentElement;
+  while (el && el !== keyList) {
+    if (el.tagName === 'DETAILS') {
+      // Collect all leaf keys under this <details> by reading child .key-item elements
+      const leafItems = el.querySelectorAll('.key-item');
+      let total = 0, translated = 0, validated = 0;
+      leafItems.forEach(item => {
+        const k = item.dataset.key;
+        if (!k) return;
+        total++;
+        if (appState.progressData[k]?.translated) translated++;
+        if (appState.progressData[k]?.validated) validated++;
+      });
+
+      if (total > 0) {
+        const tPerc = Math.round((translated / total) * 100);
+        const vPerc = Math.round((validated / total) * 100);
+        const tClass = tPerc === 100 ? 'folder-perc--done' : tPerc > 0 ? 'folder-perc--partial' : 'folder-perc--none';
+        const vClass = vPerc === 100 ? 'folder-perc--done' : vPerc > 0 ? 'folder-perc--partial' : 'folder-perc--none';
+
+        const percSpans = el.querySelector('summary .folder-stats')?.querySelectorAll('.folder-perc');
+        if (percSpans && percSpans.length >= 2) {
+          percSpans[0].textContent = `${tPerc}%`;
+          percSpans[0].className = `folder-perc ${tClass}`;
+          percSpans[1].textContent = `${vPerc}% ✓`;
+          percSpans[1].className = `folder-perc ${vClass}`;
+        }
       }
-      break;
     }
+    el = el.parentElement;
   }
 }
 
@@ -882,10 +1054,21 @@ async function validateSaveAndNext() {
   }
 
   if (nextKey) {
-    const liElements = Array.from(document.querySelectorAll('.key-item'));
-    const li = liElements.find(el => el.querySelector('.key-name').textContent === nextKey);
-    selectKey(nextKey, li);
+    // Select the key (updates appState.currentKey)
+    selectKey(nextKey, null);
+
+    // After selectKey, find the li by data-key and open its parent folders
+    const li = keyList.querySelector(`.key-item[data-key="${CSS.escape(nextKey)}"]`);
     if (li) {
+      // Ensure all ancestor <details> are open
+      let parent = li.parentElement;
+      while (parent && parent !== keyList) {
+        if (parent.tagName === 'DETAILS') parent.open = true;
+        parent = parent.parentElement;
+      }
+      // Mark active
+      document.querySelectorAll('.key-item').forEach(el => el.classList.remove('active'));
+      li.classList.add('active');
       li.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   } else {

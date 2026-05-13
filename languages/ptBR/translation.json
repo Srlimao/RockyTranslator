@@ -2,11 +2,28 @@
   "steam_page": {
     "short_description": "Rocky Idle é um jogo idle/incremental para jogador único. Suba de nível suas habilidades, colete recursos e complete seu registro de coleções.",
     "long_description": "Rocky Idle é o primeiro jogo que desenvolvi e está em desenvolvimento há 2,5 anos. Espero que você goste! É um jogo idle/incremental para um jogador. Você sobe de nível em 18 habilidades diferentes simplesmente clicando em uma árvore ou em uma rocha. Você coleta itens que podem ser usados para avançar seu personagem ou subir outros níveis de habilidade. Você também tem um bônus ativo que pode ser ativado a cada 10 minutos; o bônus fica cada vez mais forte conforme você avança. Habilidades Existem habilidades como Mineração, Corte de Madeira, Artesanato e outras. Cada habilidade serve a um propósito específico: use as rochas mineradas para forjar equipamentos mais fortes e aumentar seu dano máximo. Quanto mais você usar um recurso, mais forte e eficiente ele se torna, melhorando velocidade, tamanho do lote e bônus ativos. Agricultura e Atividades Passivas\nA agricultura e as missões funcionam passivamente em segundo plano assim que são iniciadas. Plante e colha culturas para criar poções. Quanto mais você colher, mais eficientes suas culturas se tornam, crescendo mais rápido e rendendo recompensas maiores com o tempo. Contratos Os contratos são itens raros obtidos através de habilidades e combate. Complete tarefas específicas para receber chaves. Progresso Offline Continue progredindo mesmo enquanto estiver offline. Ao retornar, você receberá um resumo detalhado de todos os recursos coletados e experiência ganha. Combate e Coleta Automatizados Use seu equipamento forjado, comida e poções em batalhas automatizadas. Quanto mais você lutar, mais fortes se tornam seu equipamento e bônus. Derrote monstros para preencher seu registro de colecionáveis e desbloquear melhorias. Boa sorte para conseguir o item Avental do Pequeno Rocky, ele é bem raro.\nCompre no Steam (Windows) e vincule sua conta Google para continuar seu progresso na versão WEB!\nNota: É necessária uma conexão Wi-Fi para jogar este jogo. Isso garante que seus dados sejam salvos na nuvem e permite que você compartilhe o progresso em diferentes dispositivos.",
-    "long_description_15": "Progressão Offline: Continue progredindo mesmo quando estiver offline.",
-    "long_description_17": "",
-    "long_description_13": "Hello there",
+    "long_description_15": "Progresso Offline: Continue progredindo mesmo enquanto estiver offline.",
+    "long_description_17": "Combate e Coleta Automáticos: Use seu equipamento, comida e poções criados em batalhas automaticamente.",
+    "long_description_13": "Contratos: Contratos são itens raros obtidos através de treinamento e combate.",
     "long_description_1": "Rocky Idle é o primeiro jogo que eu desenvolvi e ele está em desenvolvimento há 2,5 anos. Espero que você goste!",
-    "long_description_2": "É um jogo incremental/idle para um jogador."
+    "long_description_2": "É um jogo incremental/idle para um jogador.",
+    "long_description_3": "Você sobe de nível em 18 habilidades diferentes simplesmente clicando em uma árvore ou em uma rocha.",
+    "long_description_4": "Você coleta itens que podem ser usados para avançar seu personagem ou subir outras habilidades.",
+    "long_description_5": "Você também tem um Impulso ativo que pode ser ativado uma vez a cada 10 minutos; o Impulso fica mais e mais forte à medida que você avança.",
+    "long_description_6": "Treinamento: Existem habilidades como Mineração, Corte de Madeira, Artesanato e mais.",
+    "long_description_7": "Cada habilidade tem seu próprio propósito; use as rochas mineradas para forjar equipamentos mais fortes e aumentar seu dano máximo.",
+    "long_description_8": "Quanto mais você usa um recurso, mais forte e eficiente ele se torna, melhorando velocidade, tamanho do lote e Impulso ativo.",
+    "long_description_9": "Cultivo e Atividades Passivas em Segundo Plano.",
+    "long_description_10": "Cultivo e missões rodam passivamente em segundo plano assim que são iniciadas.",
+    "long_description_11": "Plante e colha plantações para criar poções.",
+    "long_description_12": "Quanto mais você colhe, mais eficientes se tornam suas plantações, crescendo mais rápido e rendendo recompensas maiores com o tempo.",
+    "long_description_14": "Complete tarefas específicas para receber chaves.",
+    "long_description_16": "Ao retornar, obtenha um resumo detalhado de todos os recursos coletados e da experiência adquirida.",
+    "long_description_18": "Quanto mais você luta, mais fortes ficam seu equipamento e seus impulsos.",
+    "long_description_19": "Derrote monstros para preencher seu registro de coleção e desbloquear melhorias.",
+    "long_description_20": "Boa sorte para conseguir o drop do Avental do Rocky. É bem raro.",
+    "long_description_21": "Compre no Steam (Windows) e vincule sua conta Google para continuar seu progresso na versão WEB!",
+    "long_description_22": "Nota: Uma conexão Wi-Fi é necessária para jogar este jogo. Isso garante que seus dados sejam salvos na nuvem e permite que você compartilhe o progresso em diferentes dispositivos."
   },
   "common": {
     "save": "Salvar",
@@ -93,6 +110,10 @@
       "created": "Conta criada:",
       "in_game_time": "Tempo no jogo:",
       "character_name_placeholder": "Nome do Personagem"
+    },
+    "credits": {
+      "tool_credit": "Agradecemos ao {{name}} por criar a ferramenta de tradução.",
+      "translator_credit": "e agradecemos aos {{names}} pela tradução para {{language}}."
     }
   },
   "auth": {
@@ -1115,7 +1136,13 @@
     "clue_suffix": "Dica",
     "total_completed": "Total Concluído: {{count}}",
     "reward_label": "Recompensa:",
-    "diaries_completed": "Diários Concluídos!"
+    "diaries_completed": "Diários Concluídos!",
+    "invalid_slot_id": "ID de Slot inválido!",
+    "invalid_compressed_data": "Dados comprimidos inválidos!",
+    "invalid_game_data": "Dados do jogo inválidos, deveria ser uma longa string começando com ey!",
+    "no_data_for_slot": "Nenhum dado encontrado para este Slots",
+    "save_success": "Jogo salvo com sucesso no slot {{slot}}!",
+    "failed_to_find_user_data": "Não foi possível encontrar dados do usuário no armazenamento local"
   },
   "diary": {
     "FOREST": "Floresta",
@@ -1201,7 +1228,7 @@
     "EBONY_LOG": "Tronco de ébano",
     "EUCALYPTUS_LOG": "Tronco de eucalipto",
     "BAOBAB_LOG": "Tronco de baobá",
-    "GREENHEART_LOG": "Tronco de greenheart",
+    "GREENHEART_LOG": "Tronco de Bibiru",
     "CANARY_LOG": "Tronco de canário",
     "BRONZE_BAR": "Barra de bronze",
     "SILVER_BAR": "Barra de prata",
@@ -1227,7 +1254,7 @@
     "CANARY_SEEDS": "Sementes de canário",
     "SALMONBERRY_SEEDS": "Sementes de salmonberry",
     "CANARY_BARK": "Casca de canário",
-    "SALMONBERRIES": "Salmonberries",
+    "SALMONBERRIES": "Framboesa-salmão",
     "SILVER_RING": "Anel de prata",
     "GREEN_RING": "Anel verde",
     "BLUE_RING": "Anel azul",
@@ -1259,7 +1286,7 @@
     "AMETHYST_STAFF": "Cajado de ametista",
     "SERPIAS_STAFF": "Cajado de Serpia",
     "TEMPLE_STAFF": "Cajado do templo",
-    "FISHER_BOY_STAFF": "Cajado de pescador",
+    "FISHER_BOY_STAFF": "Cajado de Menino Pescador",
     "BONGOS_STAFF": "Cajado de Bongo",
     "SUNSTONE_STAFF": "Cajado de pedra solar",
     "EMERALD_HOOD": "Capuz de esmeralda",
@@ -1274,9 +1301,9 @@
     "AMETHYST_HOOD": "Capuz de ametista",
     "AMETHYST_ROPE": "Túnica de ametista",
     "AMETHYST_SKIRT": "Saia de ametista",
-    "MONK_HOOD": "Capuz de monge",
-    "MONK_ROPE": "Túnica de monge",
-    "MONK_SKIRT": "Saia de monge",
+    "MONK_HOOD": "Capuz de Monge",
+    "MONK_ROPE": "Túnica de Monge",
+    "MONK_SKIRT": "Saia de Monge",
     "SERPIAS_BOOK": "Livro de Serpia",
     "FISH_MONSTER_BOOK": "Livro de Bongo",
     "BEECH_BOW": "Arco de faia",
@@ -1664,8 +1691,8 @@
     "tool_batch": "Lote: {{value}}x"
   },
   "boosts": {
-    "page_title": "Bônus",
-    "activate_boost": "Ativar Bônus de {{type}}",
+    "page_title": "Impulso",
+    "activate_boost": "Ativar Impulso de {{type}}",
     "boost_type_label": "Bônus de {{type}}",
     "tab_skilling": "Bônus de Treino",
     "tab_combat": "Bônus de Combate",
@@ -1782,7 +1809,22 @@
     "invalid_compressed_data": "Dados comprimidos inválidos!",
     "invalid_game_data": "Dados de jogo inválidos, deve ser uma string longa começando com ey!",
     "no_slot_data": "Nenhum dado encontrado para este slot",
-    "failed_load_user_data": "Falha ao encontrar dados de usuário no armazenamento local"
+    "failed_load_user_data": "Falha ao encontrar dados de usuário no armazenamento local",
+    "token_expired": "Sua sessão expirou, por favor, faça login novamente",
+    "invalid_token": "Token de autenticação inválido",
+    "google_not_linked": "Esta conta Google não está vinculada a uma conta Steam. Por favor, vincule-a dentro da versão Steam do jogo primeiro.",
+    "steam_not_linked": "Conta Steam não vinculada",
+    "no_game_ownership": "Você não possui este jogo",
+    "need_full_game": "Jogo completo necessário para continuar a sessão",
+    "invalid_refresh_token": "Sessão inválida ou expirada, por favor faça login novamente",
+    "missing_steam_ticket": "Falta o ticket da Steam",
+    "invalid_steam_ticket": "Ticket Steam inválido",
+    "steam_required": "Esta ação requer uma conta Steam vinculada",
+    "google_already_linked": "Esta conta Google já está vinculada a outra conta Steam",
+    "link_code_expired": "Código de link inválido ou expirado",
+    "user_not_found": "Usuário não encontrado",
+    "save_failed": "Falha ao salvar dados",
+    "slot_not_found": "Slot de salvamento não encontrado"
   },
   "welcome_back": {
     "header": "Desde que você saiu",
@@ -1827,7 +1869,7 @@
   },
   "tutorial": {
     "get_started": "Começar",
-    "click_hint": "Clique na tarefa brilhante e depois clique na \"Rocha\"!"
+    "click_hint": "Toque na tarefa brilhante e depois toque em \"Rocha\"!"
   },
   "offline": {
     "offline_progress": "Progresso offline"
@@ -1842,7 +1884,7 @@
     "damage_bonus_header": "Bônus de Dano",
     "defence_bonus_header": "Bônus de Defesa",
     "other_bonuses_header": "Outros Bônus",
-    "melee_accuracy": "Precisão C. a C.",
+    "melee_accuracy": "Precisão em combate C. a C.",
     "ranged_accuracy": "Precisão à Distância",
     "magic_accuracy": "Precisão Mágica",
     "melee_damage": "Dano C. a C.",
@@ -1860,14 +1902,14 @@
     "market_dmg_bonus": "Bônus de Dano Mercado",
     "set_melee": "Corpo a Corpo",
     "set_range": "Distância",
-    "set_magic": "Magia",
+    "set_magic": "Mágico",
     "activate_set": "Ativar Conjunto"
   },
   "monsters": {
     "FOREST_GUY": "Cara da Floresta",
     "MOSS_GOLEM": "Golem de Musgo",
     "THORN": "Espinho",
-    "BARK_WRAITH": "Espectro de Casca",
+    "BARK_WRAITH": "Fantasma Cascudo",
     "MOOZEY": "Moozey",
     "JACK": "Jack",
     "SPINEY": "Espinhoso",
@@ -1875,17 +1917,17 @@
     "LITTLE_ROCKY": "Pequeno Rocky",
     "JIGGY": "Jiggy",
     "STEEL_BACK_LIZARD": "Lagarto de Costas de Aço",
-    "GEMSTONE_GOLEM": "Golem de Pedras Preciosas",
-    "CAVE_SPIDER": "Aranha das Cavernas",
-    "CAVE_BAT": "Morcego das Cavernas",
+    "GEMSTONE_GOLEM": "Golem de Gemas",
+    "CAVE_SPIDER": "Aranha da Caverna",
+    "CAVE_BAT": "Morcego da Caverna",
     "MOE": "Moe",
     "STINGAR": "Stingar",
     "FISHER_BOY": "Menino Pescador",
     "BONGO": "Bongo",
-    "BONGO_SR": "Bongo Sr.",
+    "BONGO_SR": "Pai Bongo",
     "SERPIA": "Serpia",
     "JELLY": "Geleia",
-    "CRAPPY": "Crappy",
+    "CRAPPY": "Cocozito",
     "HAMMER_HEAD": "Cabeça de Martelo",
     "WALRUS": "Morsa",
     "SPROUTLING": "Brotinho",
@@ -1930,7 +1972,7 @@
     "Fletching": "Flecharia",
     "Woodcutting": "Corte de Lenha",
     "Arcanery": "Arcanaria",
-    "Slayer": "Slayer",
+    "Slayer": "Extermínio",
     "Farming": "Cultivo",
     "tab": {
       "ores": "Minérios",
@@ -1961,28 +2003,28 @@
     "remaining_xp": "XP restante:"
   },
   "tools": {
-    "rock_pickaxe": "Picareta de Rocha",
+    "rock_pickaxe": "Picareta de Pedra",
     "bronze_pickaxe": "Picareta de Bronze",
     "silver_pickaxe": "Picareta de Prata",
     "jade_pickaxe": "Picareta de Jade",
     "gold_pickaxe": "Picareta de Ouro",
     "platinum_pickaxe": "Picareta de Platina",
     "diamond_pickaxe": "Picareta de Diamante",
-    "rock_axe": "Machado de Rocha",
+    "rock_axe": "Machado de Pedra",
     "bronze_axe": "Machado de Bronze",
     "silver_axe": "Machado de Prata",
     "jade_axe": "Machado de Jade",
     "gold_axe": "Machado de Ouro",
     "platinum_axe": "Machado de Platina",
     "diamond_axe": "Machado de Diamante",
-    "rock_spade": "Pá de Rocha",
+    "rock_spade": "Pá de Pedra",
     "bronze_spade": "Pá de Bronze",
     "silver_spade": "Pá de Prata",
     "jade_spade": "Pá de Jade",
     "gold_spade": "Pá de Ouro",
     "platinum_spade": "Pá de Platina",
     "diamond_spade": "Pá de Diamante",
-    "rock_knife": "Faca de Rocha",
+    "rock_knife": "Faca de Pedra",
     "bronze_knife": "Faca de Bronze",
     "silver_knife": "Faca de Prata",
     "jade_knife": "Faca de Jade",
@@ -2119,8 +2161,8 @@
     "RARE_FISH": "Peixes Raros",
     "COMMON_LOGS": "Troncos Comuns",
     "RARE_LOGS": "Troncos Raros",
-    "BARKWRAITH_TOKEN": "Token de Espectro de Casca",
-    "GEM_GOLEM_TOKEN": "Token de Golem de Gema",
+    "BARKWRAITH_TOKEN": "Token Barkwraith",
+    "GEM_GOLEM_TOKEN": "Token do Golem de Gema",
     "SEA_SNAKE_TOKEN": "Token de Cobra Marinha",
     "HARLEY_TOKEN": "Token de Harley",
     "ANGELA_TOKEN": "Token de Angela",
@@ -2205,23 +2247,23 @@
   "prayers": {
     "SHARPEN": {
       "name": "Afiar",
-      "description": "+5% C. a C., +10% Defesa"
+      "description": "+5% Corpo a Corpo, +10% Defesa"
     },
     "BATTLE_FOCUS": {
       "name": "Foco de Batalha",
-      "description": "+12% C. a C., +15% Defesa"
+      "description": "+12% Corpo a Corpo, +15% Defesa"
     },
     "FEROCITY": {
       "name": "Ferocidade",
-      "description": "+18% C. a C., +30% Defesa"
+      "description": "+18% Corpo a Corpo, +30% Defesa"
     },
     "TITAN_STRENGTH": {
       "name": "Força de Titã",
-      "description": "+28% C. a C., +40% Defesa"
+      "description": "+28% Corpo a Corpo, +40% Defesa"
     },
     "WAR_GOD": {
       "name": "Deus da Guerra",
-      "description": "+40% C. a C., +50% Defesa"
+      "description": "+40% Corpo a Corpo, +50% Defesa"
     },
     "TRUE_SIGHT": {
       "name": "Visão Real",
@@ -2271,7 +2313,7 @@
     "JADE": "Jade",
     "GOLD": "Ouro",
     "PLATINUM": "Platina",
-    "GEMROCK": "Rocha de Gema",
+    "GEMROCK": "Rocha de Gemas",
     "DIAMOND": "Diamante",
     "SUNSTONE": "Pedra Solar",
     "MINING_SKILLING_BOSS": "Chefe de Mineração",
@@ -2293,7 +2335,7 @@
     "EBONY": "Ébano",
     "EUCALYPTUS": "Eucalipto",
     "BAOBAB": "Baobá",
-    "GREENHEART": "Greenheart",
+    "GREENHEART": "Coração Verde",
     "CANARY": "Canário",
     "WOODCUTTING_SKILLING_BOSS": "Chefe de Corte de Lenha",
     "RAW_SILVER_MINNOW": "Carpim Prateado Cru",
@@ -2415,13 +2457,13 @@
     "GREEN_SCALE_FEATHER_HAT": "Chapéu de Pena de Escama Verde",
     "GREEN_SCALE_PANTS": "Calças de Escama Verde",
     "GREEN_SCALE_VEST": "Colete de Escama Verde",
-    "BLUE_SCALE_FEATHER_HAT": "Chapéu de Pena de Escama Azul",
+    "BLUE_SCALE_FEATHER_HAT": "Chapéu de Pena e Escama Azul",
     "BLUE_SCALE_PANTS": "Calças de Escama Azul",
     "BLUE_SCALE_VEST": "Colete de Escama Azul",
-    "RED_SCALE_FEATHER_HAT": "Chapéu de Pena de Escama Vermelha",
+    "RED_SCALE_FEATHER_HAT": "Chapéu de Pena e Escama Vermelha",
     "RED_SCALE_PANTS": "Calças de Escama Vermelha",
     "RED_SCALE_VEST": "Colete de Escama Vermelha",
-    "BLACK_SCALE_FEATHER_HAT": "Chapéu de Pena de Escama Negra",
+    "BLACK_SCALE_FEATHER_HAT": "Chapéu de Pena e Escama Negra",
     "BLACK_SCALE_PANTS": "Calças de Escama Negra",
     "BLACK_SCALE_VEST": "Colete de Escama Negra",
     "LEATHER_PANTS": "Calças de Couro",
@@ -2488,7 +2530,7 @@
     "leveled_up": "Subiu de nível",
     "reached_next_monster_tier": "Atingiu o próximo nível de monstro",
     "out_of_potions": "Acabaram as poções",
-    "out_of_ammo": "Acabou a munição",
+    "out_of_ammo": "Sem munição",
     "out_of_spell_items": "Acabaram os sigilos",
     "out_of_item_cost": "Acabaram os itens necessários",
     "player_died": "Jogador morreu",
@@ -2502,7 +2544,7 @@
   "attack_type": {
     "Melee": "Corpo a Corpo",
     "Magic": "Magia",
-    "Ranged": "Distância"
+    "Ranged": "Ataque à Distância"
   },
   "not_found": {
     "title": "404 - Página Não Encontrada",
@@ -2531,5 +2573,22 @@
   "_context_NOT_TO_BE_TrANSLATED": {
     "_about": "",
     "_variables": ""
+  },
+  "_context_NOT_TO_BE_TRANSLATED": {
+    "_about": "Rocky Idle — um jogo idle/clicker para navegador e desktop. Traduzido de forma natural, sem forçar a adaptação dos termos do jogo, a menos que exista uma boa correspondência no idioma.",
+    "_variables": "Placeholders como {{count}}, {{time}} e {{percentage}} são preenchidos automaticamente pelo jogo copie-os de forma idêntica para a sua tradução. Não traduza nem remova."
+  },
+  "localization_announcement": {
+    "title": "Rocky Idle já está disponível em {{language}}!",
+    "body": "Bem-vindo! Rocky Idle agora está totalmente jogável em {{language}}. Com a ajuda de membros gentis da comunidade, o jogo foi traduzido para que você possa jogá-lo. Estamos muito felizes em finalmente te dar as boas-vindas à comunidade!",
+    "english_note": "Um breve aviso sobre futuras atualizações: embora o jogo em si já esteja traduzido, os anúncios e notas de atualização futuras da Steam permanecerão em inglês. Muito obrigado pela compreensão!"
+  },
+  "process_stop": {
+    "out_of_time": "Tempo esgotado",
+    "no_processes_performed": "Nenhuma ação realizada",
+    "reached_next_speed_tier": "Novo nivel de velocidade atingido",
+    "reached_next_multiplier_threshold": "Novo nivel de multiplier atingido",
+    "ran_out_of_items": "Sem recursos",
+    "unknown": "Desconhecido"
   }
 }
