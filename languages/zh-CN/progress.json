@@ -9,7 +9,7 @@
   },
   "steam_page.short_description": {
     "translated": true,
-    "validated": true
+    "validated": false
   },
   "steam_page.long_description_1": {
     "translated": true,
@@ -688,7 +688,7 @@
     "validated": false
   },
   "time.day_plural": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "time.hour": {
@@ -696,7 +696,7 @@
     "validated": false
   },
   "time.hour_plural": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "time.minute": {
@@ -704,7 +704,7 @@
     "validated": false
   },
   "time.minute_plural": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "time.second": {
@@ -712,7 +712,7 @@
     "validated": false
   },
   "time.second_plural": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "duration.hour": {
@@ -740,7 +740,7 @@
     "validated": false
   },
   "duration.separator": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "help.header": {
@@ -2169,7 +2169,7 @@
   },
   "account_overview.cloud_save_up_to_date": {
     "translated": true,
-    "validated": true
+    "validated": false
   },
   "account_overview.add_new_character": {
     "translated": true,

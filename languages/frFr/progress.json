@@ -13,39 +13,39 @@
   },
   "steam_page.long_description_1": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_2": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_3": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_4": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_5": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_6": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_7": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_8": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_9": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_10": {
     "translated": true,
@@ -53,251 +53,255 @@
   },
   "steam_page.long_description_11": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_12": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_13": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_14": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_15": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_16": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_17": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_18": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_19": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_20": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_21": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "steam_page.long_description_22": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.save": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.back": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.cancel": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.reset": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.language": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.amount": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.search": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.completed": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.warning": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.continue": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.xp": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.none": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.or": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.quit_game": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.loading": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.home": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.batch_multipliers": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.total_xp": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.swap": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.in_progress": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.all": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.all_minus_one": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.separator_ampersand": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.difficulty.tutorial": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.difficulty.easy": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.difficulty.medium": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.difficulty.hard": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.difficulty.expert": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.difficulty.nerd": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.custom_amount": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.enter_a_value": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.create": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.lv": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.level_label": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.level_display": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.buy": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.hp": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "common.level": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.header": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.sections.account": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.sections.warnings": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.sections.filters": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.sections.ui": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.sections.other": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.sections.steam": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.credits.tool_credit": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.credits.translator_credit": {
     "translated": true,
-    "validated": false
+    "validated": true
+  },
+  "settings.credits.placeholder_warning": {
+    "translated": true,
+    "validated": true
   },
   "settings.labels.show_sell_price": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.labels.show_sell_all_price": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.labels.show_multiplier": {
     "translated": true,
-    "validated": false
+    "validated": true
   },
   "settings.labels.show_block_hit_chance": {
     "translated": true,
@@ -2169,7 +2173,7 @@
   },
   "account_overview.cloud_save_up_to_date": {
     "translated": true,
-    "validated": true
+    "validated": false
   },
   "account_overview.add_new_character": {
     "translated": true,

@@ -9,7 +9,7 @@
   },
   "steam_page.short_description": {
     "translated": true,
-    "validated": true
+    "validated": false
   },
   "steam_page.long_description_1": {
     "translated": true,
@@ -2169,7 +2169,7 @@
   },
   "account_overview.cloud_save_up_to_date": {
     "translated": true,
-    "validated": true
+    "validated": false
   },
   "account_overview.add_new_character": {
     "translated": true,
@@ -2856,35 +2856,35 @@
     "validated": false
   },
   "slayer.category.UNDEAD": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "slayer.category.MINIONS": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "slayer.category.GIANTS": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "slayer.category.BIRDS": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "slayer.category.PEST": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "slayer.category.SNAKE": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "slayer.category.BOSS": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "slayer.category.FIELD": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "shop.sell_all_warning": {
@@ -4992,47 +4992,47 @@
     "validated": false
   },
   "items.CROP_BAG": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.WOOD_SACK": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.SIGIL_SACK": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.ORE_SACK": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.SEED_SACK": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.KEY_RING": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.FOOD_SACK": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.SCROLL_BOTTLE": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.PET_BAG": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.RAW_FOOD_SACK": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.TOKEN_VAULT": {
-    "translated": true,
+    "translated": false,
     "validated": false
   },
   "items.EASY_CONTRACT": {

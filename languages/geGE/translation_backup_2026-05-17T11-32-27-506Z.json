@@ -487,7 +487,7 @@
     },
     "STORM_FALLEN_OAK": {
       "name": "Storm Fallen Oak",
-      "description": "Clear storm-fallen oak before it rots and the beetles move in."
+      "description": "Clear storm-fallen pine before it rots and the beetles move in."
     },
     "SERPENT_HUNT": {
       "name": "Serpent Hunt",
@@ -2331,7 +2331,7 @@
     "LEATHER_STALL": "Leather stall",
     "SIGIL_STALL": "Sigil stall",
     "SEED_STALL": "Seed stall",
-    "ROKIES_STALL": "Rocky's stall",
+    "ROKIES_STALL": "Rokies stall",
     "SCALE_STALL": "Scale stall",
     "ROCK_STALL": "Rock stall",
     "PEARL_STALL": "Pearl stall",
@@ -2446,16 +2446,16 @@
     "SUNSTONE_STAFF": "Sunstone staff",
     "EMERALD_HOOD": "Emerald hood",
     "EMERALD_SKIRT": "Emerald skirt",
-    "EMERALD_ROPE": "Emerald robe",
+    "EMERALD_ROPE": "Emerald rope",
     "BLUE_TOPAZ_HOOD": "Blue topaz hood",
     "BLUE_TOPAZ_SKIRT": "Blue topaz skirt",
-    "BLUE_TOPAZ_ROPE": "Blue topaz robe",
+    "BLUE_TOPAZ_ROPE": "Blue topaz rope",
     "RUBY_HOOD": "Ruby hood",
     "RUBY_SKIRT": "Ruby skirt",
-    "RUBY_ROPE": "Ruby robe",
+    "RUBY_ROPE": "Ruby rope",
     "AMETHYST_HOOD": "Amethyst hood",
     "AMETHYST_SKIRT": "Amethyst skirt",
-    "AMETHYST_ROPE": "Amethyst robe",
+    "AMETHYST_ROPE": "Amethyst rope",
     "LEATHER_SKIRT": "Leather skirt",
     "LEATHER_ROBE": "Leather robe",
     "ARCANERY_SKILLING_BOSS": "Arcanery Skilling Boss",

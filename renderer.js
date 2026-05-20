@@ -50,7 +50,8 @@ let appState = {
     apiUrl: 'http://localhost:1234/v1',
     modelName: 'local-model',
     enableThinking: false,
-    glossary: []
+    glossary: {},      // { [langCode]: Array }
+    lastModified: {}   // { [langCode]: ISO string }
   }
 };
 
@@ -98,6 +99,9 @@ const btnCreateLang = document.getElementById('btn-create-lang');
 const inputNewLangCode = document.getElementById('new-lang-code');
 const inputCopySource = document.getElementById('copy-source-cb');
 
+const btnUploadTranslation = document.getElementById('btn-upload-translation');
+const fileUploadTranslation = document.getElementById('file-upload-translation');
+
 const btnGlossary = document.getElementById('btn-glossary');
 const glossaryModal = document.getElementById('glossary-modal');
 const inputGlossaryTerm = document.getElementById('glossary-term');
@@ -105,6 +109,135 @@ const inputGlossaryTranslation = document.getElementById('glossary-translation')
 const btnAddGlossary = document.getElementById('btn-add-glossary');
 const glossaryList = document.getElementById('glossary-list');
 const btnCloseGlossary = document.getElementById('btn-close-glossary');
+
+const btnDashboard = document.getElementById('btn-dashboard');
+const dashboardEl = document.getElementById('dashboard');
+const dashboardCards = document.getElementById('dashboard-cards');
+
+function formatDate(isoStr) {
+  if (!isoStr) return null;
+  return new Date(isoStr).toLocaleString(undefined, {
+    year: 'numeric', month: 'short', day: 'numeric',
+    hour: '2-digit', minute: '2-digit'
+  });
+}
+
+async function showDashboard() {
+  // Clear language selection
+  appState.currentLanguage = null;
+  appState.sourceFlat = {};
+  appState.translationFlat = {};
+  appState.progressData = {};
+  appState.currentKey = null;
+  languageSelect.value = '';
+  localStorage.removeItem('rt-language');
+  langLastModified.style.display = 'none';
+  keyList.innerHTML = '';
+  editorArea.style.display = 'none';
+  currentKeyDisplay.textContent = 'Select a key to translate';
+  progressBarTranslated.style.width = '0%';
+  progressBarValidated.style.width = '0%';
+  statsTranslated.textContent = '0%';
+  statsValidated.textContent = '0%';
+  btnUploadTranslation.style.display = 'none';
+
+  dashboardEl.style.display = 'block';
+  // Re-trigger animation
+  dashboardEl.style.animation = 'none';
+  dashboardEl.offsetHeight;
+  dashboardEl.style.animation = '';
+
+  await renderDashboard();
+}
+
+function hideDashboard() {
+  dashboardEl.style.display = 'none';
+}
+
+async function renderDashboard() {
+  dashboardCards.innerHTML = '<p style="color:var(--text-secondary);padding:10px 0">Loading…</p>';
+  try {
+    const data = await (await fetch('/api/dashboard')).json();
+    dashboardCards.innerHTML = '';
+
+    if (!data.length) {
+      dashboardCards.innerHTML = '<div class="dash-empty">No languages yet. Click <strong>+</strong> in the sidebar to create one.</div>';
+      return;
+    }
+
+    data.forEach(item => {
+      const tPerc = item.total > 0 ? Math.round((item.translated / item.total) * 100) : 0;
+      const vPerc = item.total > 0 ? Math.round((item.validated / item.total) * 100) : 0;
+      const dateStr = formatDate(item.lastModified);
+      const initials = item.lang.slice(0, 2).toUpperCase();
+
+      const card = document.createElement('div');
+      card.className = 'dash-card';
+      card.innerHTML = `
+        <div class="dash-card-header">
+          <div class="dash-lang-flag">${initials}</div>
+          <div class="dash-lang-info">
+            <div class="dash-lang-code">${item.lang}</div>
+            <div class="dash-lang-date ${dateStr ? '' : 'never'}">
+              ${dateStr ? '🕐 ' + dateStr : 'Never edited'}
+            </div>
+          </div>
+        </div>
+        <div class="dash-progress-group">
+          <div class="dash-progress-row">
+            <div class="dash-progress-label">
+              <span>Translated</span>
+              <span>${item.translated} / ${item.total} &nbsp;(${tPerc}%)</span>
+            </div>
+            <div class="dash-bar-track">
+              <div class="dash-bar-fill translated" style="width:${tPerc}%"></div>
+            </div>
+          </div>
+          <div class="dash-progress-row">
+            <div class="dash-progress-label">
+              <span>Validated</span>
+              <span>${item.validated} / ${item.total} &nbsp;(${vPerc}%)</span>
+            </div>
+            <div class="dash-bar-track">
+              <div class="dash-bar-fill validated" style="width:${vPerc}%"></div>
+            </div>
+          </div>
+        </div>
+      `;
+      card.addEventListener('click', () => {
+        languageSelect.value = item.lang;
+        localStorage.setItem('rt-language', item.lang);
+        loadLanguage(item.lang);
+      });
+      dashboardCards.appendChild(card);
+    });
+  } catch (e) {
+    dashboardCards.innerHTML = '<div class="dash-empty">Failed to load dashboard data.</div>';
+    console.error('Dashboard error:', e);
+  }
+}
+
+const langLastModified = document.getElementById('lang-last-modified');
+const langLastModifiedText = document.getElementById('lang-last-modified-text');
+
+function updateLastModifiedDisplay(langCode) {
+  const ts = appState.config.lastModified && appState.config.lastModified[langCode];
+  if (ts) {
+    const d = new Date(ts);
+    const formatted = d.toLocaleString(undefined, {
+      year: 'numeric', month: 'short', day: 'numeric',
+      hour: '2-digit', minute: '2-digit'
+    });
+    langLastModifiedText.textContent = `Last edit: ${formatted}`;
+    langLastModified.style.display = 'flex';
+    // Re-trigger animation
+    langLastModified.style.animation = 'none';
+    langLastModified.offsetHeight; // reflow
+    langLastModified.style.animation = '';
+  } else {
+    langLastModified.style.display = 'none';
+  }
+}
 
 const usernameDisplay = document.getElementById('username-display');
 const headerUsername = document.getElementById('header-username');
@@ -146,11 +279,13 @@ async function restoreUIState() {
   if (savedUntranslated !== null) filterUntranslated.checked = savedUntranslated === 'true';
   if (savedUnvalidated !== null) filterUnvalidated.checked = savedUnvalidated === 'true';
 
-  // Restore and auto-load the saved language
+  // Restore and auto-load the saved language, or show dashboard
   const savedLang = localStorage.getItem('rt-language');
   if (savedLang && appState.languages.includes(savedLang)) {
     languageSelect.value = savedLang;
     await loadLanguage(savedLang);
+  } else {
+    await showDashboard();
   }
 }
 
@@ -201,6 +336,14 @@ async function init() {
       delete appState.activeLocks[data.key];
       updateKeyLockUI(data.key);
       if (appState.currentKey === data.key) checkCurrentKeyLock();
+    });
+
+    appState.socket.on('lang-modified', (data) => {
+      if (!appState.config.lastModified) appState.config.lastModified = {};
+      appState.config.lastModified[data.langCode] = data.timestamp;
+      if (appState.currentLanguage === data.langCode) {
+        updateLastModifiedDisplay(data.langCode);
+      }
     });
 
     appState.socket.on('key-updated', (data) => {
@@ -301,9 +444,75 @@ async function init() {
   btnCloseNewLang.addEventListener('click', () => newLangModal.classList.remove('show'));
   btnCreateLang.addEventListener('click', createNewLanguage);
 
+  btnDashboard.addEventListener('click', showDashboard);
+
+  if (btnUploadTranslation && fileUploadTranslation) {
+    btnUploadTranslation.addEventListener('click', () => {
+      fileUploadTranslation.click();
+    });
+
+    fileUploadTranslation.addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file || !appState.currentLanguage) return;
+
+      const confirmUpload = confirm('This will completely replace the current language translations with the uploaded file. A backup will be saved on the server. Do you want to continue?');
+      if (!confirmUpload) {
+        fileUploadTranslation.value = '';
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = async (event) => {
+        try {
+          const newTranslationData = JSON.parse(event.target.result);
+          
+          btnUploadTranslation.disabled = true;
+          
+          const newTranslationFlat = flattenObject(newTranslationData);
+          const newProgressData = {};
+          
+          // Re-calculate progress data
+          for (const key of Object.keys(appState.sourceFlat)) {
+            if (newTranslationFlat[key]) {
+              const oldProg = appState.progressData[key];
+              if (oldProg) {
+                newProgressData[key] = oldProg;
+              } else {
+                newProgressData[key] = { translated: true, validated: false };
+              }
+            } else {
+              newProgressData[key] = { translated: false, validated: false };
+            }
+          }
+
+          const response = await fetch(`/api/translation/${appState.currentLanguage}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ translationData: newTranslationData, progressData: newProgressData })
+          });
+          
+          const result = await response.json();
+          if (result.success) {
+            alert('Translation replaced successfully!');
+            await loadLanguage(appState.currentLanguage);
+          } else {
+            alert('Failed to update translation: ' + result.error);
+          }
+        } catch (err) {
+          alert('Invalid JSON file.');
+          console.error(err);
+        } finally {
+          btnUploadTranslation.disabled = false;
+          fileUploadTranslation.value = ''; // Reset file input
+        }
+      };
+      reader.readAsText(file);
+    });
+  }
+
   // Glossary Modal
   btnGlossary.addEventListener('click', () => {
-    if (!appState.config.glossary) appState.config.glossary = [];
+    if (!appState.config.glossary) appState.config.glossary = {};
     renderGlossary();
     glossaryModal.classList.add('show');
   });
@@ -315,6 +524,14 @@ async function init() {
   inputGlossaryTranslation.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') addGlossaryWord();
   });
+}
+
+// Returns the glossary array for the currently active language
+function currentGlossary() {
+  const lang = appState.currentLanguage;
+  if (!lang) return [];
+  if (!appState.config.glossary[lang]) appState.config.glossary[lang] = [];
+  return appState.config.glossary[lang];
 }
 
 async function loadConfig() {
@@ -331,15 +548,18 @@ async function loadConfig() {
     }
   }
 
-  // Load glossary (global/shared) from server
+  // Load shared config (glossary + lastModified) from server
   try {
     const response = await fetch('/api/config');
     const serverData = await response.json();
-    if (serverData && Array.isArray(serverData.glossary)) {
+    if (serverData && serverData.glossary && typeof serverData.glossary === 'object' && !Array.isArray(serverData.glossary)) {
       appState.config.glossary = serverData.glossary;
     }
+    if (serverData && serverData.lastModified && typeof serverData.lastModified === 'object') {
+      appState.config.lastModified = serverData.lastModified;
+    }
   } catch (e) {
-    console.error('Failed to load glossary from server:', e);
+    console.error('Failed to load config from server:', e);
   }
 }
 
@@ -354,8 +574,16 @@ async function saveConfig() {
 }
 
 function renderGlossary() {
+  const lang = appState.currentLanguage;
   glossaryList.innerHTML = '';
-  appState.config.glossary.forEach((item, index) => {
+
+  if (!lang) {
+    glossaryList.innerHTML = '<li style="color:var(--text-muted);padding:0.5rem">Select a language first to manage its glossary.</li>';
+    return;
+  }
+
+  const glossary = currentGlossary();
+  glossary.forEach((item, index) => {
     const term = typeof item === 'string' ? item : item.term;
     const translation = typeof item === 'string' ? '' : item.translation;
     const displayStr = translation ? `${term} &rarr; ${translation}` : `${term} (Do not translate)`;
@@ -372,15 +600,17 @@ function renderGlossary() {
 }
 
 async function addGlossaryWord() {
+  if (!appState.currentLanguage) return;
   const term = inputGlossaryTerm.value.trim();
   const translation = inputGlossaryTranslation.value.trim();
   if (term) {
-    const existsIndex = appState.config.glossary.findIndex(i => (typeof i === 'string' ? i : i.term) === term);
+    const glossary = currentGlossary();
+    const existsIndex = glossary.findIndex(i => (typeof i === 'string' ? i : i.term) === term);
 
     if (existsIndex >= 0) {
-      appState.config.glossary[existsIndex] = { term, translation };
+      glossary[existsIndex] = { term, translation };
     } else {
-      appState.config.glossary.push({ term, translation });
+      glossary.push({ term, translation });
     }
 
     inputGlossaryTerm.value = '';
@@ -391,7 +621,8 @@ async function addGlossaryWord() {
 }
 
 async function removeGlossaryWord(index) {
-  appState.config.glossary.splice(index, 1);
+  if (!appState.currentLanguage) return;
+  currentGlossary().splice(index, 1);
   renderGlossary();
   await saveGlossaryToServer();
 }
@@ -449,6 +680,7 @@ async function createNewLanguage() {
 
 async function loadLanguage(langCode) {
   appState.currentLanguage = langCode;
+  hideDashboard();
 
   const response = await fetch(`/api/translation/${langCode}`);
   const data = await response.json();
@@ -463,9 +695,11 @@ async function loadLanguage(langCode) {
   appState.currentKey = null;
   editorArea.style.display = 'none';
   currentKeyDisplay.textContent = 'Select a key to translate';
+  btnUploadTranslation.style.display = 'flex';
 
   renderKeyList();
   updateProgress();
+  updateLastModifiedDisplay(langCode);
 }
 
 // Build a nested tree from flat dot-notation keys
@@ -808,12 +1042,13 @@ async function translateWithAi() {
   try {
     let systemPrompt = `You are a professional translator for a game. Translate the following English text to ${lang}. The text is for the UI element of a game, for context the original english text JSON path is: "${appState.currentKey}". Keep the exact same formatting, tone, and any special placeholders like {{variable}}. Only output the translation, without any explanations or quotation marks.`;
 
-    if (appState.config.glossary && appState.config.glossary.length > 0) {
-      const doNotTranslate = appState.config.glossary
+    const glossary = currentGlossary();
+    if (glossary.length > 0) {
+      const doNotTranslate = glossary
         .filter(i => typeof i === 'string' || !i.translation)
         .map(i => typeof i === 'string' ? i : i.term);
 
-      const commonTranslations = appState.config.glossary
+      const commonTranslations = glossary
         .filter(i => typeof i === 'object' && i.translation);
 
       if (doNotTranslate.length > 0) {
@@ -894,12 +1129,13 @@ async function translateKeyBackground(key) {
   try {
     let systemPrompt = `You are a professional translator for a game. Translate the following English text to ${lang}. The text is for the UI element with the key path: "${key}". Keep the exact same meaning, formatting, tone, and any special placeholders like {{variable}}. Only output the translation, without any explanations or quotation marks.`;
 
-    if (appState.config.glossary && appState.config.glossary.length > 0) {
-      const doNotTranslate = appState.config.glossary
+    const glossary = currentGlossary();
+    if (glossary.length > 0) {
+      const doNotTranslate = glossary
         .filter(i => typeof i === 'string' || !i.translation)
         .map(i => typeof i === 'string' ? i : i.term);
 
-      const commonTranslations = appState.config.glossary
+      const commonTranslations = glossary
         .filter(i => typeof i === 'object' && i.translation);
 
       if (doNotTranslate.length > 0) {

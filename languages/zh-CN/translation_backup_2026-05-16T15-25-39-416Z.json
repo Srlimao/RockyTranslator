@@ -82,8 +82,7 @@
     },
     "credits": {
       "tool_credit": "Thanks to {{name}} for making the translation tool",
-      "translator_credit": "and thanks to {{names}} for the {{language}} translation",
-      "placeholder_warning": "This is a placeholder translation until I find someone to translate properly. Let me know on Discord if you'd like to help!"
+      "translator_credit": "and thanks to {{names}} for the {{language}} translation"
     },
     "labels": {
       "show_sell_price": "Show sell price on item tooltips",
@@ -283,7 +282,7 @@
       "hitpoints_label": "Hitpoints",
       "hitpoints_text": "You gain Hitpoints experience each time you deal damage to a monster, regardless of combat style. The rate is 0.33 XP per damage dealt. Leveling Hitpoints increases your maximum health, helping you survive longer in combat.",
       "hits_label": "Hits",
-      "hits_text": "Each attack can be a miss (0) or a successful hit depending on accuracy. On success, damage is randomly chosen from 10% - to your max hit. Accuracy and max hit depend on levels, gear, potions, and active prayers.",
+      "hits_text": "Each attack can be a miss (0) or a successful hit depending on accuracy. On success, damage is randomly chosen from 1 to your max hit. Accuracy and max hit depend on levels, gear, potions, and active prayers.",
       "offline_label": "Offline",
       "offline_text": "Monsters will continue to be fought until you die or stop the fight; offline progress will simulate combat up to 24 hours."
     },
@@ -487,7 +486,7 @@
     },
     "STORM_FALLEN_OAK": {
       "name": "Storm Fallen Oak",
-      "description": "Clear storm-fallen oak before it rots and the beetles move in."
+      "description": "Clear storm-fallen pine before it rots and the beetles move in."
     },
     "SERPENT_HUNT": {
       "name": "Serpent Hunt",
@@ -1365,7 +1364,7 @@
     "STRONG_COMBAT_POTION": "Strong combat potion",
     "HARLEY_PET": "Harley pet",
     "SERPIA_PET": "Serpia pet",
-    "BARK_WRAITH_PET": "Barkwraith pet",
+    "BARK_WRAITH_PET": "Bark wraith pet",
     "GEMSTONE_GOLEM_PET": "Rock golem pet",
     "ANGELA_PET": "Angela pet",
     "INFERNAL_DRAGON_PET": "Infernal dragon pet",
@@ -1919,7 +1918,7 @@
     "FOREST_GUY": "Forest Guy",
     "MOSS_GOLEM": "Moss Golem",
     "THORN": "Thorn",
-    "BARK_WRAITH": "Barkwraith",
+    "BARK_WRAITH": "Bark Wraith",
     "MOOZEY": "Moozey",
     "JACK": "Jack",
     "SPINEY": "Spiney",
@@ -2331,7 +2330,7 @@
     "LEATHER_STALL": "Leather stall",
     "SIGIL_STALL": "Sigil stall",
     "SEED_STALL": "Seed stall",
-    "ROKIES_STALL": "Rocky's stall",
+    "ROKIES_STALL": "Rokies stall",
     "SCALE_STALL": "Scale stall",
     "ROCK_STALL": "Rock stall",
     "PEARL_STALL": "Pearl stall",
@@ -2446,16 +2445,16 @@
     "SUNSTONE_STAFF": "Sunstone staff",
     "EMERALD_HOOD": "Emerald hood",
     "EMERALD_SKIRT": "Emerald skirt",
-    "EMERALD_ROPE": "Emerald robe",
+    "EMERALD_ROPE": "Emerald rope",
     "BLUE_TOPAZ_HOOD": "Blue topaz hood",
     "BLUE_TOPAZ_SKIRT": "Blue topaz skirt",
-    "BLUE_TOPAZ_ROPE": "Blue topaz robe",
+    "BLUE_TOPAZ_ROPE": "Blue topaz rope",
     "RUBY_HOOD": "Ruby hood",
     "RUBY_SKIRT": "Ruby skirt",
-    "RUBY_ROPE": "Ruby robe",
+    "RUBY_ROPE": "Ruby rope",
     "AMETHYST_HOOD": "Amethyst hood",
     "AMETHYST_SKIRT": "Amethyst skirt",
-    "AMETHYST_ROPE": "Amethyst robe",
+    "AMETHYST_ROPE": "Amethyst rope",
     "LEATHER_SKIRT": "Leather skirt",
     "LEATHER_ROBE": "Leather robe",
     "ARCANERY_SKILLING_BOSS": "Arcanery Skilling Boss",

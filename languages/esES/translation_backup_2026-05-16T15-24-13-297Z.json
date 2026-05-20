@@ -1,32 +1,11 @@
 {
-  "_context_NOT_TO_BE_TRANSLATED": {
+  "_context_NOT_TO_BE_TrANSLATED": {
     "_about": "Rocky Idle — an idle/clicker browser and desktop game. Translate naturally; don't transliterate game terms unless a good equivalent exists in your language.",
     "_variables": "Placeholders like {{count}}, {{time}}, {{percentage}} are filled in at runtime — copy them verbatim into your translation. Do not translate or remove them."
   },
   "steam_page": {
-    "short_description": "Rocky Idle is a single-player idle/incremental game. Level up your skills, gather resources, and complete your collection log.",
-    "long_description_1": "Rocky Idle is the first game I’ve developed, and it’s been under development for 2,5 years, hope you enjoy it!.",
-    "long_description_2": "It’s a single-player idle/incremental game.",
-    "long_description_3": "You level up 18 different skills simply by clicking a tree or a rock.",
-    "long_description_4": "You collect items that can be used to advance your character or level up other skills.",
-    "long_description_5": "You also have an active boost that can be activated once every 10 minutes; the boost becomes stronger and stronger as you progress.",
-    "long_description_6": "Skilling: There are skills like Mining, Woodcutting, Crafting, and more.",
-    "long_description_7": "Each skill serves its own purpose, use the rocks mined to smith stronger gear, and increase your max hit.",
-    "long_description_8": "The more you use a resource, the stronger and more efficient it becomes, improving speed, batch size, and active boosts.",
-    "long_description_9": "Background Farming & Passive Activities.",
-    "long_description_10": "Farming, and questing all run passively in the background once started.",
-    "long_description_11": "Plant and harvest crops to craft potions.",
-    "long_description_12": "The more you harvest, the more efficient your crops become, growing faster and yielding higher rewards over time.",
-    "long_description_13": "Contracts: Contracts are rare drops from skilling and combat.",
-    "long_description_14": "Complete specific tasks to receive keys.",
-    "long_description_15": "Offline progress: Keep progressing even while you’re offline.",
-    "long_description_16": "When you return, get a detailed summary of all the resources gathered and experience gained.",
-    "long_description_17": "Automated Combat & Collection: Use your crafted gear, food and potions in automated battles.",
-    "long_description_18": "The more you fight, the stronger your gear and boosts become.",
-    "long_description_19": "Defeat monsters to fill your collection log and unlock upgrades.",
-    "long_description_20": "Good luck getting little Rocky’s Apron drop, it’s quite rare.",
-    "long_description_21": "Purchase on Steam (Windows) and link your Google account to continue your progress on the WEB version!",
-    "long_description_22": "Note: A Wi-Fi connection is required to play this game. This ensures your data is saved to the cloud and allows you to share progress across different devices."
+    "short_description": "Rocky Idle es un juego idle/incremental para un solo jugador. Mejora tus habilidades, recolecta recursos y completa tu registro de colección.",
+    "long_description": "Rocky Idle is the first game I’ve developed, and it's been under development for 2,5 years, hope you enjoy it!. It's a single-player idle/incremental game. You level up 18 different skills simply by clicking a tree or a rock. You collect items that can be used to advance your character or level up other skills. You also have an active boost that can be activated once every 10 minutes; the boost becomes stronger and stronger as you progress. Skilling There are skills like Mining, Woodcutting, Crafting, and more. Each skill serves its own purpose, use the rocks mined to smith stronger gear, and increase your max hit. The more you use a resource, the stronger and more efficient it becomes, improving speed, batch size, and active boosts. Background Farming & Passive Activities. Farming, and questing all run passively in the background once started. Plant and harvest crops to craft potions. The more you harvest, the more efficient your crops become, growing faster and yielding higher rewards over time. Contracts.   Contracts are rare drops from skilling and combat. Complete specific tasks to receive keys.Offline progress. Keep progressing even while you’re offline. When you return, get a detailed summary of all the resources gathered and experience gained. Automated Combat & Collection. Use your crafted gear, food and potions in automated battles. The more you fight, the stronger your gear and boosts become. Defeat monsters to fill your collection log and unlock upgrades. Good luck getting little Rocky's Apron drop, it's quite rare. Purchase on Steam (Windows) and link your Google account to continue your progress on the WEB version! Note: A Wi-Fi connection is required to play this game. This ensures your data is saved to the cloud and allows you to share progress across different devices."
   },
   "common": {
     "save": "Save",
@@ -79,11 +58,6 @@
       "ui": "UI Stuff",
       "other": "Other",
       "steam": "Steam"
-    },
-    "credits": {
-      "tool_credit": "Thanks to {{name}} for making the translation tool",
-      "translator_credit": "and thanks to {{names}} for the {{language}} translation",
-      "placeholder_warning": "This is a placeholder translation until I find someone to translate properly. Let me know on Discord if you'd like to help!"
     },
     "labels": {
       "show_sell_price": "Show sell price on item tooltips",
@@ -156,7 +130,6 @@
     "block_chance": "Block chance",
     "hit_chance": "Hit chance",
     "max_hit": "Max hit",
-    "max_hit_range": "Hit from {{min}} → {{max}} damage",
     "attack_speed_bonus": "Attack speed {{percentage}}%",
     "cant_afk_warning": "You cannot kill this monster offline, since you have less hitpoints than 2x their max hit.",
     "auto_interval": "Auto interval: {{eatAt}}",
@@ -283,7 +256,7 @@
       "hitpoints_label": "Hitpoints",
       "hitpoints_text": "You gain Hitpoints experience each time you deal damage to a monster, regardless of combat style. The rate is 0.33 XP per damage dealt. Leveling Hitpoints increases your maximum health, helping you survive longer in combat.",
       "hits_label": "Hits",
-      "hits_text": "Each attack can be a miss (0) or a successful hit depending on accuracy. On success, damage is randomly chosen from 10% - to your max hit. Accuracy and max hit depend on levels, gear, potions, and active prayers.",
+      "hits_text": "Each attack can be a miss (0) or a successful hit depending on accuracy. On success, damage is randomly chosen from 1 to your max hit. Accuracy and max hit depend on levels, gear, potions, and active prayers.",
       "offline_label": "Offline",
       "offline_text": "Monsters will continue to be fought until you die or stop the fight; offline progress will simulate combat up to 24 hours."
     },
@@ -487,7 +460,7 @@
     },
     "STORM_FALLEN_OAK": {
       "name": "Storm Fallen Oak",
-      "description": "Clear storm-fallen oak before it rots and the beetles move in."
+      "description": "Clear storm-fallen pine before it rots and the beetles move in."
     },
     "SERPENT_HUNT": {
       "name": "Serpent Hunt",
@@ -737,7 +710,7 @@
     "save_to_cloud": "Save to cloud",
     "last_cloud_save": "Last cloud save:",
     "show": "Show",
-    "cloud_save_up_to_date": "Cloud save is up to date",
+    "cloud_save_up_to_date": "Guardado en la nube actualizado",
     "add_new_character": "Add New Character",
     "copy_save": "Copy save",
     "download_save": "Download save",
@@ -1140,13 +1113,7 @@
     "clue_suffix": "Clue",
     "total_completed": "Total Completed: {{count}}",
     "reward_label": "Reward:",
-    "diaries_completed": "Diaries Completed!",
-    "invalid_slot_id": "Invalid slot ID!",
-    "invalid_compressed_data": "Invalid compressed data!",
-    "invalid_game_data": "Invalid game data, should be a long string starting with ey!",
-    "no_data_for_slot": "No data found for this slot",
-    "save_success": "Game saved successfully to slot {{slot}}!",
-    "failed_to_find_user_data": "Failed to find user data in local storage"
+    "diaries_completed": "Diaries Completed!"
   },
   "diary": {
     "FOREST": "Forest",
@@ -1365,7 +1332,7 @@
     "STRONG_COMBAT_POTION": "Strong combat potion",
     "HARLEY_PET": "Harley pet",
     "SERPIA_PET": "Serpia pet",
-    "BARK_WRAITH_PET": "Barkwraith pet",
+    "BARK_WRAITH_PET": "Bark wraith pet",
     "GEMSTONE_GOLEM_PET": "Rock golem pet",
     "ANGELA_PET": "Angela pet",
     "INFERNAL_DRAGON_PET": "Infernal dragon pet",
@@ -1571,11 +1538,7 @@
     "EASY_CONTRACT": "Easy contract",
     "MEDIUM_CONTRACT": "Medium contract",
     "HARD_CONTRACT": "Hard contract",
-    "EXPERT_CONTRACT": "Expert contract",
-    "EASY_CONTRACT_MAX_3_LETTERS": "Eas",
-    "MEDIUM_CONTRACT_MAX_3_LETTERS": "Med",
-    "HARD_CONTRACT_MAX_3_LETTERS": "Hrd",
-    "EXPERT_CONTRACT_MAX_3_LETTERS": "Exp"
+    "EXPERT_CONTRACT": "Expert contract"
   },
   "item_db": {
     "search_placeholder": "Search Items...",
@@ -1817,22 +1780,7 @@
     "invalid_compressed_data": "Invalid compressed data!",
     "invalid_game_data": "Invalid game data, should be a long string starting with ey!",
     "no_slot_data": "No data found for this slot",
-    "failed_load_user_data": "Failed to find user data in local storage",
-    "token_expired": "Your session has expired, please log in again",
-    "invalid_token": "Invalid authentication token",
-    "google_not_linked": "This Google account is not linked to a Steam account. Please link it inside the Steam version of the game first.",
-    "steam_not_linked": "Steam account not linked",
-    "no_game_ownership": "You do not own this game",
-    "need_full_game": "Full game required to continue session",
-    "invalid_refresh_token": "Invalid or expired session, please log in again",
-    "missing_steam_ticket": "Missing Steam ticket",
-    "invalid_steam_ticket": "Invalid Steam ticket",
-    "steam_required": "This action requires a linked Steam account",
-    "google_already_linked": "This Google account is already linked to another Steam account",
-    "link_code_expired": "Link code invalid or expired",
-    "user_not_found": "User not found",
-    "save_failed": "Failed to save data",
-    "slot_not_found": "Save slot not found"
+    "failed_load_user_data": "Failed to find user data in local storage"
   },
   "welcome_back": {
     "header": "Since you were gone",
@@ -1843,9 +1791,7 @@
     "run_done": "Done",
     "skilling_completed": "Skilling Completed",
     "combat_completed": "Combat Completed",
-    "stopped_after": ", stopped after {{time}}",
-    "combat_points": "Combat Points",
-    "skilling_points": "Skilling Points"
+    "stopped_after": ", stopped after {{time}}"
   },
   "toasts": {
     "demo_restricted": "Can't be opened in Demo version!",
@@ -1919,7 +1865,7 @@
     "FOREST_GUY": "Forest Guy",
     "MOSS_GOLEM": "Moss Golem",
     "THORN": "Thorn",
-    "BARK_WRAITH": "Barkwraith",
+    "BARK_WRAITH": "Bark Wraith",
     "MOOZEY": "Moozey",
     "JACK": "Jack",
     "SPINEY": "Spiney",
@@ -2331,7 +2277,7 @@
     "LEATHER_STALL": "Leather stall",
     "SIGIL_STALL": "Sigil stall",
     "SEED_STALL": "Seed stall",
-    "ROKIES_STALL": "Rocky's stall",
+    "ROKIES_STALL": "Rokies stall",
     "SCALE_STALL": "Scale stall",
     "ROCK_STALL": "Rock stall",
     "PEARL_STALL": "Pearl stall",
@@ -2446,16 +2392,16 @@
     "SUNSTONE_STAFF": "Sunstone staff",
     "EMERALD_HOOD": "Emerald hood",
     "EMERALD_SKIRT": "Emerald skirt",
-    "EMERALD_ROPE": "Emerald robe",
+    "EMERALD_ROPE": "Emerald rope",
     "BLUE_TOPAZ_HOOD": "Blue topaz hood",
     "BLUE_TOPAZ_SKIRT": "Blue topaz skirt",
-    "BLUE_TOPAZ_ROPE": "Blue topaz robe",
+    "BLUE_TOPAZ_ROPE": "Blue topaz rope",
     "RUBY_HOOD": "Ruby hood",
     "RUBY_SKIRT": "Ruby skirt",
-    "RUBY_ROPE": "Ruby robe",
+    "RUBY_ROPE": "Ruby rope",
     "AMETHYST_HOOD": "Amethyst hood",
     "AMETHYST_SKIRT": "Amethyst skirt",
-    "AMETHYST_ROPE": "Amethyst robe",
+    "AMETHYST_ROPE": "Amethyst rope",
     "LEATHER_SKIRT": "Leather skirt",
     "LEATHER_ROBE": "Leather robe",
     "ARCANERY_SKILLING_BOSS": "Arcanery Skilling Boss",
@@ -2550,19 +2496,6 @@
     "no_spell_selected": "No spell selected to cast",
     "magic_level_too_low": "Magic level too low to cast the spell",
     "unknown_reason": "Unknown reason"
-  },
-  "process_stop": {
-    "out_of_time": "Out of time",
-    "no_processes_performed": "No processes could be performed",
-    "reached_next_speed_tier": "Reached next speed tier",
-    "reached_next_multiplier_threshold": "Reached next multiplier threshold",
-    "ran_out_of_items": "Ran out of items",
-    "unknown": "Unknown"
-  },
-  "localization_announcement": {
-    "title": "Rocky Idle is now available in {{language}}!",
-    "body": "Welcome! Rocky Idle is now fully playable in {{language}}. With the help of kind members of the community, the game has been translated to bring it to you. I am so happy to finally welcome you to the community!",
-    "english_note": "A quick note on future updates: while the game itself is now localized. Future Steam announcements, and patch notes will stay in English. Thank you so much for understanding!"
   },
   "attack_type": {
     "Melee": "Melee",

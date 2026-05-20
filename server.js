@@ -159,6 +159,57 @@ app.get('/api/languages', (req, res) => {
   }
 });
 
+// dashboard — returns progress summary for every language in one request
+app.get('/api/dashboard', (req, res) => {
+  try {
+    // Count total source keys
+    let totalKeys = 0;
+    if (fs.existsSync(sourcePath)) {
+      function countKeys(obj) {
+        let n = 0;
+        for (const v of Object.values(obj)) {
+          if (v !== null && typeof v === 'object') n += countKeys(v);
+          else n++;
+        }
+        return n;
+      }
+      totalKeys = countKeys(JSON.parse(fs.readFileSync(sourcePath, 'utf8')));
+    }
+
+    // Read lastModified from config
+    const configData = fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath, 'utf8')) : {};
+    const lastModified = configData.lastModified || {};
+
+    const folders = fs.readdirSync(languagesDir, { withFileTypes: true })
+      .filter(d => d.isDirectory() && d.name !== 'source')
+      .map(d => d.name);
+
+    const results = folders.map(lang => {
+      const progressPath = path.join(languagesDir, lang, 'progress.json');
+      let translated = 0, validated = 0;
+      if (fs.existsSync(progressPath)) {
+        const prog = JSON.parse(fs.readFileSync(progressPath, 'utf8'));
+        for (const v of Object.values(prog)) {
+          if (v.translated) translated++;
+          if (v.validated) validated++;
+        }
+      }
+      return {
+        lang,
+        total: totalKeys,
+        translated,
+        validated,
+        lastModified: lastModified[lang] || null
+      };
+    });
+
+    res.json(results);
+  } catch (error) {
+    console.error('Error building dashboard:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
 // createLanguage
 app.post('/api/languages', (req, res) => {
   try {
@@ -254,6 +305,13 @@ app.post('/api/translation/:langCode', (req, res) => {
     const transPath = path.join(langPath, 'translation.json');
     const progressPath = path.join(langPath, 'progress.json');
 
+    // Backup existing before replace
+    if (fs.existsSync(transPath)) {
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const backupPath = path.join(langPath, `translation_backup_${timestamp}.json`);
+      fs.copyFileSync(transPath, backupPath);
+    }
+
     fs.writeFileSync(transPath, JSON.stringify(translationData, null, 2));
     fs.writeFileSync(progressPath, JSON.stringify(progressData, null, 2));
 
@@ -302,6 +360,18 @@ app.post('/api/translation/:langCode/update-key', (req, res) => {
 
     fs.writeFileSync(transPath, JSON.stringify(translationData, null, 2));
     fs.writeFileSync(progressPath, JSON.stringify(progressData, null, 2));
+
+    // Update last-modified timestamp for this language in config.json
+    try {
+      const configData = fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath, 'utf8')) : {};
+      if (!configData.lastModified) configData.lastModified = {};
+      configData.lastModified[langCode] = new Date().toISOString();
+      fs.writeFileSync(configPath, JSON.stringify(configData, null, 2));
+      // Broadcast the updated timestamp to all connected clients
+      io.emit('lang-modified', { langCode, timestamp: configData.lastModified[langCode] });
+    } catch (tsErr) {
+      console.error('Failed to update lastModified timestamp:', tsErr);
+    }
 
     let actionStr = 'SAVED TRANSLATION';
     if (progress.validated) actionStr += ' & VALIDATED';
