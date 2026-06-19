@@ -1081,7 +1081,7 @@ async function translateWithAi() {
       requestBody.messages[0].content += " DO NOT output any <think> reasoning steps.";
     }
 
-    const response = await fetch(`${appState.config.apiUrl}/chat/completions`, {
+    const response = await fetch('/api/translate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -1166,7 +1166,7 @@ async function translateKeyBackground(key) {
       requestBody.messages[0].content += " DO NOT output any <think> reasoning steps.";
     }
 
-    const response = await fetch(`${appState.config.apiUrl}/chat/completions`, {
+    const response = await fetch('/api/translate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(requestBody)

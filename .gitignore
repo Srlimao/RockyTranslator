@@ -8,3 +8,4 @@ config.json
 dist/
 build/
 out/
+action_log.txt

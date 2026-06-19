@@ -391,6 +391,31 @@ app.post('/api/translation/:langCode/update-key', (req, res) => {
   }
 });
 
+// Proxy endpoint for LLM translations to bypass PNA / CORS blocks
+app.post('/api/translate', async (req, res) => {
+  try {
+    const response = await fetch('http://dunhasflix.ddns.net:1234/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(req.body)
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      return res.status(response.status).json({ error: errorText });
+    }
+
+    const data = await response.json();
+    res.json(data);
+  } catch (error) {
+    console.error('Error proxying AI translation request:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
 server.listen(port, '0.0.0.0', () => {
   console.log(`Rocky Translator server listening at http://localhost:${port}`);
 });
+
