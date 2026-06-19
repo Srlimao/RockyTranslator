@@ -21,20 +21,54 @@ app.use(express.json({ limit: '50mb' }));
 // Serve static files from the current directory (HTML, CSS, JS)
 app.use(express.static(path.join(__dirname)));
 
-const languagesDir = path.join(__dirname, 'languages');
-const sourcePath = path.join(languagesDir, 'source', 'translation.json');
+let languagesDir = path.join(__dirname, 'languages');
+let sourcePath = path.join(languagesDir, 'source', 'translation.json');
 const configPath = path.join(__dirname, 'config.json');
 
+// Helper to update languagesDir and sourcePath dynamically
+function updatePaths() {
+  if (process.env.TRANSLATIONS_DIR) {
+    languagesDir = process.env.TRANSLATIONS_DIR;
+  } else {
+    try {
+      if (fs.existsSync(configPath)) {
+        const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+        if (config.languagesDir) {
+          languagesDir = config.languagesDir;
+          sourcePath = path.join(languagesDir, 'source', 'translation.json');
+          return;
+        }
+      }
+    } catch (e) {
+      console.error('Failed to read config for languagesDir:', e);
+    }
+    languagesDir = path.join(__dirname, 'languages');
+  }
+  sourcePath = path.join(languagesDir, 'source', 'translation.json');
+}
+
+// Initial paths resolution
+updatePaths();
+
 // Ensure directories exist
-if (!fs.existsSync(languagesDir)) {
-  fs.mkdirSync(languagesDir);
+function ensureDirectoriesExist() {
+  try {
+    if (!fs.existsSync(languagesDir)) {
+      fs.mkdirSync(languagesDir, { recursive: true });
+    }
+    const sourceDir = path.dirname(sourcePath);
+    if (!fs.existsSync(sourceDir)) {
+      fs.mkdirSync(sourceDir, { recursive: true });
+    }
+    if (!fs.existsSync(sourcePath)) {
+      fs.writeFileSync(sourcePath, JSON.stringify({ "Example": "Source Text" }, null, 2));
+    }
+  } catch (err) {
+    console.error('Error creating directory structure:', err);
+  }
 }
-if (!fs.existsSync(path.join(languagesDir, 'source'))) {
-  fs.mkdirSync(path.join(languagesDir, 'source'));
-}
-if (!fs.existsSync(sourcePath)) {
-  fs.writeFileSync(sourcePath, JSON.stringify({ "Example": "Source Text" }, null, 2));
-}
+
+ensureDirectoriesExist();
 
 // Logging Helper
 function logAction(action, username, langCode, key, extraInfo = '') {
@@ -138,7 +172,11 @@ app.get('/api/config', (req, res) => {
 // saveConfig
 app.post('/api/config', (req, res) => {
   try {
-    fs.writeFileSync(configPath, JSON.stringify(req.body, null, 2));
+    const existing = fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath, 'utf8')) : {};
+    const updated = { ...existing, ...req.body };
+    fs.writeFileSync(configPath, JSON.stringify(updated, null, 2));
+    updatePaths();
+    ensureDirectoriesExist();
     res.json({ success: true });
   } catch (error) {
     console.error('Error saving config:', error);

@@ -50,6 +50,7 @@ let appState = {
     apiUrl: 'http://localhost:1234/v1',
     modelName: 'local-model',
     enableThinking: false,
+    languagesDir: '',
     glossary: {},      // { [langCode]: Array }
     lastModified: {}   // { [langCode]: ISO string }
   }
@@ -93,6 +94,7 @@ const btnSaveSettings = document.getElementById('btn-save-settings');
 const inputAiUrl = document.getElementById('ai-url');
 const inputAiModel = document.getElementById('ai-model');
 const inputAiThinking = document.getElementById('ai-thinking');
+const inputLanguagesDir = document.getElementById('settings-languages-dir');
 
 const btnCloseNewLang = document.getElementById('btn-close-new-lang');
 const btnCreateLang = document.getElementById('btn-create-lang');
@@ -435,6 +437,7 @@ async function init() {
     inputAiUrl.value = appState.config.apiUrl || 'http://localhost:1234/v1';
     inputAiModel.value = appState.config.modelName || 'local-model';
     inputAiThinking.checked = appState.config.enableThinking === true;
+    inputLanguagesDir.value = appState.config.languagesDir || '';
     settingsModal.classList.add('show');
   });
   btnCloseSettings.addEventListener('click', () => settingsModal.classList.remove('show'));
@@ -548,7 +551,7 @@ async function loadConfig() {
     }
   }
 
-  // Load shared config (glossary + lastModified) from server
+  // Load shared config (glossary + lastModified + languagesDir) from server
   try {
     const response = await fetch('/api/config');
     const serverData = await response.json();
@@ -558,18 +561,47 @@ async function loadConfig() {
     if (serverData && serverData.lastModified && typeof serverData.lastModified === 'object') {
       appState.config.lastModified = serverData.lastModified;
     }
+    if (serverData && serverData.languagesDir !== undefined) {
+      appState.config.languagesDir = serverData.languagesDir;
+    }
   } catch (e) {
     console.error('Failed to load config from server:', e);
   }
 }
 
 async function saveConfig() {
+  const oldDir = appState.config.languagesDir || '';
+  const newDir = inputLanguagesDir.value.trim();
+
   appState.config.apiUrl = inputAiUrl.value;
   appState.config.modelName = inputAiModel.value;
   appState.config.enableThinking = inputAiThinking.checked;
-  // Save only AI settings (not glossary) to localStorage
+  appState.config.languagesDir = newDir;
+
+  // Save only AI settings to localStorage
   const { glossary: _ignored, ...aiSettings } = appState.config;
   localStorage.setItem('rt-config', JSON.stringify(aiSettings));
+
+  // Save languagesDir to the server
+  try {
+    const response = await fetch('/api/config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ languagesDir: newDir })
+    });
+    
+    if (response.ok) {
+      if (oldDir !== newDir) {
+        await refreshLanguages();
+        await showDashboard();
+      }
+    } else {
+      console.error('Failed to save languagesDir to server');
+    }
+  } catch (e) {
+    console.error('Error saving languagesDir to server:', e);
+  }
+
   settingsModal.classList.remove('show');
 }
 
