@@ -295,12 +295,24 @@ app.get('/api/dashboard', (req, res) => {
           }
         }
       }
+      let modifiedTime = lastModified[lang] || null;
+      if (!modifiedTime) {
+        const transPath = path.join(languagesDir, lang, 'translation.json');
+        if (fs.existsSync(transPath)) {
+          try {
+            modifiedTime = fs.statSync(transPath).mtime.toISOString();
+          } catch (e) {
+            console.error(`Failed to stat translation file for ${lang}:`, e);
+          }
+        }
+      }
+
       return {
         lang,
         total: totalKeys,
         translated,
         validated,
-        lastModified: lastModified[lang] || null
+        lastModified: modifiedTime
       };
     });
 

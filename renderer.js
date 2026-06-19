@@ -185,8 +185,14 @@ async function renderDashboard() {
     }
 
     data.forEach(item => {
-      const tPerc = item.total > 0 ? Math.round((item.translated / item.total) * 100) : 0;
-      const vPerc = item.total > 0 ? Math.round((item.validated / item.total) * 100) : 0;
+      let tPerc = item.total > 0 ? Math.round((item.translated / item.total) * 100) : 0;
+      if (item.translated < item.total && tPerc === 100) {
+        tPerc = 99;
+      }
+      let vPerc = item.total > 0 ? Math.round((item.validated / item.total) * 100) : 0;
+      if (item.validated < item.total && vPerc === 100) {
+        vPerc = 99;
+      }
       const dateStr = formatDate(item.lastModified);
       const initials = item.lang.slice(0, 2).toUpperCase();
 
@@ -1136,8 +1142,14 @@ function updateProgress() {
     if (appState.progressData[key]?.validated) validatedCount++;
   });
 
-  const translatedPerc = Math.round((translatedCount / total) * 100);
-  const validatedPerc = Math.round((validatedCount / total) * 100);
+  let translatedPerc = Math.round((translatedCount / total) * 100);
+  if (translatedCount < total && translatedPerc === 100) {
+    translatedPerc = 99;
+  }
+  let validatedPerc = Math.round((validatedCount / total) * 100);
+  if (validatedCount < total && validatedPerc === 100) {
+    validatedPerc = 99;
+  }
 
   progressBarTranslated.style.width = `${translatedPerc}%`;
   progressBarValidated.style.width = `${validatedPerc}%`;
