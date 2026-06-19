@@ -323,6 +323,9 @@ select:focus {
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.2s, transform 0.1s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-icon:hover {

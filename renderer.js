@@ -35,6 +35,22 @@ function unflattenObject(ob) {
   return result;
 }
 
+// Parse admin secret from URL parameter if present
+(function parseAdminSecret() {
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    const adminParam = urlParams.get('admin') || urlParams.get('adminSecret');
+    if (adminParam !== null) {
+      localStorage.setItem('rt-admin-secret', adminParam);
+      // Clean url parameters to keep it clean and hidden
+      const newUrl = window.location.pathname + window.location.hash;
+      window.history.replaceState({}, document.title, newUrl);
+    }
+  } catch (e) {
+    console.error('Failed to parse admin secret from URL:', e);
+  }
+})();
+
 // State
 let appState = {
   languages: [],
@@ -95,6 +111,7 @@ const inputAiUrl = document.getElementById('ai-url');
 const inputAiModel = document.getElementById('ai-model');
 const inputAiThinking = document.getElementById('ai-thinking');
 const inputLanguagesDir = document.getElementById('settings-languages-dir');
+const adminSettingsSection = document.getElementById('admin-settings-section');
 
 const btnCloseNewLang = document.getElementById('btn-close-new-lang');
 const btnCreateLang = document.getElementById('btn-create-lang');
@@ -141,7 +158,7 @@ async function showDashboard() {
   progressBarValidated.style.width = '0%';
   statsTranslated.textContent = '0%';
   statsValidated.textContent = '0%';
-  btnUploadTranslation.style.display = 'none';
+  updateAdminUIVisibility();
 
   dashboardEl.style.display = 'block';
   // Re-trigger animation
@@ -243,17 +260,67 @@ function updateLastModifiedDisplay(langCode) {
 
 const usernameDisplay = document.getElementById('username-display');
 const headerUsername = document.getElementById('header-username');
+const userIcon = document.getElementById('user-icon');
 const usernameModal = document.getElementById('username-modal');
 const inputUsername = document.getElementById('input-username');
 const btnSaveUsername = document.getElementById('btn-save-username');
 const lockedBanner = document.getElementById('locked-banner');
 const lockedByUser = document.getElementById('locked-by-user');
 
+function updateAdminUIVisibility() {
+  const isAdmin = !!appState.config.isAdmin;
+
+  if (btnNewLang) btnNewLang.style.display = isAdmin ? '' : 'none';
+  if (btnUpdateSource) btnUpdateSource.style.display = isAdmin ? '' : 'none';
+  if (btnDownloadTranslation) btnDownloadTranslation.style.display = isAdmin ? '' : 'none';
+  
+  if (btnUploadTranslation) {
+    if (isAdmin && appState.currentLanguage) {
+      btnUploadTranslation.style.display = 'flex';
+    } else {
+      btnUploadTranslation.style.display = 'none';
+    }
+  }
+}
+
+function updateUsernameUI() {
+  const username = appState.username || 'Guest';
+  const isAdmin = !!appState.config.isAdmin;
+
+  updateAdminUIVisibility();
+
+  if (isAdmin) {
+    headerUsername.textContent = `Admin(${username})`;
+    if (userIcon) {
+      userIcon.textContent = '👑';
+      userIcon.style.color = '#ffd700';
+      userIcon.style.filter = 'drop-shadow(0 0 4px #ffd700)';
+    }
+    if (usernameDisplay) {
+      usernameDisplay.style.border = '1px solid #ffd700';
+      usernameDisplay.style.boxShadow = '0 0 8px rgba(255, 215, 0, 0.4)';
+      usernameDisplay.style.color = '#ffd700';
+    }
+  } else {
+    headerUsername.textContent = username;
+    if (userIcon) {
+      userIcon.textContent = '👤';
+      userIcon.style.color = '';
+      userIcon.style.filter = '';
+    }
+    if (usernameDisplay) {
+      usernameDisplay.style.border = 'none';
+      usernameDisplay.style.boxShadow = 'none';
+      usernameDisplay.style.color = '';
+    }
+  }
+}
+
 function loadUsername() {
   const saved = localStorage.getItem('rt-username');
   if (saved) {
     appState.username = saved;
-    headerUsername.textContent = saved;
+    updateUsernameUI();
   } else {
     usernameModal.classList.add('show');
   }
@@ -264,7 +331,7 @@ function saveUsername() {
   if (val) {
     appState.username = val;
     localStorage.setItem('rt-username', val);
-    headerUsername.textContent = val;
+    updateUsernameUI();
     usernameModal.classList.remove('show');
     
     // Rejoin socket if already connected
@@ -553,7 +620,12 @@ async function loadConfig() {
 
   // Load shared config (glossary + lastModified + languagesDir) from server
   try {
-    const response = await fetch('/api/config');
+    const adminSecret = localStorage.getItem('rt-admin-secret') || '';
+    const response = await fetch('/api/config', {
+      headers: {
+        'X-Admin-Secret': adminSecret
+      }
+    });
     const serverData = await response.json();
     if (serverData && serverData.glossary && typeof serverData.glossary === 'object' && !Array.isArray(serverData.glossary)) {
       appState.config.glossary = serverData.glossary;
@@ -564,6 +636,14 @@ async function loadConfig() {
     if (serverData && serverData.languagesDir !== undefined) {
       appState.config.languagesDir = serverData.languagesDir;
     }
+    appState.config.isAdmin = serverData ? !!serverData.isAdmin : false;
+    
+    // Toggle visibility of admin settings section based on authorization
+    if (adminSettingsSection) {
+      adminSettingsSection.style.display = (serverData && serverData.isAdmin) ? 'block' : 'none';
+    }
+    
+    updateUsernameUI();
   } catch (e) {
     console.error('Failed to load config from server:', e);
   }
@@ -584,9 +664,13 @@ async function saveConfig() {
 
   // Save languagesDir to the server
   try {
+    const adminSecret = localStorage.getItem('rt-admin-secret') || '';
     const response = await fetch('/api/config', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json',
+        'X-Admin-Secret': adminSecret
+      },
       body: JSON.stringify({ languagesDir: newDir })
     });
     
@@ -727,7 +811,7 @@ async function loadLanguage(langCode) {
   appState.currentKey = null;
   editorArea.style.display = 'none';
   currentKeyDisplay.textContent = 'Select a key to translate';
-  btnUploadTranslation.style.display = 'flex';
+  updateAdminUIVisibility();
 
   renderKeyList();
   updateProgress();

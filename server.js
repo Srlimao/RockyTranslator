@@ -25,6 +25,25 @@ let languagesDir = path.join(__dirname, 'languages');
 let sourcePath = path.join(languagesDir, 'source', 'translation.json');
 const configPath = path.join(__dirname, 'config.json');
 
+// Resolve admin secret (env var, then admin_secret.txt outside the repo folder, then inside the repo folder)
+let adminSecret = process.env.ADMIN_SECRET || '';
+const adminSecretOuterPath = path.join(__dirname, '..', 'admin_secret.txt');
+const adminSecretInnerPath = path.join(__dirname, 'admin_secret.txt');
+
+if (!adminSecret) {
+  if (fs.existsSync(adminSecretOuterPath)) {
+    adminSecret = fs.readFileSync(adminSecretOuterPath, 'utf8').trim();
+  } else if (fs.existsSync(adminSecretInnerPath)) {
+    adminSecret = fs.readFileSync(adminSecretInnerPath, 'utf8').trim();
+  }
+}
+
+if (adminSecret) {
+  console.log('Admin secret is active (protecting folder settings)');
+} else {
+  console.log('No admin secret configured (folder settings are unprotected)');
+}
+
 // Helper to update languagesDir and sourcePath dynamically
 function updatePaths() {
   if (process.env.TRANSLATIONS_DIR) {
@@ -157,11 +176,26 @@ io.on('connection', (socket) => {
 // loadConfig
 app.get('/api/config', (req, res) => {
   try {
+    const clientSecret = req.headers['x-admin-secret'] || req.query.adminSecret;
+    const hasSecret = !!adminSecret;
+    const isAuthorized = !hasSecret || (clientSecret === adminSecret);
+
     if (fs.existsSync(configPath)) {
       const data = fs.readFileSync(configPath, 'utf8');
-      res.json(JSON.parse(data));
+      const parsed = JSON.parse(data);
+      
+      if (!isAuthorized) {
+        delete parsed.languagesDir;
+      }
+      
+      res.json({
+        ...parsed,
+        isAdmin: isAuthorized
+      });
     } else {
-      res.json({});
+      res.json({
+        isAdmin: isAuthorized
+      });
     }
   } catch (error) {
     console.error('Error reading config:', error);
@@ -172,7 +206,19 @@ app.get('/api/config', (req, res) => {
 // saveConfig
 app.post('/api/config', (req, res) => {
   try {
+    const clientSecret = req.headers['x-admin-secret'] || req.query.adminSecret;
+    const hasSecret = !!adminSecret;
+    const isAuthorized = !hasSecret || (clientSecret === adminSecret);
+
     const existing = fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath, 'utf8')) : {};
+    
+    // Check if they are trying to change the languagesDir setting
+    if (req.body.languagesDir !== undefined && req.body.languagesDir !== existing.languagesDir) {
+      if (!isAuthorized) {
+        return res.status(403).json({ success: false, error: 'Unauthorized: Invalid admin secret' });
+      }
+    }
+
     const updated = { ...existing, ...req.body };
     fs.writeFileSync(configPath, JSON.stringify(updated, null, 2));
     updatePaths();
