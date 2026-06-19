@@ -243,22 +243,37 @@ app.get('/api/languages', (req, res) => {
   }
 });
 
+// Helper to flatten nested object keys in server.js
+function flattenObj(ob) {
+  var toReturn = {};
+  for (var i in ob) {
+    if (!ob.hasOwnProperty(i)) continue;
+    if ((typeof ob[i]) == 'object' && ob[i] !== null) {
+      var flatObject = flattenObj(ob[i]);
+      for (var x in flatObject) {
+        if (!flatObject.hasOwnProperty(x)) continue;
+        toReturn[i + '.' + x] = flatObject[x];
+      }
+    } else {
+      toReturn[i] = ob[i];
+    }
+  }
+  return toReturn;
+}
+
 // dashboard — returns progress summary for every language in one request
 app.get('/api/dashboard', (req, res) => {
   try {
-    // Count total source keys
-    let totalKeys = 0;
+    let sourceKeys = [];
     if (fs.existsSync(sourcePath)) {
-      function countKeys(obj) {
-        let n = 0;
-        for (const v of Object.values(obj)) {
-          if (v !== null && typeof v === 'object') n += countKeys(v);
-          else n++;
-        }
-        return n;
+      try {
+        const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+        sourceKeys = Object.keys(flattenObj(sourceData));
+      } catch (e) {
+        console.error('Failed to parse source file in dashboard:', e);
       }
-      totalKeys = countKeys(JSON.parse(fs.readFileSync(sourcePath, 'utf8')));
     }
+    const totalKeys = sourceKeys.length;
 
     // Read lastModified from config
     const configData = fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath, 'utf8')) : {};
@@ -273,9 +288,11 @@ app.get('/api/dashboard', (req, res) => {
       let translated = 0, validated = 0;
       if (fs.existsSync(progressPath)) {
         const prog = JSON.parse(fs.readFileSync(progressPath, 'utf8'));
-        for (const v of Object.values(prog)) {
-          if (v.translated) translated++;
-          if (v.validated) validated++;
+        for (const key of sourceKeys) {
+          if (prog[key]) {
+            if (prog[key].translated) translated++;
+            if (prog[key].validated) validated++;
+          }
         }
       }
       return {
